@@ -1,5 +1,5 @@
 import './DarkModeButton.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
@@ -9,6 +9,23 @@ const DarkModeButton = () => {
   const handleToggle = () => {
     setIsDarkMode(!isDarkMode);
   };
+
+  //check for browser preferences
+  useEffect(() => {
+    const isDarkModePreferred =
+      window.matchMedia &&
+      window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    // check for previous site preferences
+    const storedMode = localStorage.getItem('isDarkMode');
+    setIsDarkMode(
+      storedMode !== null ? JSON.parse(storedMode) : isDarkModePreferred
+    );
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('isDarkMode', JSON.stringify(isDarkMode));
+  }, [isDarkMode]);
 
   return (
     <div className="toggle-container">
