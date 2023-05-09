@@ -33,7 +33,7 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 2.5em;
   line-height: 1.1;
 }
 
@@ -77,6 +77,6 @@ button:focus-visible {
 .page-content {
   border: 1px solid #646cff;
   box-shadow: 1px 0px 1em #213547;
-  display: flex;
-  justify-content: center;
+  margin: 0 30px;
+  border-radius: 70px;
 }

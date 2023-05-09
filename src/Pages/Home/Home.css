@@ -1,3 +1,17 @@
-p {
-color: white;
+p ,#intro h1 {
+color: rgba(0, 0, 0, 0.822);
+}
+
+#intro h1 {
+    text-shadow: 1px 0px 1em #213547;
+
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+}
+
+#home-main {
+    padding: 30px;
 }
