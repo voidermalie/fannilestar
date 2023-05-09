@@ -1,7 +1,8 @@
 header {
     display: flex;
     justify-content: space-between;
-    margin: 0 30px;
+    align-items: flex-start;
+    margin: 20px 30px;
 }
 
 #sea-angel {

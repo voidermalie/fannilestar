@@ -4,7 +4,7 @@ color: rgba(0, 0, 0, 0.822);
 
 #intro h1 {
     text-shadow: 1px 0px 1em #213547;
-
+    margin: 0;
 }
 
 #intro {
@@ -14,4 +14,13 @@ color: rgba(0, 0, 0, 0.822);
 
 #home-main {
     padding: 30px;
+}
+
+#bio {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: max-content;
 }
