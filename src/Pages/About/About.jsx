@@ -2,9 +2,9 @@ import './About.css';
 
 const About = () => {
   return (
-    <div>
-      <p>hello world</p>
-    </div>
+    <section className='page-content'>
+      <p>dis is the about page aka my bio, cv, infos</p>
+    </section>
   );
 }
 

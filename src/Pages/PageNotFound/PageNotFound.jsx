@@ -2,9 +2,9 @@ import './PageNotFound.css';
 
 const PageNotFound = () => {
   return (
-    <div>
+    <section className='page-content'>
       <p>404 = cette page n&apos; existe pas</p>
-    </div>
+    </section>
   );
 }
 

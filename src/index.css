@@ -1,11 +1,12 @@
 :root {
-  font-family: PlayFair Display, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: PlayFair Display, Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #CBCBCB;
+  background-color: #cbcbcb;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -76,4 +77,6 @@ button:focus-visible {
 .page-content {
   border: 1px solid #646cff;
   box-shadow: 1px 0px 1em #213547;
+  display: flex;
+  justify-content: center;
 }

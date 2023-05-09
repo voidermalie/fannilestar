@@ -2,9 +2,9 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <div>
-      <p>hello world</p>
-    </div>
+    <section className='page-content'>
+      <p>contact page in progress...</p>
+    </section>
   );
 }
 
