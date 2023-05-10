@@ -31,14 +31,15 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 2.5em;
+h2 {
+  font-size: 2.4em;
   line-height: 1.1;
   font-family: 'Cormorant Unicase';
+  margin: 0;
 }
 
-h2 {
-  font-size: 4.3em;
+h1 {
+  font-size: 3.5em;
   line-height: 1.1;
   font-family: 'Cormorant Unicase';
   margin: 0;
@@ -94,8 +95,9 @@ avant box shadow : 213547 ->*/
   border: 1px solid #646cff;
   box-shadow: inset 1px 0px 1em #4A94D7;
   border-radius: 70px;
+  padding: 30px;
 }
 
 .page-content {
-  margin-left: 70px;
+  margin: 0 40px;
 }

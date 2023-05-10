@@ -5,7 +5,6 @@ const Footer = () => {
         <footer>
 
             <p>© 2023 Fanni Lestar. Tous droits réservés</p>    
-
         </footer>
     )
 };
