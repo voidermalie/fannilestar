@@ -1,6 +1,6 @@
-
 p {
-    color: #213547;
+  color: #213547;
+  display: none;
 }
 
 #intro h2 {
@@ -15,6 +15,9 @@ p {
 
 .container {
   display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  align-items: center;
 }
 
 #bio {
@@ -31,5 +34,19 @@ button {
 }
 
 .middle-card {
-    flex-grow: 2;
+  flex-grow: 2;
+  margin: 60px;
+}
+
+.side-card h2 {
+  font-size: 1rem;
+}
+
+.side-card {
+  width: 50px;
+  height: 50px;
+}
+
+i#intro p {
+    display: none;
 }
