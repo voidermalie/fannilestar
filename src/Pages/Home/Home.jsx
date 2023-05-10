@@ -4,7 +4,7 @@ const Home = () => {
   console.log('bonjour')
   return (
     <section className="page-content" id="home-main">
-      <section id="intro">
+      <section id="intro" className='main-card'>
         <h1>hello world</h1>
         <p>
           Ma passion est l&apos;interconnectivité de notre monde, dans toutes ses dimensions, y
@@ -17,11 +17,14 @@ const Home = () => {
         </p>
         <p>Je suis à Marseille et cherche des projets et équipes à joindre ici dans le Sud ou à distance dans le monde.</p>
       </section>
-      <section id="bio">
+      <section id="bio" className='main-card'>
+      <h2>Fanni Lestar</h2>
+      <h3>développeuse front-end</h3>
+      <h3>Marseille</h3>
       <p>Pour en savoir plus sur mon parcours, voici mon CV</p>
       <button>Télécharger le CV</button>
       </section>
-      <section className="projects">
+      <section id='projects' className='main-card'>
       <p>Mes projets</p>
       </section>
     </section>
