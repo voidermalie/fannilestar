@@ -1,6 +1,5 @@
 p {
   color: #213547;
-  display: none;
 }
 
 #intro h2 {
@@ -38,6 +37,8 @@ button {
   margin: 60px;
 }
 
+/* animation */
+
 .side-card h2 {
   font-size: 1rem;
 }
@@ -45,8 +46,19 @@ button {
 .side-card {
   width: 50px;
   height: 50px;
+  position: relative;
+
 }
 
-i#intro p {
-    display: none;
+#intro > p {
+    visibility: hidden;
+}
+
+.side-card:hover {
+    width: max-content;
+    height: max-content;
+
+}
+.side-card:hover > p {
+    display: block;
 }

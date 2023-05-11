@@ -101,3 +101,16 @@ avant box shadow : 213547 ->*/
 .page-content {
   margin: 0 40px;
 }
+
+body {
+  cursor: url(./assets/cursors/starfish.cur), auto;
+}
+
+/* cursor colors
+#113c6d #0e4575 #0a6ea3
+#379fca #33a9d1 #39afd5
+*/
+
+/*sea angel colors
+#
+*/
