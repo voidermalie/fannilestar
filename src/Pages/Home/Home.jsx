@@ -1,22 +1,24 @@
-import "./Home.css";
+import './Home.css';
 
 const Home = () => {
   console.log('bonjour');
   return (
     <section className="page-content" id="home-main">
       <section className="container">
-        <article id="intro" className="main-card side-card">
+        <article id="intro" className="main-card side-card left-card">
           <h2>hello world</h2>
           <p>
             Ma passion est l&apos;interconnectivité de notre monde, dans toutes
             ses dimensions, y compris le Web 🌐🕸️ <br /> L&apos;écologie me
             tient particulièrement à cœur, je m&apos;efforce à concevoir des
-            sites dans une approche éco-responsible et espère à travailler sur des projets qui protègent la vie ou ajoutent un petit + à notre monde.
+            sites dans une approche éco-responsible et espère à travailler sur
+            des projets qui protègent la vie ou contribuent à un monde meilleur.
             <br />
             Traductrice professionnelle avant ma reconversion au développement
             web (diplôme RNCP OpenClassrooms, auto-didacte Codecademy),
-            c&apos;est toujours le langage humain que je traduis. Je suis trilingue, on
-            peut communiquer en français, anglais ou en hongrois :) <br />
+            c&apos;est toujours le langage humain que je traduis. Je suis
+            trilingue, on peut communiquer en français, anglais ou en hongrois
+            :) <br />
             Et aussi en <span>HTML CSS JavaScript React</span>
           </p>
         </article>
@@ -27,7 +29,7 @@ const Home = () => {
           <p>Pour en savoir plus sur mon parcours :</p>
           <button>Télécharger le CV</button>
         </article>
-        <article id="contact" className="main-card side-card">
+        <article id="contact" className="main-card side-card right-card">
           <h2>Entrons en connexion</h2>
         </article>
       </section>

@@ -15,8 +15,10 @@ p {
 .container {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  margin: 50px 0 50px 0;
   align-items: center;
+  position: relative;
+  height: min-content;
 }
 
 #bio {
@@ -33,8 +35,12 @@ button {
 }
 
 .middle-card {
-  flex-grow: 2;
-  margin: 60px;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  width: max-content;
+  z-index: 0;
 }
 
 /* animation */
@@ -46,19 +52,43 @@ button {
 .side-card {
   width: 50px;
   height: 50px;
-  position: relative;
-
+  z-index: 1;
 }
 
 #intro > p {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .side-card:hover {
-    width: max-content;
-    height: max-content;
-
+  width: min(100%, 335px);
+  height: max-content;
+  z-index: 2;
 }
 .side-card:hover > p {
-    display: block;
+  visibility: visible !important;
+}
+
+.side-card:hover h2 {
+  font-size: 2.5em;
+}
+
+.left-card {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  /*transform: translateY(-10%);*/
+  margin-right: 20px;
+  z-index: 1;
+}
+
+.right-card {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-left: 20px;
+  z-index: 1;
+}
+
+#projects {
+  margin-top: 300px;
 }
