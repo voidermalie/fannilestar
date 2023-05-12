@@ -55,7 +55,7 @@ button {
   z-index: 1;
 }
 
-#intro > p {
+.side-card > p {
   visibility: hidden;
 }
 

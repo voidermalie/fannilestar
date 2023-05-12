@@ -1,4 +1,5 @@
 import './Home.css';
+import ContactForm from '../../Components/ContactForm/ContactForm';
 
 const Home = () => {
   console.log('bonjour');
@@ -31,6 +32,16 @@ const Home = () => {
         </article>
         <article id="contact" className="main-card side-card right-card">
           <h2>Entrons en connexion</h2>
+          <p>
+            Si vous avez des projets en tête, je serais ravie de collaborer et
+            créer des expériences mémorables. Ensemble, nous pourrions faire des
+            vagues dans &apos;océan numérique ! Je suis joignable par mail, sur
+            les réseaux sociaux ou par téléphone.
+          </p>
+          <div>mail</div>
+          <div>linkedIn</div>
+          <div>gitHub</div>
+          <div>tel</div>
         </article>
       </section>
       <section id="projects" className="main-card">

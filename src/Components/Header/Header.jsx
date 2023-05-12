@@ -7,6 +7,7 @@ import DarkModeButton from '../DarkModeButton/DarkModeButton';
 import seaAngel from '../../assets/sea_angel.gif';
 
 const Header = () => {
+
   return (
     <header>
       <img src={seaAngel} alt="Sea Angel saying hello" id="sea-angel" />
@@ -14,9 +15,9 @@ const Header = () => {
         <Link className="nav" to="/" aria-label="Accueil">
           {<FontAwesomeIcon icon={faHouse} />}
         </Link>
-        <Link className="nav" to="/about">
+        <HashLink className="nav" to="#intro" id="bio-link">
           Bio
-        </Link>
+        </HashLink>
         <HashLink className="nav" to="#projects">
           Projects
         </HashLink>
