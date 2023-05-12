@@ -63,7 +63,9 @@ button {
   width: min(100%, 335px);
   height: max-content;
   z-index: 2;
+  left: 0;
 }
+
 .side-card:hover > p {
   visibility: visible !important;
 }
@@ -74,18 +76,20 @@ button {
 
 .left-card {
   position: absolute;
-  left: 0;
+  left: 10%;
   top: 50%;
   /*transform: translateY(-10%);*/
-  margin-right: 20px;
   z-index: 1;
+}
+
+.side-card:hover .left-card {
+    left: 0;
 }
 
 .right-card {
   position: absolute;
   right: 0;
   top: 50%;
-  margin-left: 20px;
   z-index: 1;
 }
 
