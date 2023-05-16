@@ -43,7 +43,7 @@ button {
   z-index: 0;
 }
 
-/* animation */
+/* animation side-cards */
 
 .side-card h2 {
   font-size: 1rem;
@@ -62,8 +62,7 @@ button {
 .side-card:hover {
   width: min(100%, 335px);
   height: max-content;
-  z-index: 2;
-  left: 0;
+  z-index: 3;
 }
 
 .side-card:hover > p {
@@ -82,15 +81,19 @@ button {
   z-index: 1;
 }
 
-.side-card:hover .left-card {
+.left-card:hover {
     left: 0;
 }
 
 .right-card {
   position: absolute;
-  right: 0;
+  right: 10%;
   top: 50%;
-  z-index: 1;
+  z-index: 2;
+}
+
+.right-card:hover {
+    right: 0;
 }
 
 #projects {

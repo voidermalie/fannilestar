@@ -34,9 +34,9 @@ const Home = () => {
           <h2>Entrons en connexion</h2>
           <p>
             Si vous avez des projets en tête, je serais ravie de collaborer et
-            créer des expériences mémorables. Ensemble, nous pourrions faire des
+            créer des expériences mémorables ensemble. Faisons des
             vagues dans &apos;océan numérique ! Je suis joignable par mail, sur
-            les réseaux sociaux ou par téléphone.
+            les réseaux ou par téléphone.
           </p>
           <div>mail</div>
           <div>linkedIn</div>
