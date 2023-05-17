@@ -44,6 +44,7 @@ const Home = () => {
                 alt="lien vers Github"
                 width="30px"
                 height="30px"
+                className="bio-icon"
               />
             </a>
             <a href="https://www.linkedin.com/in/fannilestar/" target="blank">
@@ -52,6 +53,7 @@ const Home = () => {
                 alt="lien vers LinkedIn"
                 width="30px"
                 height="30px"
+                className="bio-icon"
               />
             </a>
           </div>

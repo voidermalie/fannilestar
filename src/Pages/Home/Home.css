@@ -40,19 +40,13 @@ button {
   padding-top: 25px;
 }
 
-.bio-icon {
-  border-radius: 50px;
-  border: 1px solid transparent;
-  transition: border-color 0.25s;
-  padding: 4px;
-}
-
 .bio-icon:hover {
-  border-color: #646cff;
+
+  filter:brightness(1.2)
 }
 .bio-icon:focus,
 .bio-icon:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+    filter:brightness(1.2)
 }
 
 .middle-card {

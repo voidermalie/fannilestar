@@ -53,14 +53,12 @@ h3 {
 }
 
 button {
-  border-radius: 50px;
-  border: 1px solid transparent;
+  border: none;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #cbcbcb;
   cursor: pointer;
-  transition: border-color 0.25s;
+  background-color: transparent;
 }
 
 /*
@@ -68,11 +66,11 @@ button {
 */
 
 button:hover {
-  border-color: #646cff;
+  filter:brightness(1.2)
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  filter:brightness(1.2)
 }
 
 @media (prefers-color-scheme: light) {
