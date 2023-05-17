@@ -1,0 +1,39 @@
+{
+    "projects": [
+      {
+        "id": "project1",
+        "image": "project1.jpg",
+        "title": "Kasa",
+        "description": "This is the first project",
+        "githubLink": "https://github.com/voidermalie/kasa2"
+      },
+      {
+        "id": "project2",
+        "image": "project2.jpg",
+        "title": "Kanap",
+        "description": "This is the second project",
+        "githubLink": "https://github.com/voidermalie/kanap"
+      },
+      {
+        "id": "project3",
+        "image": "project3.jpg",
+        "title": "OhmyFood",
+        "description": "This is the third project",
+        "githubLink": "https://github.com/voidermalie/ohmyfood" 
+      },
+      {
+        "id": "project4",
+        "image": "project4.jpg",
+        "title": "Booki",
+        "description": "This is the fourth project",
+        "githubLink": "https://github.com/voidermalie/booki"
+      },
+      {
+        "id": "project5",
+        "image": "project5.jpg",
+        "title": "Piiquante",
+        "description": "This is the fifth project",
+        "githubLink": "https://github.com/voidermalie/Piiquante"
+      }
+    ]
+  }

@@ -15,15 +15,6 @@ const Header = () => {
         <Link className="nav" to="/" aria-label="Accueil">
           {<FontAwesomeIcon icon={faHouse} />}
         </Link>
-        <HashLink className="nav" to="#intro" id="bio-link">
-          Bio
-        </HashLink>
-        <HashLink className="nav" to="#projects">
-          Projects
-        </HashLink>
-        <Link className="nav" to="/contact">
-          Contact
-        </Link>
         <DarkModeButton />
       </nav>
     </header>

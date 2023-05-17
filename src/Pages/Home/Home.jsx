@@ -15,8 +15,7 @@ const Home = () => {
             Ma passion est l&apos;interconnectivité de notre monde, dans toutes
             ses dimensions, y compris le Web 🌐🕸️ <br /> L&apos;écologie me
             tient particulièrement à cœur, je m&apos;efforce à concevoir des
-            sites dans une approche éco-responsible et espère à travailler sur
-            des projets qui protègent la vie ou contribuent à un monde meilleur.
+            sites dans une approche éco-responsible.
             <br />
             Traductrice professionnelle avant ma reconversion au développement
             web (diplôme RNCP OpenClassrooms, autodidacte Codecademy),
@@ -47,7 +46,7 @@ const Home = () => {
                 height="30px"
               />
             </a>
-            <a href="#" target="blank">
+            <a href="https://www.linkedin.com/in/fannilestar/" target="blank">
               <img
                 src={linkedinIcon}
                 alt="lien vers LinkedIn"
