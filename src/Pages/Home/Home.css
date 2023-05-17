@@ -31,7 +31,28 @@ p {
 }
 
 button {
-  width: max-content;
+  display: flex;
+}
+
+.bio-icons {
+  display: flex;
+  gap: 10px;
+  padding-top: 25px;
+}
+
+.bio-icon {
+  border-radius: 50px;
+  border: 1px solid transparent;
+  transition: border-color 0.25s;
+  padding: 4px;
+}
+
+.bio-icon:hover {
+  border-color: #646cff;
+}
+.bio-icon:focus,
+.bio-icon:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
 }
 
 .middle-card {
@@ -55,7 +76,8 @@ button {
   z-index: 1;
 }
 
-.side-card > p {
+.side-card > p,
+.side-card > a {
   visibility: hidden;
 }
 
@@ -63,9 +85,14 @@ button {
   width: min(100%, 335px);
   height: max-content;
   z-index: 3;
+  filter:brightness(1.2);
+  -webkit-filter: brightness(1.2); /* Safari and Chrome */
+  -moz-filter: brightness(1.2); /* Firefox */
+  -o-filter: brightness(1.2); /* Opera */
 }
 
-.side-card:hover > p {
+.side-card:hover > p,
+.side-card:hover > a {
   visibility: visible !important;
 }
 
@@ -82,7 +109,7 @@ button {
 }
 
 .left-card:hover {
-    left: 0;
+  left: 0;
 }
 
 .right-card {
@@ -93,7 +120,7 @@ button {
 }
 
 .right-card:hover {
-    right: 0;
+  right: 0;
 }
 
 #projects {

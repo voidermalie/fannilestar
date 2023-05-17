@@ -1,5 +1,8 @@
 import './Home.css';
 import ContactForm from '../../Components/ContactForm/ContactForm';
+import githubIcon from '../../assets/icons/github.svg';
+import cvIcon from '../../assets/icons/cv.svg';
+import linkedinIcon from '../../assets/icons/linkedin.svg';
 
 const Home = () => {
   console.log('bonjour');
@@ -16,7 +19,7 @@ const Home = () => {
             des projets qui protègent la vie ou contribuent à un monde meilleur.
             <br />
             Traductrice professionnelle avant ma reconversion au développement
-            web (diplôme RNCP OpenClassrooms, auto-didacte Codecademy),
+            web (diplôme RNCP OpenClassrooms, autodidacte Codecademy),
             c&apos;est toujours le langage humain que je traduis. Je suis
             trilingue, on peut communiquer en français, anglais ou en hongrois
             :) <br />
@@ -27,21 +30,36 @@ const Home = () => {
           <h1>Fanni Lestar</h1>
           <h3>développeuse front-end</h3>
           <h3>Marseille</h3>
-          <p>Pour en savoir plus sur mon parcours :</p>
-          <button>Télécharger le CV</button>
+          <div className="bio-icons">
+            <button id="download-cv">
+              <img
+                src={cvIcon}
+                alt="télécharger le résumé"
+                width="30px"
+                height="30px"
+              />
+            </button>
+            <a href="https://github.com/voidermalie/" target="blank">
+              <img
+                src={githubIcon}
+                alt="lien vers Github"
+                width="30px"
+                height="30px"
+              />
+            </a>
+            <a href="#" target="blank">
+              <img
+                src={linkedinIcon}
+                alt="lien vers LinkedIn"
+                width="30px"
+                height="30px"
+              />
+            </a>
+          </div>
         </article>
         <article id="contact" className="main-card side-card right-card">
           <h2>Entrons en connexion</h2>
-          <p>
-            Si vous avez des projets en tête, je serais ravie de collaborer et
-            créer des expériences mémorables ensemble. Faisons des
-            vagues dans &apos;océan numérique ! Je suis joignable par mail, sur
-            les réseaux ou par téléphone.
-          </p>
-          <div>mail</div>
-          <div>linkedIn</div>
-          <div>gitHub</div>
-          <div>tel</div>
+          <ContactForm className="contact-form" />
         </article>
       </section>
       <section id="projects" className="main-card">

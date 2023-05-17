@@ -1,15 +1,26 @@
 import './ContactForm.css';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import emailIcon from '../../assets/icons/email.svg';
+import phoneIcon from '../../assets/icons/phone.svg';
+import smsIcon from '../../assets/icons/sms.svg';
 
 const ContactForm = () => {
   return (
-    <div id="contact-form">
+    <>
       <p>
-        Si mon profil vous intèresse et vous avez des idées de projets, je
-        serais ravie de collaborer et créer des expériences mémorables.
-        Ensemble, nous pourrions faire des vagues dans &apos;océan numérique !
-        Je suis joignable par mail, sur les réseaux sociaux ou par téléphone.
+        Vous avez des projets en tête ? Je serais ravie de collaborer et créer
+        des expériences mémorables ensemble. <br /> Faisons des vagues dans
+        l&apos;océan numérique !
       </p>
-    </div>
+      <a href="mailto:fannylestar@icloud.com" className="icon-contact">
+        <img src={emailIcon} alt="envoyer un mail" width="30px" height="30px" />
+        <p>fannylestar@icloud.com</p>
+      </a>
+      <a href="tel:+33658190121" className="icon-contact">
+        <img src={phoneIcon} alt="appeler" width="30px" height="30px" />
+        <p>+33 6 58 19 01 21</p>
+      </a>
+    </>
   );
 };
 
