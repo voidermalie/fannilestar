@@ -1,5 +1,6 @@
 import './Home.css';
 import ContactForm from '../../Components/ContactForm/ContactForm';
+import Carousel from '../../Components/Carousel/Carousel';
 import githubIcon from '../../assets/icons/github.svg';
 import cvIcon from '../../assets/icons/cv.svg';
 import linkedinIcon from '../../assets/icons/linkedin.svg';
@@ -65,6 +66,7 @@ const Home = () => {
       </section>
       <section id="projects" className="main-card">
         <h3>Mes projets</h3>
+        <Carousel />
       </section>
     </section>
   );

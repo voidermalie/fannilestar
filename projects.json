@@ -1,39 +1,82 @@
-{
-    "projects": [
-      {
-        "id": "project1",
-        "image": "project1.jpg",
-        "title": "Kasa",
-        "description": "This is the first project",
-        "githubLink": "https://github.com/voidermalie/kasa2"
-      },
-      {
-        "id": "project2",
-        "image": "project2.jpg",
-        "title": "Kanap",
-        "description": "This is the second project",
-        "githubLink": "https://github.com/voidermalie/kanap"
-      },
-      {
-        "id": "project3",
-        "image": "project3.jpg",
-        "title": "OhmyFood",
-        "description": "This is the third project",
-        "githubLink": "https://github.com/voidermalie/ohmyfood" 
-      },
-      {
-        "id": "project4",
-        "image": "project4.jpg",
-        "title": "Booki",
-        "description": "This is the fourth project",
-        "githubLink": "https://github.com/voidermalie/booki"
-      },
-      {
-        "id": "project5",
-        "image": "project5.jpg",
-        "title": "Piiquante",
-        "description": "This is the fifth project",
-        "githubLink": "https://github.com/voidermalie/Piiquante"
-      }
-    ]
+[
+  {
+    "id": "p1",
+    "imagePath": "kasa1.jpg",
+    "videoPath": "#",
+    "title": "Kasa",
+    "descriptionShort": {
+      "fr": "Application web de location immobilière",
+      "en": "Accommodation renting platform"
+    },
+    "descriptionLong": {
+      "fr": "Application web de location immobilière",
+      "en": "Accommodation renting platform"
+    },
+    "githubLink": "https://github.com/voidermalie/kasa2",
+    "liveDemo": "#"
+  },
+  {
+    "id": "p2",
+    "imagePath": "kanap1.jpg",
+    "videoPath": "#",
+    "title": "Kanap",
+    "descriptionShort": {
+      "fr": "Site e-commerce de vente de mobilier",
+      "en": "E-commerce platform for buying furniture"
+    },
+    "descriptionLong": {
+      "fr": "Site e-commerce pour acheter du mobilier avec systèmes de panier",
+      "en": "E-commerce platform where you can buy furniture with shopping cart"
+    },
+    "githubLink": "https://github.com/voidermalie/kanap",
+    "liveDemo": "#"
+  },
+  {
+    "id": "p3",
+    "imagePath": "ohmyfood1.jpg",
+    "videoPath": "#",
+    "title": "OhmyFood",
+    "descriptionShort": {
+      "fr": "Site de réservation de repas",
+      "en": "Food reservation site"
+    },
+    "descriptionLong": {
+      "fr": "Site de réservation de repas",
+      "en": "Food reservation site"
+    },
+    "githubLink": "https://github.com/voidermalie/ohmyfood",
+    "liveDemo": "https://voidermalie.com/ohmyfood"
+  },
+  {
+    "id": "p4",
+    "imagePath": "booki1.jpg",
+    "videoPath": "#",
+    "title": "Booki",
+    "descriptionShort": {
+      "fr": "Site de réservation d'hébergements",
+      "en": "Accomodation booking website"
+    },
+    "descriptionLong": {
+      "fr": "Site de réservation d'hébergements",
+      "en": "Accomodation booking website"
+    },
+    "githubLink": "https://github.com/voidermalie/booki",
+    "liveDemo": "https://voidermalie.com/booki"
+  },
+  {
+    "id": "p5",
+    "imagePath": "hottakes1.jpg",
+    "videoPath": "#",
+    "title": "Piiquante - Hot Takes",
+    "descriptionShort": {
+      "fr": "API sécurisée pour une application d'avis gastronomiques",
+      "en": "Secure API for a culinary review application"
+    },
+    "descriptionLong": {
+      "fr": "API sécurisée pour une application d'avis gastronomiques",
+      "en": "Secure API for a culinary review application"
+    },
+    "githubLink": "https://github.com/voidermalie/Piiquante",
+    "liveDemo": "#"
   }
+]
