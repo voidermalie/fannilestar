@@ -1,0 +1,12 @@
+.project-img {
+    width: 200px;
+    height: 200px;
+}
+
+.slide-container {
+    display: flex;
+}
+
+.slide-wrapper {
+    display: flex;
+}

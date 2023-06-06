@@ -1,10 +1,11 @@
 import './Carousel.css';
 import { useContext, useState, useRef, useEffect } from 'react';
 import { ProjectContext } from '../../contexts/ProjectContext';
+import { LanguageContext } from '../../contexts/LanguageContext';
 
 const Carousel = () => {
+  const { language } = useContext(LanguageContext);
   const projects = useContext(ProjectContext);
-  console.log('Projects:', projects); // Add this line to check the value
   const slidesWrapperRef = useRef(null);
 
   const scrollSlides = () => {
@@ -18,9 +19,9 @@ const Carousel = () => {
       <div className="slide-wrapper">
         {projects.map((project) => (
           <article key={project.id} >
-            <img src={project.imagePath} alt={project.title}/>
+            <img className="project-img" src={project.imagePath} alt={project.title}/>
             <h2>{project.title}</h2>
-            <p>{project.descriptionShort}</p>
+            <p>{project.descriptionShort[language]}</p>
           </article>
         ))}
       </div>
