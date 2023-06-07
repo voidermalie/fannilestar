@@ -9,7 +9,7 @@ import Interconnectivity from '../Pages/Interconnectivity/Interconnectivity';
 
 const AppRouter = () => {
     return (
-      <Router>
+      <Router basename="/fannilestar">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
