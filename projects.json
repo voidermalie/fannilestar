@@ -1,7 +1,7 @@
 [
   {
     "id": "p1",
-    "imagePath": "/assets/images/project-images/kasa/kasa1.jpg",
+    "imagePath": "/fannilestar/assets/images/project-images/kasa/kasa1.jpg",
     "videoPath": "#",
     "title": "Kasa",
     "descriptionShort": {
@@ -17,7 +17,7 @@
   },
   {
     "id": "p2",
-    "imagePath": "/assets/images/project-images/kanap/kanap1.jpg",
+    "imagePath": "/fannilestar/assets/images/project-images/kanap/kanap1.jpg",
     "videoPath": "#",
     "title": "Kanap",
     "descriptionShort": {
@@ -33,7 +33,7 @@
   },
   {
     "id": "p3",
-    "imagePath": "/assets/images/project-images/ohmyfood/ohmyfood1.jpg",
+    "imagePath": "/fannilestar/assets/images/project-images/ohmyfood/ohmyfood1.jpg",
     "videoPath": "#",
     "title": "OhmyFood",
     "descriptionShort": {
@@ -49,7 +49,7 @@
   },
   {
     "id": "p4",
-    "imagePath": "/assets/images/project-images/booki/booki1.jpg",
+    "imagePath": "/fannilestar/assets/images/project-images/booki/booki1.jpg",
     "videoPath": "#",
     "title": "Booki",
     "descriptionShort": {
@@ -65,7 +65,7 @@
   },
   {
     "id": "p5",
-    "imagePath": "/assets/images/project-images/hottakes/hottakes1.jpg",
+    "imagePath": "/fannilestar/assets/images/project-images/hottakes/hottakes1.jpg",
     "videoPath": "#",
     "title": "Piiquante",
     "descriptionShort": {
