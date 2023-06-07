@@ -18,7 +18,7 @@ const Carousel = () => {
     <section className="slide-container">
       <div className="slide-wrapper">
         {projects.map((project) => (
-          <article key={project.id} >
+          <article className="project-card" key={project.id} >
             <img className="project-img" src={project.imagePath} alt={project.title}/>
             <h2>{project.title}</h2>
             <p>{project.descriptionShort[language]}</p>

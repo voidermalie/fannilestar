@@ -1,12 +1,18 @@
 .project-img {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 .slide-container {
-    display: flex;
+  display: flex;
+  margin-top: 20px;
 }
 
 .slide-wrapper {
-    display: flex;
+  display: flex;
+  gap: 30px;
+}
+
+.project-card:hover img {
+    filter: drop-shadow(0 0 0.75rem rgb(128, 243, 232))
 }

@@ -64,9 +64,11 @@ const Home = () => {
           <ContactForm className="contact-form" />
         </article>
       </section>
-      <section id="projects" className="main-card">
-        <h3>Mes projets</h3>
-        <Carousel />
+      <section id="projects" className="container">
+        <article className="main-card side-card bottom-card">
+          <h2>Mes projets</h2>
+          <Carousel />
+        </article>
       </section>
     </section>
   );

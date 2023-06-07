@@ -71,7 +71,10 @@ button {
 }
 
 .side-card > p,
-.side-card > a {
+.side-card > a,
+.project-card > img,
+.project-card > h2,
+.project-card > p {
   visibility: hidden;
 }
 
@@ -83,10 +86,14 @@ button {
   -webkit-filter: brightness(1.2); /* Safari and Chrome */
   -moz-filter: brightness(1.2); /* Firefox */
   -o-filter: brightness(1.2); /* Opera */
+  box-shadow: #80F3E8;
 }
 
 .side-card:hover > p,
-.side-card:hover > a {
+.side-card:hover > a,
+.side-card:hover .project-card > img,
+.side-card:hover .project-card > h2,
+.side-card:hover .project-card > p {
   visibility: visible !important;
 }
 
@@ -119,4 +126,22 @@ button {
 
 #projects {
   margin-top: 300px;
+}
+
+.bottom-card:hover {
+  width: fit-content;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#contact:hover {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
 }

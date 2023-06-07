@@ -67,7 +67,7 @@
     "id": "p5",
     "imagePath": "src/assets/images/project-images/hottakes/hottakes1.jpg",
     "videoPath": "#",
-    "title": "Piiquante - Hot Takes",
+    "title": "Piiquante",
     "descriptionShort": {
       "fr": "API sécurisée pour une application d'avis gastronomiques",
       "en": "Secure API for a culinary review application"
