@@ -41,12 +41,11 @@ button {
 }
 
 .bio-icon:hover {
-
-  filter:brightness(1.2)
+  filter: brightness(1.2);
 }
 .bio-icon:focus,
 .bio-icon:focus-visible {
-    filter:brightness(1.2)
+  filter: brightness(1.2);
 }
 
 .middle-card {
@@ -82,11 +81,11 @@ button {
   width: min(100%, 335px);
   height: max-content;
   z-index: 3;
-  filter:brightness(1.2);
+  filter: brightness(1.2);
   -webkit-filter: brightness(1.2); /* Safari and Chrome */
   -moz-filter: brightness(1.2); /* Firefox */
   -o-filter: brightness(1.2); /* Opera */
-  box-shadow: #80F3E8;
+  box-shadow: #80f3e8;
 }
 
 .side-card:hover > p,
@@ -144,4 +143,86 @@ button {
   flex-direction: column;
   text-align: left;
   align-items: flex-start;
+}
+
+/* bubble animation */
+
+
+.side-card {
+  animation-name: moveAround;
+  animation-duration: 25s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+.side-card:nth-child(1) {
+  animation-name: moveAround1;
+}
+
+.side-card:nth-child(2) {
+  animation-name: moveAround2;
+}
+
+.side-card:nth-child(3) {
+  animation-name: moveAround3;
+}
+
+@keyframes moveAround1 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(50px) translateY(-50px);
+  }
+  50% {
+    transform: translateX(100px) translateY(0);
+  }
+  75% {
+    transform: translateX(50px) translateY(50px);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+@keyframes moveAround2 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(-50px) translateY(-50px);
+  }
+  50% {
+    transform: translateX(-100px) translateY(0);
+  }
+  75% {
+    transform: translateX(-50px) translateY(50px);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+@keyframes moveAround3 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(50px) translateY(50px);
+  }
+  50% {
+    transform: translateX(0) translateY(200px);
+  }
+  75% {
+    transform: translateX(100px) translateY(100px);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+.side-card:hover {
+  animation-play-state: paused;
+  transform: translate(0);
 }
