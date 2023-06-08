@@ -75,8 +75,8 @@ const Home = () => {
               <img
                 src={cvIcon}
                 alt="télécharger le résumé"
-                width="30px"
-                height="30px"
+                width="40px"
+                height="40px"
                 className="bio-icon"
               />
             </button>
@@ -84,8 +84,8 @@ const Home = () => {
               <img
                 src={githubIcon}
                 alt="lien vers Github"
-                width="30px"
-                height="30px"
+                width="40px"
+                height="40px"
                 className="bio-icon"
               />
             </a>
@@ -93,8 +93,8 @@ const Home = () => {
               <img
                 src={linkedinIcon}
                 alt="lien vers LinkedIn"
-                width="30px"
-                height="30px"
+                width="40px"
+                height="40px"
                 className="bio-icon"
               />
             </a>
@@ -102,8 +102,8 @@ const Home = () => {
               <img
                 src={instagramIcon}
                 alt="lien vers Instagram"
-                width="30px"
-                height="30px"
+                width="40px"
+                height="40px"
                 className="bio-icon"
               />
             </a>

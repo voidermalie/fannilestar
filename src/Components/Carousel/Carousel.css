@@ -3,7 +3,7 @@
   height: 200px;
   object-fit: cover;
   transition: scale 400ms;
-  border-radius: 5px;
+  border-radius: 16px;
 }
 
 .slide-container {
@@ -23,10 +23,10 @@
 
 .project-card {
     border: 1px solid rgb(128,243,232);
-    border-radius: 15px;
+    border-radius: 32px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 20px;
+    padding: 24px;
     box-shadow: inset 1px 0px 1em rgb(128, 243, 232);
 }

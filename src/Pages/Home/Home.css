@@ -24,10 +24,9 @@ p {
 #bio {
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 32px;
   max-width: 400px;
   align-items: center;
-  align-self: center;
 }
 
 button {
@@ -36,8 +35,8 @@ button {
 
 .bio-icons {
   display: flex;
-  gap: 10px;
-  padding-top: 25px;
+  gap: 16px;
+  padding-top: 32px;
 }
 
 .bio-icon:hover {
@@ -152,7 +151,6 @@ button {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-play-state: running;
-  transition: transform 0.3s ease-in-out; /* Added */
 }
 
 .side-card:nth-child(1) {
