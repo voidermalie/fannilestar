@@ -120,7 +120,6 @@ button {
 
 #projects {
   margin-top: 300px;
-  width: min-content;
 }
 
 #contact {
@@ -139,7 +138,6 @@ button {
 
 /* bubble animation */
 
-
 .side-card {
   animation-name: moveAround;
   animation-duration: 10s;
@@ -156,11 +154,9 @@ button {
   animation-name: moveAround2;
 }
 
-
 .side-card:nth-child(3) {
   animation-name: moveAround3;
 }
-
 
 @keyframes moveAround1 {
   0% {
@@ -218,12 +214,14 @@ button {
 
 .side-card:hover {
   animation-play-state: paused;
-  transform: translate(0) !important;;
+  transform: translate(0) !important;
 }
 
 .tags {
   display: inline flex;
   gap: 10px;
+  padding-top: 16px;
+  padding-right: 8px;
 }
 
 /* alternative design */
@@ -248,3 +246,8 @@ button {
 .bottom-card:hover {
   width: 100%;
 }*/
+
+.bottom-card {
+  display: flex;
+  flex-direction: column;
+}

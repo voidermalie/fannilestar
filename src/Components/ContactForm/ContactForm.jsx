@@ -9,7 +9,7 @@ const ContactForm = () => {
     <>
       <p>
         Vous avez des projets en tête ? Je serais ravie de collaborer et créer
-        des expériences mémorables ensemble.</p><p>Faisons des vagues dans
+        ensemble des expériences web mémorables.</p><p>Faisons des vagues dans
         l&apos;océan numérique !
       </p>
       <a href="mailto:fannylestar@icloud.com" className="icon-contact">

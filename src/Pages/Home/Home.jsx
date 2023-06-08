@@ -25,44 +25,43 @@ const Home = () => {
               éco-responsible.
             </p>
             <p>
-              Traductrice littéraire avant de me former en développement
-              web (diplôme RNCP OpenClassrooms, autodidacte Codecademy). Je suis
-              trilingue, on peut communiquer en français, anglais ou en hongrois
-              :)
-              <p>
-                {' '}
-                Et aussi en{' '}
-                <span className="tags">
-                  <img
-                    src="https://i.picasion.com/gl/92/hgR0.gif"
-                    width="74"
-                    height="16"
-                    border="0"
-                    alt="HTML"
-                  />
-                  <img
-                    src="https://i.picasion.com/gl/92/hgRj.gif"
-                    width="45"
-                    height="16"
-                    border="0"
-                    alt="CSS"
-                  />
-                  <img
-                    src="https://i.picasion.com/gl/92/hgRm.gif"
-                    width="130"
-                    height="19"
-                    border="0"
-                    alt="JavaScript"
-                  />
-                  <img
-                    src="https://i.picasion.com/gl/92/hgRq.gif"
-                    width="70"
-                    height="16"
-                    border="0"
-                    alt="React"
-                  />
-                </span>
-              </p>
+              Traductrice littéraire avant de me former au développement web
+              (OpenClassrooms, Codecademy). Je suis trilingue, on peut
+              communiquer en français, anglais ou en hongrois :)
+            </p>
+            <p>
+              {' '}
+              Et aussi en{' '}
+              <span className="tags">
+                <img
+                  src="https://i.picasion.com/gl/92/hgR0.gif"
+                  width="74"
+                  height="16"
+                  border="0"
+                  alt="HTML"
+                />
+                <img
+                  src="https://i.picasion.com/gl/92/hgRj.gif"
+                  width="45"
+                  height="16"
+                  border="0"
+                  alt="CSS"
+                />
+                <img
+                  src="https://i.picasion.com/gl/92/hgRm.gif"
+                  width="130"
+                  height="19"
+                  border="0"
+                  alt="JavaScript"
+                />
+                <img
+                  src="https://i.picasion.com/gl/92/hgRq.gif"
+                  width="70"
+                  height="16"
+                  border="0"
+                  alt="React"
+                />
+              </span>
             </p>
           </div>
         </article>
@@ -80,7 +79,11 @@ const Home = () => {
                 className="bio-icon"
               />
             </button>
-            <a href="https://github.com/voidermalie/" target="blank" className="glitter-icon">
+            <a
+              href="https://github.com/voidermalie/"
+              target="blank"
+              className="glitter-icon"
+            >
               <img
                 src={githubIcon}
                 alt="lien vers Github"
@@ -114,15 +117,12 @@ const Home = () => {
           <ContactForm className="contact-form" />
         </article>
       </section>
-      <section id="projects" className="container">
+      <section id="projects">
         <article className="main-card bottom-card">
           <h2>Mes projets</h2>
           <Carousel />
         </article>
       </section>
-      <div className="container">
-        <Bubble />
-      </div>
     </section>
   );
 };

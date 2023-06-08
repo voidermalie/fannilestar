@@ -9,16 +9,20 @@
 .slide-container {
   display: flex;
   padding: 30px;
+  overflow: hidden; /* Add this property */
+  position: relative;
 }
 
 .slide-wrapper {
   display: flex;
   gap: 30px;
+  transition: transform 0.5s ease-in-out; /* Add this property */
+  transform: translateX(0);
 }
 
 .project-card:hover {
     filter: drop-shadow(0 0 0.75rem rgb(128, 243, 232));
-    scale: 110%;
+    scale: 95%;
 }
 
 .project-card {
