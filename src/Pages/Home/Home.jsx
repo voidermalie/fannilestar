@@ -5,6 +5,7 @@ import Bubble from '../../Components/Bubble/Bubble';
 import githubIcon from '../../assets/icons/github.svg';
 import cvIcon from '../../assets/icons/cv.svg';
 import linkedinIcon from '../../assets/icons/linkedin.svg';
+import instagramIcon from '../../assets/icons/instagram.svg';
 
 const Home = () => {
   console.log('bonjour');
@@ -76,6 +77,7 @@ const Home = () => {
                 alt="télécharger le résumé"
                 width="30px"
                 height="30px"
+                className="bio-icon"
               />
             </button>
             <a href="https://github.com/voidermalie/" target="blank" className="glitter-icon">
@@ -91,6 +93,15 @@ const Home = () => {
               <img
                 src={linkedinIcon}
                 alt="lien vers LinkedIn"
+                width="30px"
+                height="30px"
+                className="bio-icon"
+              />
+            </a>
+            <a href="https://www.instagram.com/jaitout/" target="blank">
+              <img
+                src={instagramIcon}
+                alt="lien vers Instagram"
                 width="30px"
                 height="30px"
                 className="bio-icon"

@@ -8,7 +8,7 @@
 
 .slide-container {
   display: flex;
-  margin-top: 20px;
+  padding: 30px;
 }
 
 .slide-wrapper {
