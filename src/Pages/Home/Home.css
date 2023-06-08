@@ -70,8 +70,7 @@ button {
 
 .side-card > p,
 .side-card > a,
-.side-card > div,
-.project-card {
+.side-card > div {
   visibility: hidden;
 }
 
@@ -84,12 +83,12 @@ button {
   -moz-filter: brightness(1.2); /* Firefox */
   -o-filter: brightness(1.2); /* Opera */
   box-shadow: #80f3e8;
+  background-color: #b7b7b7;
 }
 
 .side-card:hover > p,
 .side-card:hover > a,
-.side-card:hover > div,
-.side-card:hover .project-card {
+.side-card:hover > div {
   visibility: visible !important;
 }
 
@@ -101,7 +100,6 @@ button {
   position: absolute;
   left: 10%;
   top: 50%;
-  /*transform: translateY(-10%);*/
   z-index: 1;
 }
 
@@ -122,10 +120,7 @@ button {
 
 #projects {
   margin-top: 300px;
-}
-
-.bottom-card:hover {
-  width: 100%;
+  width: min-content;
 }
 
 #contact {
@@ -161,9 +156,11 @@ button {
   animation-name: moveAround2;
 }
 
+
 .side-card:nth-child(3) {
   animation-name: moveAround3;
 }
+
 
 @keyframes moveAround1 {
   0% {
@@ -228,3 +225,26 @@ button {
   display: inline flex;
   gap: 10px;
 }
+
+/* alternative design */
+#bio {
+  border: none;
+  box-shadow: none;
+}
+
+/* project card also as bubble:
+.side-card > p,
+.side-card > a,
+.side-card > div,
+.project-card {
+  visibility: hidden;
+}
+.side-card:hover > p,
+.side-card:hover > a,
+.side-card:hover > div,
+.side-card:hover .project-card {
+  visibility: visible !important;
+}
+.bottom-card:hover {
+  width: 100%;
+}*/

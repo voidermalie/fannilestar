@@ -115,7 +115,7 @@ const Home = () => {
         </article>
       </section>
       <section id="projects" className="container">
-        <article className="main-card side-card bottom-card">
+        <article className="main-card bottom-card">
           <h2>Mes projets</h2>
           <Carousel />
         </article>
