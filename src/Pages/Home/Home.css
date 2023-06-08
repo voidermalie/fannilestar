@@ -71,9 +71,8 @@ button {
 
 .side-card > p,
 .side-card > a,
-.project-card > img,
-.project-card > h2,
-.project-card > p {
+.side-card > div,
+.project-card {
   visibility: hidden;
 }
 
@@ -90,9 +89,8 @@ button {
 
 .side-card:hover > p,
 .side-card:hover > a,
-.side-card:hover .project-card > img,
-.side-card:hover .project-card > h2,
-.side-card:hover .project-card > p {
+.side-card:hover > div,
+.side-card:hover .project-card {
   visibility: visible !important;
 }
 
@@ -150,7 +148,7 @@ button {
 
 .side-card {
   animation-name: moveAround;
-  animation-duration: 25s;
+  animation-duration: 10s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-play-state: running;
@@ -173,13 +171,13 @@ button {
     transform: translateX(0) translateY(0);
   }
   25% {
-    transform: translateX(50px) translateY(-50px);
+    transform: translateX(30px) translateY(-30px);
   }
   50% {
-    transform: translateX(100px) translateY(0);
+    transform: translateX(50px) translateY(0);
   }
   75% {
-    transform: translateX(50px) translateY(50px);
+    transform: translateX(30px) translateY(30px);
   }
   100% {
     transform: translateX(0) translateY(0);
@@ -225,4 +223,9 @@ button {
 .side-card:hover {
   animation-play-state: paused;
   transform: translate(0);
+}
+
+.tags {
+  display: inline flex;
+  gap: 10px;
 }

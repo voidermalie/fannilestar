@@ -1,6 +1,7 @@
 import './Home.css';
 import ContactForm from '../../Components/ContactForm/ContactForm';
 import Carousel from '../../Components/Carousel/Carousel';
+import Bubble from '../../Components/Bubble/Bubble';
 import githubIcon from '../../assets/icons/github.svg';
 import cvIcon from '../../assets/icons/cv.svg';
 import linkedinIcon from '../../assets/icons/linkedin.svg';
@@ -12,19 +13,57 @@ const Home = () => {
       <section className="container">
         <article id="intro" className="main-card side-card left-card">
           <h2>hello world</h2>
-          <p>
-            Ma passion est l&apos;interconnectivité de notre monde, dans toutes
-            ses dimensions, y compris le Web 🌐🕸️ <br /> L&apos;écologie me
-            tient particulièrement à cœur, je m&apos;efforce à concevoir des
-            sites dans une approche éco-responsible.
-            <br />
-            Traductrice professionnelle avant ma reconversion au développement
-            web (diplôme RNCP OpenClassrooms, autodidacte Codecademy),
-            c&apos;est toujours le langage humain que je traduis. Je suis
-            trilingue, on peut communiquer en français, anglais ou en hongrois
-            :) <br />
-            Et aussi en <span>HTML CSS JavaScript React</span>
-          </p>
+          <div>
+            <p>
+              Ma passion est l&apos;interconnectivité de notre monde, dans
+              toutes ses dimensions, y compris le Web 🌐🕸️
+            </p>
+            <p>
+              L&apos;écologie me tient particulièrement à cœur, je
+              m&apos;efforce à concevoir des sites dans une approche
+              éco-responsible.
+            </p>
+            <p>
+              Traductrice littéraire avant de me former en développement
+              web (diplôme RNCP OpenClassrooms, autodidacte Codecademy). Je suis
+              trilingue, on peut communiquer en français, anglais ou en hongrois
+              :)
+              <p>
+                {' '}
+                Et aussi en{' '}
+                <span className="tags">
+                  <img
+                    src="https://i.picasion.com/gl/92/hgR0.gif"
+                    width="74"
+                    height="16"
+                    border="0"
+                    alt="HTML"
+                  />
+                  <img
+                    src="https://i.picasion.com/gl/92/hgRj.gif"
+                    width="45"
+                    height="16"
+                    border="0"
+                    alt="CSS"
+                  />
+                  <img
+                    src="https://i.picasion.com/gl/92/hgRm.gif"
+                    width="130"
+                    height="19"
+                    border="0"
+                    alt="JavaScript"
+                  />
+                  <img
+                    src="https://i.picasion.com/gl/92/hgRq.gif"
+                    width="70"
+                    height="16"
+                    border="0"
+                    alt="React"
+                  />
+                </span>
+              </p>
+            </p>
+          </div>
         </article>
         <article id="bio" className="main-card middle-card">
           <h1>Fanni Lestar</h1>
@@ -39,7 +78,7 @@ const Home = () => {
                 height="30px"
               />
             </button>
-            <a href="https://github.com/voidermalie/" target="blank">
+            <a href="https://github.com/voidermalie/" target="blank" className="glitter-icon">
               <img
                 src={githubIcon}
                 alt="lien vers Github"
@@ -70,6 +109,9 @@ const Home = () => {
           <Carousel />
         </article>
       </section>
+      <div className="container">
+        <Bubble />
+      </div>
     </section>
   );
 };
