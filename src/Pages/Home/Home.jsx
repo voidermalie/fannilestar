@@ -1,11 +1,9 @@
 import './Home.css';
 import ContactForm from '../../Components/ContactForm/ContactForm';
 import Carousel from '../../Components/Carousel/Carousel';
-import Bubble from '../../Components/Bubble/Bubble';
 import githubIcon from '../../assets/icons/github.svg';
 import cvIcon from '../../assets/icons/cv.svg';
 import linkedinIcon from '../../assets/icons/linkedin.svg';
-import instagramIcon from '../../assets/icons/instagram.svg';
 
 const Home = () => {
   console.log('bonjour');
@@ -96,15 +94,6 @@ const Home = () => {
               <img
                 src={linkedinIcon}
                 alt="lien vers LinkedIn"
-                width="40px"
-                height="40px"
-                className="bio-icon"
-              />
-            </a>
-            <a href="https://www.instagram.com/jaitout/" target="blank">
-              <img
-                src={instagramIcon}
-                alt="lien vers Instagram"
                 width="40px"
                 height="40px"
                 className="bio-icon"
