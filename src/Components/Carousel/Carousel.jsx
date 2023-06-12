@@ -19,7 +19,7 @@ const Carousel = () => {
       </button>
       <div className="slide-wrapper" ref={slidesWrapperRef}>
         {projects.map((project) => (
-          <Link to={`project/${project.title}`} className="project-card" key={project.id}>
+          <Link to={`project/${project.id}`} className="project-card" key={project.id}>
             <article>
               <img
                 className="project-image"

@@ -9,7 +9,9 @@ const Header = () => {
 
   return (
     <header>
+      <Link to="/" aria-label="Accueil" id="sea-angel-link">
       <img src={seaAngel} alt="Sea Angel saying hello" id="sea-angel" />
+      </Link>
       <nav>
         <Link className="nav" to="/" aria-label="Accueil">
           {<FontAwesomeIcon icon={faHouse} />}

@@ -1,0 +1,11 @@
+.project-content {
+    margin: 50px 0 50px 0;
+}
+
+.project-container {
+    display: flex;
+}
+
+.project-image-project-page {
+    width: 300px;
+}

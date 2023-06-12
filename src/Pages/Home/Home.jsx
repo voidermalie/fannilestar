@@ -18,13 +18,13 @@ const Home = () => {
               toutes ses dimensions, y compris le Web 🌐🕸️
             </p>
             <p>
-              L&apos;écologie me tient particulièrement à cœur, j&apos;espère
+              L&apos;écologie me tient à cœur, j&apos;espère
               contribuer au numérique éco-responsible.
             </p>
             <p>
-              Traductrice littéraire avant de me former au développement web, j&apos;ai aussi une pratique artistique visuelle et des pulsions créatrices. <br /> Je suis trilingue, on peut
-              communiquer en français, anglais ou hongrois. Bientôt en espagnol.
+              Traductrice littéraire avant de me former au développement web, j&apos;ai aussi une pratique artistique visuelle, et je m&apos;inspire du monde vivant et de la nature.
             </p>
+            <p>On peut communiquer en français, anglais ou hongrois. Bientôt en espagnol.</p>
             <p>
               {' '}
               Et aussi en...{' '}
@@ -66,7 +66,7 @@ const Home = () => {
           <h3>développeuse front-end</h3>
           <h3>Marseille</h3>
           <div className="bio-icons">
-            <button id="download-cv">
+            <button id='download-cv'>
               <img
                 src={cvIcon}
                 alt="télécharger le résumé"
