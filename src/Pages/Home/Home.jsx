@@ -18,18 +18,16 @@ const Home = () => {
               toutes ses dimensions, y compris le Web 🌐🕸️
             </p>
             <p>
-              L&apos;écologie me tient particulièrement à cœur, je
-              m&apos;efforce à concevoir des sites dans une approche
-              éco-responsible.
+              L&apos;écologie me tient particulièrement à cœur, j&apos;espère
+              contribuer au numérique éco-responsible.
             </p>
             <p>
-              Traductrice littéraire avant de me former au développement web
-              (OpenClassrooms, Codecademy). Je suis trilingue, on peut
-              communiquer en français, anglais ou en hongrois :)
+              Traductrice littéraire avant de me former au développement web, j&apos;ai aussi une pratique artistique visuelle et des pulsions créatrices. <br /> Je suis trilingue, on peut
+              communiquer en français, anglais ou hongrois. Bientôt en espagnol.
             </p>
             <p>
               {' '}
-              Et aussi en{' '}
+              Et aussi en...{' '}
               <span className="tags">
                 <img
                   src="https://i.picasion.com/gl/92/hgR0.gif"

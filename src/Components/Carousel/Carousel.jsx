@@ -4,6 +4,7 @@ import { ProjectContext } from '../../contexts/ProjectContext';
 import { LanguageContext } from '../../contexts/LanguageContext';
 import PrevButton from '../../assets/icons/previous.svg';
 import NextButton from '../../assets/icons/next.svg';
+import { Link } from 'react-router-dom';
 
 const Carousel = () => {
   const { language } = useContext(LanguageContext);
@@ -18,7 +19,7 @@ const Carousel = () => {
       </button>
       <div className="slide-wrapper" ref={slidesWrapperRef}>
         {projects.map((project) => (
-          <a href="#" className="project-card" key={project.id}>
+          <Link to={`project/${project.title}`} className="project-card" key={project.id}>
             <article>
               <img
                 className="project-image"
@@ -28,7 +29,7 @@ const Carousel = () => {
               <h3>{project.title}</h3>
               <p>{project.descriptionShort[language]}</p>
             </article>
-          </a>
+          </Link>
         ))}
       </div>
       <button id="next-button">
