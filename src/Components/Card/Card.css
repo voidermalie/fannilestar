@@ -1,0 +1,23 @@
+.project-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: scale 400ms;
+    border-radius: 16px;
+}
+
+
+.project-card:hover {
+    filter: drop-shadow(0 0 0.75rem rgb(128, 243, 232));
+    scale: 95%;
+}
+
+.project-card {
+    border: 1px solid rgb(128,243,232);
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 24px;
+    box-shadow: inset 1px 0px 1em rgb(128, 243, 232);
+}

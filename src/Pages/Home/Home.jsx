@@ -4,9 +4,14 @@ import Carousel from '../../Components/Carousel/Carousel';
 import githubIcon from '../../assets/icons/github.svg';
 import cvIcon from '../../assets/icons/cv.svg';
 import linkedinIcon from '../../assets/icons/linkedin.svg';
+import { useContext } from 'react';
+import { LanguageContext } from '../../contexts/LanguageContext';
 
 const Home = () => {
   console.log('bonjour');
+
+  const { language } = useContext(LanguageContext);
+
   return (
     <section className="page-content" id="home-main">
       <section className="container">
@@ -14,20 +19,30 @@ const Home = () => {
           <h2>hello world</h2>
           <div>
             <p>
-              Ma passion est l&apos;interconnectivité de notre monde, dans
-              toutes ses dimensions, y compris le Web 🌐🕸️
+              {language === 'fr'
+                ? "Ma passion est l'interconnectivité de notre monde, dans toutes ses dimensions, y compris le Web 🌐🕸️"
+                : 'My passion is the interconnectivity of our world, in all its dimensions, including the Web 🌐🕸️'}
             </p>
             <p>
-              L&apos;écologie me tient à cœur, j&apos;espère
-              contribuer au numérique éco-responsible.
+              {language === 'fr'
+                ? "L'écologie me tient à cœur, j'espère contribuer au numérique éco-responsible."
+                : 'Ecology is close to my heart, I hope to contribute to eco-responsible digital.'}
             </p>
             <p>
-              Traductrice littéraire avant de me former au développement web, j&apos;ai aussi une pratique artistique visuelle, et je m&apos;inspire du monde vivant et de la nature.
+              {language === 'fr'
+                ? "Traductrice littéraire avant de me former au développement web, j'ai aussi une pratique artistique visuelle, et je m'inspire du monde vivant et de la nature."
+                : "A literary translator before learning web development, I also have a visual art practice, and I'm inspired by the living world and nature."}
             </p>
-            <p>On peut communiquer en français, anglais ou hongrois. Bientôt en espagnol.</p>
             <p>
-              {' '}
-              Et aussi en...{' '}
+              {language === 'fr'
+                ? 'On peut communiquer en français, anglais ou hongrois. Bientôt en espagnol.'
+                : 'We can speak in French, English or Hungarian. Soon in Spanish.'}
+            </p>
+            <p>
+              {language === 'fr'
+              ? "Et aussi en..."
+              : "And also in..."
+              }
               <span className="tags">
                 <img
                   src="https://i.picasion.com/gl/92/hgR0.gif"
@@ -66,7 +81,7 @@ const Home = () => {
           <h3>développeuse front-end</h3>
           <h3>Marseille</h3>
           <div className="bio-icons">
-            <button id='download-cv'>
+            <button id="download-cv">
               <img
                 src={cvIcon}
                 alt="télécharger le résumé"

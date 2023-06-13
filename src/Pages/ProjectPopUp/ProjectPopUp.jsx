@@ -1,30 +1,26 @@
 import './ProjectPopup.css';
 import { ProjectContext } from '../../contexts/ProjectContext';
-import { useContext, useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
 import { LanguageContext } from '../../contexts/LanguageContext';
+import { useContext, useState, useEffect } from 'react';
 
-function ProjectPopup({ onClose }) {
-  const { language } = useContext(LanguageContext);
-  const { id } = useParams();
-
+const ProjectPopup = ({ id, onClose }) => {
+  const language = useContext(LanguageContext);
   const projects = useContext(ProjectContext);
-
   const [project, setProject] = useState(null);
-  const navigate = useNavigate();
 
   useEffect(() => {
-    const project = projects.find((project) => project.id === id);
-    if (!project) {
-      navigate('/404');
+    const foundProject = projects.find((project) => project.id === id);
+    if (!foundProject) {
+      onClose(); // Close the popup if the project is not found
       return;
     }
-    setProject(project);
-  }, [id, projects, navigate]);
+    setProject(foundProject);
+  }, [projects, id, onClose]);
 
   if (!project) {
     return <div>Loading...</div>;
   }
+
   return (
     <section className="project-content">
       <div className="project-container">
@@ -32,17 +28,18 @@ function ProjectPopup({ onClose }) {
           <img
             className="project-image project-image-project-page"
             src={project.imagePath}
+            alt={project.title}
           />
         </div>
-        <div>
+        <div className="project-infos">
+          <h2>{project.title}</h2>
+          <p>{project.descriptionShort[language]}</p>
           <p>{project.descriptionLong[language]}</p>
         </div>
       </div>
-      <button className="close-button" onClick={onClose}>
-        X
-      </button>
+      <button className="close-button">X</button>
     </section>
   );
-}
+};
 
 export default ProjectPopup;

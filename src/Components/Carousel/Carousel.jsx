@@ -1,43 +1,31 @@
 import './Carousel.css';
-import { useContext, useRef, useEffect, useState } from 'react';
-import { ProjectContext } from '../../contexts/ProjectContext';
-import { LanguageContext } from '../../contexts/LanguageContext';
+import { useContext, useRef, useState } from 'react';
 import PrevButton from '../../assets/icons/previous.svg';
 import NextButton from '../../assets/icons/next.svg';
+//import Popup from 'reactjs-popup';
+import Card from '../Card/Card';
+import { ProjectContext } from '../../contexts/ProjectContext';
 
 const Carousel = () => {
-  const { language } = useContext(LanguageContext);
   const projects = useContext(ProjectContext);
 
   const slidesWrapperRef = useRef(null);
 
-
   return (
     <section className="slide-container">
-      <button id="prev-button">
-        <img src={PrevButton} alt="Précédent" />
-      </button>
       <div className="slide-wrapper" ref={slidesWrapperRef}>
-        {projects.map((project) => (
-          <div
-            className="project-card"
-            key={project.id}
-          >
-            <article>
-              <img
-                className="project-image"
-                src={project.imagePath}
-                alt={project.title}
-              />
-              <h3>{project.title}</h3>
-              <p>{project.descriptionShort[language]}</p>
-            </article>
-          </div>
-        ))}
+        <button id="prev-button">
+          <img src={PrevButton} alt="Précédent" />
+        </button>
+        
+          {projects.map((project) => (
+            <Card key={project.id} project={project} />
+          ))}
+
+        <button id="next-button">
+          <img src={NextButton} alt="Suivant" />
+        </button>
       </div>
-      <button id="next-button">
-        <img src={NextButton} alt="Suivant" />
-      </button>
     </section>
   );
 };

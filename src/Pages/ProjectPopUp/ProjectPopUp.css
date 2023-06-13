@@ -3,8 +3,12 @@
     position: relative;
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid rgb(128, 243, 232);
+    box-shadow: inset 1px 0px 1em rgb(128, 243, 232);
     max-width: fit-content;
+    background-color: #b7b7b7;
+    filter: brightness(1.2);
+    border-radius: 32px;
 }
 
 .project-container {
@@ -13,7 +17,7 @@
 }
 
 .project-image-project-page {
-    width: 300px;
+    width: 50%;
 }
 
 .close-button {
