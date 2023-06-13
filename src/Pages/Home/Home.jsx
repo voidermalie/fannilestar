@@ -30,7 +30,7 @@ const Home = () => {
             </p>
             <p>
               {language === 'fr'
-                ? "Traductrice littéraire avant de me former au développement web, j'ai aussi une pratique artistique visuelle, et je m'inspire du monde vivant et de la nature."
+                ? "Traductrice littéraire avant le développement web, j'ai aussi une pratique artistique visuelle, et je m'inspire du monde vivant et de la nature."
                 : "I pursued a career in literary translation before web development, I also have a visual art practice and I'm inspired by the living world and nature."}
             </p>
             <p>
