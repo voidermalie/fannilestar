@@ -14,6 +14,13 @@ header {
     box-shadow: 1px 0px 1em #213547;
 }
 
+/*
 .fa-house {
     padding-right: 15px;
+}
+*/
+
+nav {
+    display: flex;
+    gap: 5px;
 }

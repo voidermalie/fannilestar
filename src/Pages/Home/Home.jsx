@@ -20,18 +20,18 @@ const Home = () => {
           <div>
             <p>
               {language === 'fr'
-                ? "Ma passion est l'interconnectivité de notre monde, dans toutes ses dimensions, y compris le Web 🌐🕸️"
-                : 'My passion is the interconnectivity of our world, in all its dimensions, including the Web 🌐🕸️'}
+                ? "Ma passion est l'interconnectivité de notre monde, dans toutes ses dimensions, y compris le Web. 🌐🕸️"
+                : 'My passion is the interconnectivity of our world, in all its dimensions, including the Web. 🌐🕸️'}
             </p>
             <p>
               {language === 'fr'
                 ? "L'écologie me tient à cœur, j'espère contribuer au numérique éco-responsible."
-                : 'Ecology is close to my heart, I hope to contribute to eco-responsible digital.'}
+                : 'Ecology is close to my heart, I hope to contribute to an eco-responsible digital realm.'}
             </p>
             <p>
               {language === 'fr'
                 ? "Traductrice littéraire avant de me former au développement web, j'ai aussi une pratique artistique visuelle, et je m'inspire du monde vivant et de la nature."
-                : "A literary translator before learning web development, I also have a visual art practice, and I'm inspired by the living world and nature."}
+                : "I pursued a career in literary translation before web development, I also have a visual art practice and I'm inspired by the living world and nature."}
             </p>
             <p>
               {language === 'fr'
@@ -78,7 +78,12 @@ const Home = () => {
         </article>
         <article id="bio" className="main-card middle-card">
           <h1>Fanni Lestar</h1>
-          <h3>développeuse front-end</h3>
+          <h3>
+            {language === 'fr'
+            ? "développeuse front-end"
+            : "front-end developer"
+            }
+          </h3>
           <h3>Marseille</h3>
           <div className="bio-icons">
             <button id="download-cv">
@@ -115,13 +120,23 @@ const Home = () => {
           </div>
         </article>
         <article id="contact" className="main-card side-card right-card">
-          <h2>Entrons en connexion</h2>
+          <h2>
+            {language === 'fr'
+            ? "Entrons en connexion"
+            : "Get connected"
+            }
+          </h2>
           <ContactForm className="contact-form" />
         </article>
       </section>
       <section id="projects">
         <article className="main-card bottom-card">
-          <h2>Mes projets</h2>
+        <h2>
+            {language === 'fr'
+            ? "Mes projets"
+            : "My projects"
+            }
+          </h2>
           <Carousel />
         </article>
       </section>

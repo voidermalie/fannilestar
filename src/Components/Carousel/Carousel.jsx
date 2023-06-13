@@ -11,18 +11,27 @@ const Carousel = () => {
 
   const slidesWrapperRef = useRef(null);
 
+  const scrollToNext = () => {
+    slidesWrapperRef.current.scrollLeft += slidesWrapperRef.current.offsetWidth;
+  };
+
+  const scrollToPrevious = () => {
+    slidesWrapperRef.current.scrollLeft -= slidesWrapperRef.current.offsetWidth;
+  };
+
+
   return (
     <section className="slide-container">
       <div className="slide-wrapper" ref={slidesWrapperRef}>
-        <button id="prev-button">
+        <button id="prev-button" onClick={scrollToPrevious}>
           <img src={PrevButton} alt="Précédent" />
         </button>
-        
+
           {projects.map((project) => (
             <Card key={project.id} project={project} />
           ))}
 
-        <button id="next-button">
+        <button id="next-button" onClick={scrollToNext}>
           <img src={NextButton} alt="Suivant" />
         </button>
       </div>
