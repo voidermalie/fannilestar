@@ -12,7 +12,7 @@ const ContactForm = () => {
     <>
       <p>
         {language === 'fr'
-          ? "Vous avez des projets en tête ? Je serais ravie de collaborer et créer des expériences web mémorables."
+          ? "Vous avez des projets en tête ? Je serais ravie de collaborer et créer des expériences web mémorables ensemble."
           : "Do you have any projects in mind? I'd love to collaborate and create memorable web experiences together."}
       </p>
       <p>

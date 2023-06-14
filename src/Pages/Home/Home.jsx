@@ -20,23 +20,23 @@ const Home = () => {
           <div>
             <p>
               {language === 'fr'
-                ? "Ma passion est l'interconnectivité de notre monde, dans toutes ses dimensions, y compris le Web. 🌐🕸️"
-                : 'My passion is the interconnectivity of our world, in all its dimensions, including the Web. 🌐🕸️'}
+                ? "Ma passion est l'interconnectivité de notre monde, dans toutes ses dimensions, y compris le Web."
+                : 'My passion is the interconnectivity of our world, in all its dimensions, including the Web.'}
             </p>
             <p>
               {language === 'fr'
-                ? "L'écologie me tient à cœur, j'espère contribuer au numérique éco-responsible."
-                : 'Ecology is close to my heart, I hope to contribute to an eco-responsible digital realm.'}
+                ? "L'écologie et la Terre me tiennent à cœur, j'espère contribuer au numérique éco-responsible."
+                : 'Ecology and Earth are close to my heart, I hope to contribute to an eco-responsible digital realm.'}
             </p>
             <p>
               {language === 'fr'
-                ? "Traductrice littéraire avant le développement web, j'ai aussi une pratique artistique visuelle, et je m'inspire du monde vivant et de la nature."
+                ? "Traductrice littéraire avant de me former au développement web, j'ai aussi une pratique artistique visuelle, et je m'inspire du monde vivant et de la nature."
                 : "I pursued a career in literary translation before web development, I also have a visual art practice and I'm inspired by the living world and nature."}
             </p>
             <p>
               {language === 'fr'
                 ? 'On peut communiquer en français, anglais ou hongrois. Bientôt en espagnol.'
-                : 'We can speak in French, English or Hungarian. Soon in Spanish.'}
+                : 'We can speak in French, English or Hungarian. Soon in Spanish, too.'}
             </p>
             <p>
               {language === 'fr'
