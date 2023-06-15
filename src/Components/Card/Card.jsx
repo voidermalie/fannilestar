@@ -2,10 +2,10 @@ import './Card.css';
 import { useContext } from 'react';
 import { LanguageContext } from '../../contexts/LanguageContext';
 
-const Card = ({ project }) => {
+const Card = ({ project, onClick }) => {
   const { language } = useContext(LanguageContext); // Access language from the LanguageContext value object
   return (
-        <div className="project-card" key={project.id}>
+        <div className="project-card" key={project.id} onClick={onClick}>
         <article>
           <img
             className="project-image"

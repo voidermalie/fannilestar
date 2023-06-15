@@ -3,26 +3,24 @@ import { ProjectContext } from '../../contexts/ProjectContext';
 import { LanguageContext } from '../../contexts/LanguageContext';
 import { useContext, useState, useEffect } from 'react';
 
-const ProjectPopup = ({ id, onClose }) => {
-  const language = useContext(LanguageContext);
+const ProjectPopup = ({ id, setIsOpen }) => {
+  const { language } = useContext(LanguageContext);
   const projects = useContext(ProjectContext);
-  const [project, setProject] = useState(null);
+  const project = projects.find((project) => project.id === id);
 
+  // Add useEffect to handle the scroll behavior
   useEffect(() => {
-    const foundProject = projects.find((project) => project.id === id);
-    if (!foundProject) {
-      onClose(); // Close the popup if the project is not found
-      return;
-    }
-    setProject(foundProject);
-  }, [projects, id, onClose]);
-
-  if (!project) {
-    return <div>Loading...</div>;
-  }
+    document.body.style.overflow = 'hidden'; // Prevent scrolling of the background content
+    return () => {
+      document.body.style.overflow = 'auto'; // Restore scrolling when the component is unmounted
+    };
+  }, []);
 
   return (
     <section className="project-content">
+      <button className="close-button" onClick={() => setIsOpen(false)}>
+        X
+      </button>
       <div className="project-container">
         <div>
           <img
@@ -37,7 +35,6 @@ const ProjectPopup = ({ id, onClose }) => {
           <p>{project.descriptionLong[language]}</p>
         </div>
       </div>
-      <button className="close-button">X</button>
     </section>
   );
 };
