@@ -18,6 +18,7 @@
 
 .slide-container {
     scrollbar-width: none;
+    overflow-y: hidden;
 }
 
 

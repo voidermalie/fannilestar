@@ -12,7 +12,7 @@ const Carousel = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [projectId, setProjectId] = useState(null); // Add projectId state
 
-  const togglePopup = ( id ) => {
+  const togglePopup = (id) => {
     setIsOpen(!isOpen);
     setProjectId(id); // Set the clicked projectId
   };
@@ -35,12 +35,16 @@ const Carousel = () => {
         </button>
 
         {projects.map((project) => (
-          <div key={project.id}>
-            <Card project={project} onClick={() => togglePopup(project.id)} />
+          <>
+            <Card
+              key={project.id}
+              project={project}
+              onClick={() => togglePopup(project.id)}
+            />
             {isOpen && projectId === project.id && (
-            <ProjectPopup id={project.id} setIsOpen={setIsOpen} />
+              <ProjectPopup id={project.id} setIsOpen={setIsOpen} />
             )}
-          </div>
+          </>
         ))}
 
         <button id="next-button" onClick={scrollToNext}>
