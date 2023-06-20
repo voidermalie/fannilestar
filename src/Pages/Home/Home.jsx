@@ -25,7 +25,7 @@ const Home = () => {
             </p>
             <p>
               {language === 'fr'
-                ? "L'écologie et la Terre me tiennent à cœur, j'espère contribuer au numérique éco-responsible."
+                ? "L'écologie et la Terre me tiennent à cœur, j'espère contribuer au numérique écoresponsable."
                 : 'Ecology and Earth are close to my heart, I hope to contribute to an eco-responsible digital realm.'}
             </p>
             <p>
@@ -35,7 +35,7 @@ const Home = () => {
             </p>
             <p>
               {language === 'fr'
-                ? 'On peut communiquer en français, anglais ou hongrois. Bientôt en espagnol.'
+                ? 'On peut parler en français, anglais ou hongrois. Bientôt en espagnol.'
                 : 'We can speak in French, English or Hungarian. Soon in Spanish, too.'}
             </p>
             <p>

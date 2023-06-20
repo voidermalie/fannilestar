@@ -1,9 +1,9 @@
 .project-image {
     width: 200px;
-    height: 200px;
+    aspect-ratio: 1/1;
     object-fit: cover;
     transition: scale 400ms;
-    border-radius: 16px;
+    border-radius: 120px;
 }
 
 
@@ -13,11 +13,11 @@
 }
 
 .project-card {
-    border: 1px solid rgb(128,243,232);
-    border-radius: 32px;
+    /*border: 1px solid rgb(128,243,232);*/
+    border-radius: 160px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 24px;
-    box-shadow: inset 1px 0px 1em rgb(128, 243, 232);
+    /*box-shadow: inset 1px 0px 1em rgb(128, 243, 232);*/
 }

@@ -17,11 +17,20 @@ const ProjectPopup = ({ id, setIsOpen }) => {
   }, []);
 
   return (
-    <section className="project-content">
-      <button className="close-button" onClick={() => setIsOpen(false)}>
-        X
+    <section className="popup-background">
+      <button
+        className="close-button"
+        type="button"
+        aria-label="fermer"
+        onClick={() => setIsOpen(false)}
+      >
+        <span aria-hidden="true">&times;</span>
       </button>
       <div className="project-container">
+        <header>
+          <h2 className='popup-title'>{project.title}</h2>
+        </header>
+        <section className='project-body'>
         <div>
           <img
             className="project-image project-image-project-page"
@@ -30,10 +39,10 @@ const ProjectPopup = ({ id, setIsOpen }) => {
           />
         </div>
         <div className="project-infos">
-          <h2>{project.title}</h2>
           <p>{project.descriptionShort[language]}</p>
           <p>{project.descriptionLong[language]}</p>
         </div>
+        </section>
       </div>
     </section>
   );

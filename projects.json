@@ -5,7 +5,7 @@
     "videoPath": "#",
     "title": "Kasa",
     "descriptionShort": {
-      "fr": "Application web de location immobilière",
+      "fr": "Application web de location immobilière avec React",
       "en": "Accommodation renting platform"
     },
     "descriptionLong": {
@@ -21,11 +21,11 @@
     "videoPath": "#",
     "title": "Kanap",
     "descriptionShort": {
-      "fr": "Site e-commerce de vente de mobilier",
-      "en": "E-commerce platform for buying furniture"
+      "fr": "Site e-commerce de vente de mobilier avec système de panier",
+      "en": "E-commerce platform for buying furniture with shopping cart"
     },
     "descriptionLong": {
-      "fr": "Site e-commerce pour acheter du mobilier avec systèmes de panier",
+      "fr": "Site e-commerce pour acheter du mobilier avec système de panier",
       "en": "E-commerce platform where you can buy furniture with shopping cart"
     },
     "githubLink": "https://github.com/voidermalie/kanap",
@@ -37,8 +37,8 @@
     "videoPath": "#",
     "title": "OhmyFood",
     "descriptionShort": {
-      "fr": "Site de réservation de repas",
-      "en": "Food reservation site"
+      "fr": "Site de réservation de repas mobile-first avec animations CSS3",
+      "en": "Mobile-first food reservation site with CSS animations"
     },
     "descriptionLong": {
       "fr": "Site de réservation de repas",
@@ -53,8 +53,8 @@
     "videoPath": "#",
     "title": "Booki",
     "descriptionShort": {
-      "fr": "Site de réservation d'hébergements",
-      "en": "Accomodation booking website"
+      "fr": "Site de réservation d'hébergements responsive",
+      "en": "Accomodation booking website with responsive design"
     },
     "descriptionLong": {
       "fr": "Site de réservation d'hébergements",
@@ -69,8 +69,8 @@
     "videoPath": "#",
     "title": "Piiquante",
     "descriptionShort": {
-      "fr": "API sécurisée pour une application d'avis gastronomiques",
-      "en": "Secure API for a culinary review application"
+      "fr": "API sécurisée et actions CRUD pour une application d'avis gastronomiques",
+      "en": "Secure API and CRUD actions for a culinary review application"
     },
     "descriptionLong": {
       "fr": "API sécurisée pour une application d'avis gastronomiques",
@@ -78,5 +78,21 @@
     },
     "githubLink": "https://github.com/voidermalie/Piiquante",
     "liveDemo": "#"
+  },
+  {
+    "id": "p6",
+    "imagePath": "/fannilestar/images/project-images/panthera/panthera1.jpg",
+    "videoPath": "#",
+    "title": "Panthera",
+    "descriptionShort": {
+      "fr": "Optimisation SEO et Accessibilité d'un site",
+      "en": "Optimization SEO and Accessibility of a website"
+    },
+    "descriptionLong": {
+      "fr": "Optimisation SEO et Accessibilité d'un site",
+      "en": "SEO and optimization of a website"
+    },
+    "githubLink": "https://github.com/voidermalie/panthera_new",
+    "liveDemo": "https://voidermalie.github.io/panthera_new/"
   }
 ]

@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     port: 3000
   },
-  base: '/fannilestar/',
+  base: '/fannilestar',
   build: {
     assetsDir: 'assets',
   },
