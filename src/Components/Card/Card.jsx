@@ -4,16 +4,19 @@ import { LanguageContext } from '../../contexts/LanguageContext';
 
 const Card = ({ project, onClick }) => {
   const { language } = useContext(LanguageContext); // Access language from the LanguageContext value object
+
   return (
-        <article className="project-card" key={project.id} onClick={onClick}>
-          <img
-            className="project-image"
-            src={project.imagePath}
-            alt={project.title}
-          />
-          <h3>{project.title}</h3>
-          <p>{project.descriptionShort[language]}</p>
-        </article>
-      )
+    <article className="project-card" key={project.id} onClick={onClick}>
+      <div className="image-container">
+        <img
+          className="project-image"
+          src={project.imagePath}
+          alt={project.title}
+        />
+      </div>
+      <h3>{project.title}</h3>
+      <p>{project.descriptionShort[language]}</p>
+    </article>
+  );
 };
 export default Card;

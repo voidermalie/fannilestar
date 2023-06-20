@@ -25,54 +25,13 @@ const Home = () => {
             </p>
             <p>
               {language === 'fr'
+                ? "Traductrice littéraire avant de me former au développement web, j'ai aussi une pratique artistique visuelle, et je m'inspire du monde vivant et de la nature."
+                : "Before web development, I pursued a career in translation. I also have a visual art practice and I'm inspired by the living world and nature."}
+            </p>
+            <p>
+              {language === 'fr'
                 ? "L'écologie et la Terre me tiennent à cœur, j'espère contribuer au numérique écoresponsable."
                 : 'Ecology and Earth are close to my heart, I hope to contribute to an eco-responsible digital realm.'}
-            </p>
-            <p>
-              {language === 'fr'
-                ? "Traductrice littéraire avant de me former au développement web, j'ai aussi une pratique artistique visuelle, et je m'inspire du monde vivant et de la nature."
-                : "I pursued a career in literary translation before web development, I also have a visual art practice and I'm inspired by the living world and nature."}
-            </p>
-            <p>
-              {language === 'fr'
-                ? 'On peut parler en français, anglais ou hongrois. Bientôt en espagnol.'
-                : 'We can speak in French, English or Hungarian. Soon in Spanish, too.'}
-            </p>
-            <p>
-              {language === 'fr'
-              ? "Et aussi en..."
-              : "And also in..."
-              }
-              <span className="tags">
-                <img
-                  src="https://i.picasion.com/gl/92/hgR0.gif"
-                  width="74"
-                  height="16"
-                  border="0"
-                  alt="HTML"
-                />
-                <img
-                  src="https://i.picasion.com/gl/92/hgRj.gif"
-                  width="45"
-                  height="16"
-                  border="0"
-                  alt="CSS"
-                />
-                <img
-                  src="https://i.picasion.com/gl/92/hgRm.gif"
-                  width="130"
-                  height="19"
-                  border="0"
-                  alt="JavaScript"
-                />
-                <img
-                  src="https://i.picasion.com/gl/92/hgRq.gif"
-                  width="70"
-                  height="16"
-                  border="0"
-                  alt="React"
-                />
-              </span>
             </p>
           </div>
         </article>
@@ -80,9 +39,8 @@ const Home = () => {
           <h1>Fanni Lestar</h1>
           <h3>
             {language === 'fr'
-            ? "développeuse front-end"
-            : "front-end developer"
-            }
+              ? 'développeuse front-end'
+              : 'front-end developer'}
           </h3>
           <h3>Marseille</h3>
           <div className="bio-icons">
@@ -121,24 +79,49 @@ const Home = () => {
         </article>
         <article id="contact" className="main-card side-card right-card">
           <h2>
-            {language === 'fr'
-            ? "Entrons en connexion"
-            : "Get connected"
-            }
+            {language === 'fr' ? 'Entrons en connexion' : 'Get connected'}
           </h2>
           <ContactForm className="contact-form" />
         </article>
       </section>
       <section id="projects">
         <article className="main-card bottom-card">
-        <h2>
-            {language === 'fr'
-            ? "Mes projets"
-            : "My projects"
-            }
-          </h2>
+          <h2>{language === 'fr' ? 'Mes projets' : 'My projects'}</h2>
           <Carousel />
         </article>
+      </section>
+      <section id="skills" className="main-card bottom-card">
+        <h2>{language === 'fr' ? 'Compétences' : 'Skills'}</h2>
+        <div className="tags">
+          <img
+            src="https://i.picasion.com/gl/92/hgR0.gif"
+            width="74"
+            height="16"
+            border="0"
+            alt="HTML"
+          />
+          <img
+            src="https://i.picasion.com/gl/92/hgRj.gif"
+            width="45"
+            height="16"
+            border="0"
+            alt="CSS"
+          />
+          <img
+            src="https://i.picasion.com/gl/92/hgRm.gif"
+            width="130"
+            height="19"
+            border="0"
+            alt="JavaScript"
+          />
+          <img
+            src="https://i.picasion.com/gl/92/hgRq.gif"
+            width="70"
+            height="16"
+            border="0"
+            alt="React"
+          />
+        </div>
       </section>
     </section>
   );

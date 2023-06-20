@@ -220,7 +220,7 @@ button {
 .tags {
   display: inline flex;
   gap: 10px;
-  padding-top: 16px;
+  padding-top: 32px;
   padding-right: 8px;
 }
 

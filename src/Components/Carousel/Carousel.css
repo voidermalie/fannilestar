@@ -1,6 +1,6 @@
 .slide-container {
   display: flex;
-  padding: 30px;
+  padding: 32px;
   overflow-x: scroll;
   width: 100%;
 }
