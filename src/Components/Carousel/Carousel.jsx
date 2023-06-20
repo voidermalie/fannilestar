@@ -29,11 +29,10 @@ const Carousel = () => {
 
   return (
     <section className="slide-container">
+      <button id="prev-button" className='slide-button' onClick={scrollToPrevious}>
+        <img src={PrevButton} alt="Précédent" />
+      </button>
       <div className="slide-wrapper" ref={slidesWrapperRef}>
-        <button id="prev-button" onClick={scrollToPrevious}>
-          <img src={PrevButton} alt="Précédent" />
-        </button>
-
         {projects.map((project) => (
           <>
             <Card
@@ -46,11 +45,10 @@ const Carousel = () => {
             )}
           </>
         ))}
-
-        <button id="next-button" onClick={scrollToNext}>
-          <img src={NextButton} alt="Suivant" />
-        </button>
       </div>
+      <button id="next-button" className='slide-button' onClick={scrollToNext}>
+        <img src={NextButton} alt="Suivant" />
+      </button>
     </section>
   );
 };

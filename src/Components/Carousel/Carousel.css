@@ -12,8 +12,9 @@
   width: 100%;
 }
 
-#next-button {
+.slide-button {
     background-color: transparent;
+    color: white;
 }
 
 .slide-container {
