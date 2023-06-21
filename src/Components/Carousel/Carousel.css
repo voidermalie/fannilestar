@@ -1,8 +1,10 @@
 .slide-container {
   display: flex;
-  padding: 32px;
   overflow-x: scroll;
-  width: 100%;
+  scrollbar-width: none;
+  overflow-y: hidden;
+  padding-top: 32px;
+  justify-content: center;
 }
 
 .slide-wrapper {
@@ -10,16 +12,25 @@
   gap: 30px;
   overflow-x: scroll;
   width: 100%;
+  align-items: flex-start;
+  margin: 0 20px;
 }
 
 .slide-button {
     background-color: transparent;
     color: white;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.slide-container {
-    scrollbar-width: none;
-    overflow-y: hidden;
+.slide-button img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the image within the button */
 }
 
 

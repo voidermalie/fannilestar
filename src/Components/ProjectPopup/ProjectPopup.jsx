@@ -29,6 +29,7 @@ const ProjectPopup = ({ id, setIsOpen }) => {
       <div className="project-container">
         <header>
           <h2 className='popup-title'>{project.title}</h2>
+          <p>{project.descriptionShort[language]}</p>
         </header>
         <section className='project-body'>
         <div>

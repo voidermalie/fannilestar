@@ -4,12 +4,17 @@
     object-fit: cover;
     transition: scale 400ms;
     border-radius: 120px;
+    object-position: top;
 }
 
 
 .project-card:hover {
-    filter: drop-shadow(0 0 0.75rem rgb(128, 243, 232));
     scale: 95%;
+}
+
+.project-card:hover .project-image {
+    filter: drop-shadow(0 0 0.75rem rgb(128, 243, 232));
+
 }
 
 .project-card {
