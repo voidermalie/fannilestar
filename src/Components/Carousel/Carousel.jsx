@@ -11,6 +11,11 @@ const Carousel = () => {
   const projects = useContext(ProjectContext);
   const totalSlides = projects.length;
   
+  //Define the number of items to show at a time.
+  const itemsToShow = 4;
+  //Define the width of a single slide. 
+  const slideWidth = 100 / itemsToShow;
+  
   const [isOpen, setIsOpen] = useState(false);
   const [projectId, setProjectId] = useState(null); // Add projectId state
 

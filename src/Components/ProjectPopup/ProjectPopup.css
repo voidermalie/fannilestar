@@ -13,7 +13,6 @@
     box-shadow: inset 1px 0px 1em rgb(128, 243, 232);
     max-width: fit-content;
     background-color: #b7b7b7;
-    filter: brightness(1.2);
     border-radius: 32px;
 }
 
