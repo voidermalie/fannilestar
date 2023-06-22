@@ -1,6 +1,7 @@
 import './Carousel.css';
 import { useContext, useRef, useState } from 'react';
 import PrevButton from '../../assets/icons/previous.svg';
+//import PrevButton from '../../assets/icons/prev3.png';
 import NextButton from '../../assets/icons/next.svg';
 import Card from '../Card/Card';
 import { ProjectContext } from '../../contexts/ProjectContext';
@@ -8,7 +9,8 @@ import ProjectPopup from '../ProjectPopup/ProjectPopup';
 
 const Carousel = () => {
   const projects = useContext(ProjectContext);
-
+  const totalSlides = projects.length;
+  
   const [isOpen, setIsOpen] = useState(false);
   const [projectId, setProjectId] = useState(null); // Add projectId state
 
@@ -24,8 +26,11 @@ const Carousel = () => {
   };
 
   const scrollToPrevious = () => {
+    
     slidesWrapperRef.current.scrollLeft -= slidesWrapperRef.current.offsetWidth;
+
   };
+
 
   return (
     <section className="slide-container">

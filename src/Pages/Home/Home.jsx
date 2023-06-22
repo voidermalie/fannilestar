@@ -1,6 +1,8 @@
 import './Home.css';
 import ContactForm from '../../Components/ContactForm/ContactForm';
 import Carousel from '../../Components/Carousel/Carousel';
+import Glitters from '../../Components/Glitters/Glitters';
+
 import githubIcon from '../../assets/icons/github.svg';
 import cvIcon from '../../assets/icons/cv.svg';
 import linkedinIcon from '../../assets/icons/linkedin.svg';
@@ -121,6 +123,7 @@ const Home = () => {
             border="0"
             alt="React"
           />
+          <Glitters />
         </div>
       </section>
     </section>
