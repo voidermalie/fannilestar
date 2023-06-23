@@ -264,7 +264,9 @@ button {
 
 @media (max-width: 768px) {
   .side-card:hover {
-    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .bottom-card {

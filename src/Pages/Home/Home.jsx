@@ -27,8 +27,8 @@ const Home = () => {
             </p>
             <p>
               {language === 'fr'
-                ? "Traductrice littéraire avant de me former au développement web, j'ai aussi une pratique artistique visuelle, et je m'inspire du monde vivant et de la nature."
-                : "Before web development, I pursued a career in translation. I also have a visual art practice and I'm inspired by the living world and nature."}
+                ? "Traductrice de métier avant de me former au développement web, j'ai aussi une pratique artistique visuelle, et je m'inspire du monde vivant et de la nature."
+                : "Before transitioning to web development, I pursued a career in translation. I also have a visual art practice and draw inspiration from the living world and nature."}
             </p>
             <p>
               {language === 'fr'
