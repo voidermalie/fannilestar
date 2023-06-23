@@ -123,7 +123,9 @@ const Home = () => {
             border="0"
             alt="React"
           />
-          <Glitters />
+        </div>
+        <div>
+        <Glitters />
         </div>
       </section>
     </section>
