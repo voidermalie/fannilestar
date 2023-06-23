@@ -274,7 +274,7 @@ button {
   }
 }
 
-
+/*
 @media (max-width: 768px) {
   .opened-card {
     position: absolute !important;
@@ -283,3 +283,4 @@ button {
     z-index: 50;
   }
 }
+*/
