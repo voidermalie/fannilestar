@@ -1,5 +1,5 @@
 import './Carousel.css';
-import { useContext, useState, useEffect } from 'react';
+import { useContext, useState, useEffect, Fragment } from 'react';
 import PrevButton from '../../assets/icons/previous.svg';
 import NextButton from '../../assets/icons/next.svg';
 import Card from '../Card/Card';
@@ -10,7 +10,8 @@ const Carousel = () => {
   const originalProjects = useContext(ProjectContext);
   
   const [isOpen, setIsOpen] = useState(false);
-  const [projectId, setProjectId] = useState(null); 
+  const [projectId, setProjectId] = useState(null);
+  
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
@@ -45,16 +46,15 @@ const Carousel = () => {
       </button>
       <div className="slide-wrapper">
         {projects.map((project) => (
-          <>
+          <Fragment key={project.id}>
             <Card
-              key={project.id}
               project={project}
               onClick={() => togglePopup(project.id)}
             />
             {isOpen && projectId === project.id && (
               <ProjectPopup id={project.id} setIsOpen={setIsOpen} />
             )}
-          </>
+          </Fragment>
         ))}
       </div>
       <button id="next-button" className="slide-button" onClick={scrollToNext}>
