@@ -261,7 +261,7 @@ button {
 }
 
 /* mobile */
-
+/*
 @media (max-width: 768px) {
   .side-card:hover {
     top: 50%;
@@ -274,7 +274,7 @@ button {
   }
 }
 
-/*
+
 @media (max-width: 768px) {
   .opened-card {
     position: absolute !important;

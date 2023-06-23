@@ -14,19 +14,6 @@ const Home = () => {
 
   const { language } = useContext(LanguageContext);
 
-  const isMobile = () => window.matchMedia("(max-width: 768px)").matches;
-
-  const handleTouchStart = (event) => {
-    if (isMobile()) {
-      event.currentTarget.classList.add('opened-card');
-    }
-  };
-
-  const handleTouchEnd = (event) => {
-    if (isMobile()) {
-      event.currentTarget.classList.remove('opened-card');
-    }
-  };
 
   return (
     <section className="page-content" id="home-main">
@@ -34,8 +21,6 @@ const Home = () => {
         <article
           id="intro"
           className="main-card side-card left-card"
-          onTouchStart={handleTouchStart}
-          onTouchEnd={handleTouchEnd}
         >
           <h2>hello world</h2>
           <div>
@@ -101,8 +86,6 @@ const Home = () => {
         <article
           id="contact"
           className="main-card side-card right-card"
-          onTouchStart={handleTouchStart}
-          onTouchEnd={handleTouchEnd}
         >
           <h2>
             {language === 'fr' ? 'Entrons en connexion' : 'Get connected'}
