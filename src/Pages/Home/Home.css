@@ -276,11 +276,10 @@ button {
 
 @media (max-width: 768px) {
   .opened-card {
-    position: fixed !important;
+    position: absolute !important;
     top: 50vh !important;
     left: 50vw !important;
     transform: translate(-50%, -50%) !important;
     z-index: 1000;
   }
 }
-
