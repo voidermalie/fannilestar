@@ -18,7 +18,7 @@ p {
   margin: 50px 0 50px 0;
   align-items: center;
   position: relative;
-  height: min-content;
+  height: 100%;
 }
 
 #bio {
@@ -274,10 +274,12 @@ button {
   }
 }
 
-.opened-card {
-  position: fixed !important;
-  top: 50% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
-  z-index: 1000;
+@media (max-width: 768px) {
+  .opened-card {
+    position: fixed !important;
+    top: 50vh !important;
+    left: 50vw !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 1000;
+  }
 }
