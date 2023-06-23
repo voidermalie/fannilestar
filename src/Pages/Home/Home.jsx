@@ -14,10 +14,29 @@ const Home = () => {
 
   const { language } = useContext(LanguageContext);
 
+  const isMobile = () => window.matchMedia("(max-width: 768px)").matches;
+
+  const handleTouchStart = (event) => {
+    if (isMobile()) {
+      event.currentTarget.classList.add('opened-card');
+    }
+  };
+
+  const handleTouchEnd = (event) => {
+    if (isMobile()) {
+      event.currentTarget.classList.remove('opened-card');
+    }
+  };
+
   return (
     <section className="page-content" id="home-main">
       <section className="container">
-        <article id="intro" className="main-card side-card left-card">
+        <article
+          id="intro"
+          className="main-card side-card left-card"
+          onTouchStart={handleTouchStart}
+          onTouchEnd={handleTouchEnd}
+        >
           <h2>hello world</h2>
           <div>
             <p>
@@ -28,7 +47,7 @@ const Home = () => {
             <p>
               {language === 'fr'
                 ? "Traductrice de métier avant de me former au développement web, j'ai aussi une pratique artistique visuelle, et je m'inspire du monde vivant et de la nature."
-                : "Before transitioning to web development, I pursued a career in translation. I also have a visual art practice and draw inspiration from the living world and nature."}
+                : 'Before transitioning to web development, I pursued a career in translation. I also have a visual art practice and draw inspiration from the living world and nature.'}
             </p>
             <p>
               {language === 'fr'
@@ -79,7 +98,12 @@ const Home = () => {
             </a>
           </div>
         </article>
-        <article id="contact" className="main-card side-card right-card">
+        <article
+          id="contact"
+          className="main-card side-card right-card"
+          onTouchStart={handleTouchStart}
+          onTouchEnd={handleTouchEnd}
+        >
           <h2>
             {language === 'fr' ? 'Entrons en connexion' : 'Get connected'}
           </h2>
@@ -125,7 +149,7 @@ const Home = () => {
           />
         </div>
         <div>
-        <Glitters />
+          <Glitters />
         </div>
       </section>
     </section>

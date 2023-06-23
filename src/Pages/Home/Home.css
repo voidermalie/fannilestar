@@ -273,3 +273,11 @@ button {
     padding: 0;
   }
 }
+
+.opened-card {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 1000;
+}
