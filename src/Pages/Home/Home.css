@@ -259,3 +259,15 @@ button {
 .tags {
   display: none;
 }
+
+/* mobile */
+
+@media (max-width: 768px) {
+  .side-card:hover {
+    position: relative;
+  }
+
+  .bottom-card {
+    padding: 0;
+  }
+}
