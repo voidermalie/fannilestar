@@ -27,7 +27,7 @@ const ProjectPopup = ({ id, setIsOpen }) => {
         <span aria-hidden="true">&times;</span>
       </button>
       <div className="project-container">
-        <header>
+        <header className='popup-header'>
           <h2 className='popup-title'>{project.title}</h2>
           <p>{project.descriptionShort[language]}</p>
         </header>

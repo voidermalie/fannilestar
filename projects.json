@@ -13,7 +13,7 @@
       "en": "Accommodation renting platform"
     },
     "githubLink": "https://github.com/voidermalie/kasa2",
-    "liveDemo": "#"
+    "liveDemo": "https://voidermalie.com/kasa2"
   },
   {
     "id": "p2",
@@ -29,7 +29,7 @@
       "en": "E-commerce platform where you can buy furniture with shopping cart"
     },
     "githubLink": "https://github.com/voidermalie/kanap",
-    "liveDemo": "#"
+    "liveDemo": "https://kanap-front-eta.vercel.app/"
   },
   {
     "id": "p3",
@@ -77,7 +77,7 @@
       "en": "Secure API for a culinary review application"
     },
     "githubLink": "https://github.com/voidermalie/Piiquante",
-    "liveDemo": "#"
+    "liveDemo": "https://hottakes-front.vercel.app/"
   },
   {
     "id": "p6",
