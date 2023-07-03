@@ -15,7 +15,7 @@ const ContactForm = () => {
           ? "Vous avez des projets en tête ? Je serais ravie de collaborer et créer des expériences web mémorables ensemble."
           : "Do you have any projects in mind? I'd love to collaborate and create memorable web experiences together."}
       </p>
-      <p>
+      <p className='wavy-text'>
         {language === 'fr'
           ? "Faisons des vagues dans l'océan numérique !"
           : "Let's make waves in the digital ocean!"}

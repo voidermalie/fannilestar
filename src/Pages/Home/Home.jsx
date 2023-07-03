@@ -95,7 +95,7 @@ const Home = () => {
           <img width="60px" height="60px" src={projectIcon} />
         </HashLink>
       </section>
-      <article className="main-card bottom-card">
+      <article className="main-card bottom-card" id="carousel">
         <Carousel />
       </article>
       <section id="skills" className="main-card skill-card">
