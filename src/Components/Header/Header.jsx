@@ -18,7 +18,7 @@ const Header = () => {
           {<FontAwesomeIcon icon={faHouse} />}
         </Link>
         <LanguageButton />
-        <DarkModeButton />
+        <DarkModeButton className="nav-darkmode"/>
       </nav>
     </header>
   );

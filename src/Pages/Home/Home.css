@@ -194,6 +194,7 @@ button {
   }
 }
 
+/*
 @keyframes moveAround3 {
   0% {
     transform: translateX(0) translateY(0);
@@ -211,7 +212,7 @@ button {
     transform: translateX(0) translateY(0);
   }
 }
-
+*/
 .side-card:hover {
   animation-play-state: paused;
   transform: translate(0) !important;
@@ -282,5 +283,36 @@ button {
     left: 50vw !important;
     z-index: 50;
   }
+}
+*/
+
+.bottom-card-title {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-bottom: 30px;
+  color: #F5F0F0;
+}
+.bottom-card-title:hover {
+  color: #F5F0F0;
+}
+/*
+.skill-card:hover .glitters-container {
+  filter: none;
+}
+.skill-card {
+  margin: 0 auto;
+}
+.skill-card h2 {
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.skill-card img {
+  visibility: hidden;
+}
+.skill-card:hover img {
+  visibility: visible!important;
 }
 */

@@ -40,7 +40,7 @@ const Carousel = () => {
   };
   
   return (
-    <section className="slide-container">
+    <section className="slide-container" id="carousel">
       <button id="prev-button" className="slide-button" onClick={scrollToPrevious}>
         <img src={PrevButton} alt="Précédent" />
       </button>

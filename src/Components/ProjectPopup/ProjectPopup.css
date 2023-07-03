@@ -30,7 +30,7 @@
 
 .project-image-project-page {
     width: 50%;
-    height: auto;
+    aspect-ratio: 1/2;
     max-height: 100%;
     object-fit: contain;
     border-radius: 24px;
@@ -56,9 +56,18 @@
 
 .project-body {
     display: flex;
+    flex-direction: column;
     padding: 20px 40px;
+}
+
+.project-content {
+    display: flex;
 }
 
 .popup-header {
     flex-direction: column;
+}
+
+.project-links > * {
+    border: 1px solid blue;
 }

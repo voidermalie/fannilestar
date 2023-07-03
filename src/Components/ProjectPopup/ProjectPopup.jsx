@@ -32,16 +32,22 @@ const ProjectPopup = ({ id, setIsOpen }) => {
           <p>{project.descriptionShort[language]}</p>
         </header>
         <section className='project-body'>
-        <div>
+        <div className='project-content'>
           <img
             className="project-image project-image-project-page"
             src={project.imagePath}
             alt={project.title}
           />
+          <div>
+            <h3>{language === 'fr' ? 'Fonctionnalités' : 'Features'}</h3>
+            <ul>
+              <li>{project.descriptionLong[language]}</li>
+            </ul>
+          </div>
         </div>
-        <div className="project-infos">
-          <p>{project.descriptionShort[language]}</p>
-          <p>{project.descriptionLong[language]}</p>
+        <div className="project-links">
+          <a href={project.githubLink} target="_blank" rel="noreferrer">GitHub</a>
+          <a href={project.liveDemo} target="_blank" rel="noreferrer">Live Demo</a>
         </div>
         </section>
       </div>

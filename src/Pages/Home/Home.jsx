@@ -1,4 +1,5 @@
 import './Home.css';
+import { HashLink } from 'react-router-hash-link';
 import ContactForm from '../../Components/ContactForm/ContactForm';
 import Carousel from '../../Components/Carousel/Carousel';
 import Glitters from '../../Components/Glitters/Glitters';
@@ -9,19 +10,18 @@ import linkedinIcon from '../../assets/icons/linkedin.svg';
 import { useContext } from 'react';
 import { LanguageContext } from '../../contexts/LanguageContext';
 
+import projectIcon from '../../assets/project_icon.ico';
+import skillsIcon from '../../assetS/skills_icon.ico';
+
 const Home = () => {
   console.log('bonjour');
 
   const { language } = useContext(LanguageContext);
 
-
   return (
     <section className="page-content" id="home-main">
       <section className="container">
-        <article
-          id="intro"
-          className="main-card side-card left-card"
-        >
+        <article id="intro" className="main-card side-card left-card">
           <h2>hello world</h2>
           <div>
             <p>
@@ -31,8 +31,8 @@ const Home = () => {
             </p>
             <p>
               {language === 'fr'
-                ? "Traductrice de métier avant de me former au développement web, j'ai aussi une pratique artistique visuelle, et je m'inspire du monde vivant et de la nature."
-                : 'Before transitioning to web development, I pursued a career in translation. I also have a visual art practice and draw inspiration from the living world and nature.'}
+                ? "Traductrice littéraire, académique, tech et audiovisuelle avant de me former au développement web, j'ai aussi une pratique artistique visuelle, et je m'inspire du monde vivant et de la nature."
+                : 'Before web development, I pursued a career in literary, academic, audiovisual and tech related translation. I also have a visual art practice and draw inspiration from the living world and nature.'}
             </p>
             <p>
               {language === 'fr'
@@ -50,7 +50,7 @@ const Home = () => {
           </h3>
           <h3>Marseille</h3>
           <div className="bio-icons">
-            <button id="download-cv">
+            <button title="télécharger mon cv" id="download-cv">
               <img
                 src={cvIcon}
                 alt="télécharger le résumé"
@@ -83,10 +83,7 @@ const Home = () => {
             </a>
           </div>
         </article>
-        <article
-          id="contact"
-          className="main-card side-card right-card"
-        >
+        <article id="contact" className="main-card side-card right-card">
           <h2>
             {language === 'fr' ? 'Entrons en connexion' : 'Get connected'}
           </h2>
@@ -95,12 +92,18 @@ const Home = () => {
       </section>
       <section id="projects">
         <article className="main-card bottom-card">
-          <h2>{language === 'fr' ? 'Mes projets' : 'My projects'}</h2>
+          <HashLink className="bottom-card-title" to="#carousel">
+            <h2>{language === 'fr' ? 'Mes projets' : 'My projects'}</h2>
+            <img width="30px" height="30px" src={projectIcon} />
+          </HashLink>
           <Carousel />
         </article>
       </section>
-      <section id="skills" className="main-card bottom-card">
-        <h2>{language === 'fr' ? 'Compétences' : 'Skills'}</h2>
+      <section id="skills" className="main-card skill-card">
+        <span className="bottom-card-title">
+          <h2>{language === 'fr' ? 'Compétences' : 'Skills'}</h2>
+          <img width="30px" height="30px" src={skillsIcon} />
+        </span>
         <div className="tags">
           <img
             src="https://i.picasion.com/gl/92/hgR0.gif"

@@ -2,95 +2,89 @@
   {
     "id": "p1",
     "imagePath": "/fannilestar/images/project-images/kasa/kasa1.jpg",
-    "videoPath": "#",
     "title": "Kasa",
     "descriptionShort": {
-      "fr": "Application web de location immobilière avec React",
-      "en": "Accommodation renting platform"
+      "fr": "Une plateforme conviviale de location d'hébergements construite avec React, offrant des annonces détaillées de propriétés.",
+      "en": "A user-friendly accommodation rental platform built with React, offering detailed property listings."
     },
     "descriptionLong": {
-      "fr": "Application web de location immobilière",
-      "en": "Accommodation renting platform"
+      "fr": "Construit avec create-react-app et react-router, récupération simulée des annonces d'appartements depuis une API, pages individuelles pour chaque appartement, composants réutilisables (bannière, tags, cartes, carousel), carousel réactif différent sur mobile et bureau, filtre déroulant sur les pages Apartment et About, reproduction du design à partir d'une maquette Figma.",
+      "en": "Built with create-react-app and react-router, Simulated API fetch for apartment listings, Individual pages for each apartment, Reusable components (banner, tags, cards, carousel), Responsive carousel differing on mobile and desktop, Dropdown filter on Apartment and About pages, Design replication from a Figma maquette."
     },
     "githubLink": "https://github.com/voidermalie/kasa2",
-    "liveDemo": "https://voidermalie.com/kasa2"
+    "liveDemo": "https://voidermalie.github.io/kasa2"
   },
   {
     "id": "p2",
     "imagePath": "/fannilestar/images/project-images/kanap/kanap1.jpg",
-    "videoPath": "#",
     "title": "Kanap",
     "descriptionShort": {
-      "fr": "Site e-commerce de vente de mobilier avec système de panier",
-      "en": "E-commerce platform for buying furniture with shopping cart"
+      "fr": "Une plateforme e-commerce offrant une expérience d'achat dynamique avec un panier persistant.",
+      "en": "An e-commerce platform offering a dynamic shopping experience with a persistent shopping cart."
     },
     "descriptionLong": {
-      "fr": "Site e-commerce pour acheter du mobilier avec système de panier",
-      "en": "E-commerce platform where you can buy furniture with shopping cart"
+      "fr": "Entièrement construit en JavaScript natif, récupération dynamique des produits depuis une API, manipulation du DOM pour l'affichage des produits, panier d'achat fonctionnel avec sélection de couleur et de quantité, expérience d'achat persistante avec localStorage, mises à jour en temps réel du panier pour la quantité totale et le montant total dû.",
+      "en": "Built entirely in vanilla JavaScript, Dynamic product fetching from API, DOM manipulation for product display, Functional shopping cart with color and quantity selection, Persistent shopping experience with localStorage, Real-time cart updates for total quantity and total amount due."
     },
-    "githubLink": "https://github.com/voidermalie/kanap",
+    "githubLink": "https://github.com/voidermalie/kanap-front",
     "liveDemo": "https://kanap-front-eta.vercel.app/"
   },
   {
     "id": "p3",
     "imagePath": "/fannilestar/images/project-images/ohmyfood/ohmyfood1.jpg",
-    "videoPath": "#",
     "title": "OhmyFood",
     "descriptionShort": {
-      "fr": "Site de réservation de repas mobile-first avec animations CSS3",
-      "en": "Mobile-first food reservation site with CSS animations"
+      "fr": " Un site interactif de réservation de repas, axé sur les appareils mobiles, avec des animations CSS dynamiques.",
+      "en": "An interactive, mobile-first food reservation site featuring lively CSS animations."
     },
     "descriptionLong": {
-      "fr": "Site de réservation de repas",
-      "en": "Food reservation site"
+      "fr": "Design axé sur les appareils mobiles, animations dynamiques avec des keyframes et des transitions CSS, spinner de chargement de page, animations déclenchées par des actions (hover, clic), adaptation aux différentes tailles d'écran, reproduction du design à partir d'une maquette.",
+      "en": "Mobile-first design, Dynamic CSS keyframe and transition animations, Page load spinner, Action-triggered animations (hover, click), Responsive to various screen sizes, Design replication from a maquette."
     },
     "githubLink": "https://github.com/voidermalie/ohmyfood",
-    "liveDemo": "https://voidermalie.com/ohmyfood"
+    "liveDemo": "https://voidermalie.github.io/ohmyfood"
   },
   {
     "id": "p4",
     "imagePath": "/fannilestar/images/project-images/booki/booki1.jpg",
-    "videoPath": "#",
     "title": "Booki",
     "descriptionShort": {
-      "fr": "Site de réservation d'hébergements responsive",
-      "en": "Accomodation booking website with responsive design"
+      "fr": "Un site de réservation d'hébergement responsive avec une mise en page claire et du contenu organisé.",
+      "en": "A responsive accommodation booking website with a clean layout and organized content."
     },
     "descriptionLong": {
-      "fr": "Site de réservation d'hébergements",
-      "en": "Accomodation booking website"
+      "fr": "Design responsive, structure HTML sémantique, fonctionnalité de recherche et de filtrage simulée, cartes interactives d'informations sur les hôtels, points forts des principaux sites touristiques, reproduction du design à partir d'une maquette.",
+      "en": "Responsive design, Semantic HTML structure, Simulated search and filter functionality, Interactive information cards for hotels, Highlights of key sightseeing spots, Design replication from a maquette."
     },
     "githubLink": "https://github.com/voidermalie/booki",
-    "liveDemo": "https://voidermalie.com/booki"
+    "liveDemo": "https://voidermalie.github.io/booki"
   },
   {
     "id": "p5",
     "imagePath": "/fannilestar/images/project-images/hottakes/hottakes1.jpg",
-    "videoPath": "#",
     "title": "Piiquante",
     "descriptionShort": {
-      "fr": "API sécurisée et actions CRUD pour une application d'avis gastronomiques",
-      "en": "Secure API and CRUD actions for a culinary review application"
+      "fr": "Une plateforme sécurisée d'avis culinaires avec inscription des utilisateurs, publication de recettes et fonctionnalités de notation.",
+      "en": "A secure culinary review platform with user registration, recipe publishing, and rating functionalities"
     },
     "descriptionLong": {
-      "fr": "API sécurisée pour une application d'avis gastronomiques",
-      "en": "Secure API for a culinary review application"
+      "fr": "Une API REST sécurisée avec actions CRUD. Inscription et connexion des utilisateurs, possibilité pour les utilisateurs de publier des recettes de sauces piquantes, système de notation pour les recettes, construit avec Express.js, MongoDB, Mongoose et multer pour la gestion des données, sécurité renforcée avec bcrypt, jsonwebtoken, helmet et dotenv.",
+      "en": "Secure REST API with CRUD actions. User registration and login, Ability for users to publish hot sauce recipes, Rating system for recipes, Built with Express.js, MongoDB, Mongoose and multer for data handling, Enhanced security with bcrypt, jsonwebtoken, helmet, and dotenv."
     },
-    "githubLink": "https://github.com/voidermalie/Piiquante",
+    "githubLink": "https://github.com/voidermalie/hottakes-back",
     "liveDemo": "https://hottakes-front.vercel.app/"
   },
   {
     "id": "p6",
     "imagePath": "/fannilestar/images/project-images/panthera/panthera1.jpg",
-    "videoPath": "#",
     "title": "Panthera",
     "descriptionShort": {
-      "fr": "Optimisation SEO et Accessibilité d'un site",
-      "en": "Optimization SEO and Accessibility of a website"
+      "fr": "Un site web optimisé avec succès respectant les meilleures pratiques en matière de référencement, d'accessibilité et de performance.",
+      "en": "A successfully optimized website adhering to best practices in SEO, accessibility, and performance."
     },
     "descriptionLong": {
-      "fr": "Optimisation SEO et Accessibilité d'un site",
-      "en": "SEO and optimization of a website"
+      "fr": "Optimisé pour le référencement et l'accessibilité selon les règles WCAG, performances améliorées vérifiées par les outils Lighthouse et Wave de Google, vérification des contrastes pour une meilleure visibilité, scores SEO, accessibilité et performances améliorés à 100, 100 et 98 respectivement.",
+      "en": "Optimized for SEO and accessibility to WCAG rules, Improved performance verified by Google's Lighthouse and Wave tools, Contrast checks for improved visibility, Boosted SEO, accessibility and performance scores to 100, 100 and 98 respectively."
     },
     "githubLink": "https://github.com/voidermalie/panthera_new",
     "liveDemo": "https://voidermalie.github.io/panthera_new/"
