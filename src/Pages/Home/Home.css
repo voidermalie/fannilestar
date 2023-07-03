@@ -118,8 +118,8 @@ button {
   right: 0;
 }
 
-#projects {
-  margin-top: 350px;
+#nav2 {
+  margin-top: 360px;
 }
 
 #contact {
@@ -175,7 +175,7 @@ button {
     transform: translateX(0) translateY(0);
   }
 }
-
+/*
 @keyframes moveAround2 {
   0% {
     transform: translateX(0) translateY(0);
@@ -193,8 +193,8 @@ button {
     transform: translateX(0) translateY(0);
   }
 }
+*/
 
-/*
 @keyframes moveAround3 {
   0% {
     transform: translateX(0) translateY(0);
@@ -212,7 +212,7 @@ button {
     transform: translateX(0) translateY(0);
   }
 }
-*/
+
 .side-card:hover {
   animation-play-state: paused;
   transform: translate(0) !important;

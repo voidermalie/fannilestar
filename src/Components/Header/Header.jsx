@@ -1,8 +1,6 @@
 import './Header.css';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse } from '@fortawesome/free-solid-svg-icons';
-import DarkModeButton from '../DarkModeButton/DarkModeButton';
+
 import LanguageButton from '../LanguageButton/LanguageButton';
 import seaAngel from '../../assets/sea_angel.gif';
 
@@ -14,11 +12,7 @@ const Header = () => {
       <img src={seaAngel} alt="Sea Angel saying hello" id="sea-angel" />
       </Link>
       <nav>
-        <Link className="nav" to="/" aria-label="Accueil">
-          {<FontAwesomeIcon icon={faHouse} />}
-        </Link>
         <LanguageButton />
-        <DarkModeButton className="nav-darkmode"/>
       </nav>
     </header>
   );

@@ -10,8 +10,8 @@ import linkedinIcon from '../../assets/icons/linkedin.svg';
 import { useContext } from 'react';
 import { LanguageContext } from '../../contexts/LanguageContext';
 
-import projectIcon from '../../assets/project_icon.ico';
-import skillsIcon from '../../assetS/skills_icon.ico';
+import projectIcon from '../../assets/portfolio.svg';
+//import skillsIcon from '../../assets/coding2.svg';
 
 const Home = () => {
   console.log('bonjour');
@@ -90,20 +90,18 @@ const Home = () => {
           <ContactForm className="contact-form" />
         </article>
       </section>
-      <section id="projects">
-        <article className="main-card bottom-card">
-          <HashLink className="bottom-card-title" to="#carousel">
-            <h2>{language === 'fr' ? 'Mes projets' : 'My projects'}</h2>
-            <img width="30px" height="30px" src={projectIcon} />
-          </HashLink>
-          <Carousel />
-        </article>
+      <section id="nav2">
+        <HashLink className="nav2-link" to="#carousel">
+          <img width="60px" height="60px" src={projectIcon} />
+        </HashLink>
       </section>
+      <article className="main-card bottom-card">
+        <Carousel />
+      </article>
       <section id="skills" className="main-card skill-card">
-        <span className="bottom-card-title">
+        <div className="bottom-card-title">
           <h2>{language === 'fr' ? 'Compétences' : 'Skills'}</h2>
-          <img width="30px" height="30px" src={skillsIcon} />
-        </span>
+        </div>
         <div className="tags">
           <img
             src="https://i.picasion.com/gl/92/hgR0.gif"
