@@ -4,8 +4,8 @@
     "imagePath": "/fannilestar/images/project-images/kasa/kasa1.jpg",
     "title": "Kasa",
     "descriptionShort": {
-      "fr": "Une plateforme conviviale de location d'hébergements construite avec React, offrant des annonces détaillées de propriétés.",
-      "en": "A user-friendly accommodation rental platform built with React, offering detailed property listings."
+      "fr": "Une plateforme de location d'hébergements construite avec React",
+      "en": "Accommodation rental platform built with React"
     },
     "descriptionLong": {
       "fr": "Construit avec create-react-app et react-router, récupération simulée des annonces d'appartements depuis une API, pages individuelles pour chaque appartement, composants réutilisables (bannière, tags, cartes, carousel), carousel réactif différent sur mobile et bureau, filtre déroulant sur les pages Apartment et About, reproduction du design à partir d'une maquette Figma.",

@@ -40,7 +40,7 @@ const ProjectPopup = ({ id, setIsOpen }) => {
           />
           <div>
             <h3>{language === 'fr' ? 'Fonctionnalités' : 'Features'}</h3>
-            <ul>
+            <ul className='features-list'>
               <li>{project.descriptionLong[language]}</li>
             </ul>
           </div>
