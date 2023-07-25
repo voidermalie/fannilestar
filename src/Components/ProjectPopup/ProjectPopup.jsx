@@ -33,21 +33,19 @@ const ProjectPopup = ({ id, setIsOpen }) => {
         </header>
         <section className='project-body'>
         <div className='project-content'>
-          <img
-            className="project-image project-image-project-page"
-            src={project.imagePath}
-            alt={project.title}
-          />
           <div>
             <h3>{language === 'fr' ? 'Fonctionnalités' : 'Features'}</h3>
             <ul className='features-list'>
-              <li>{project.descriptionLong[language]}</li>
+              {project.descriptionLong[language].map(item => <li key={item.id}>{item.text}</li>)}
             </ul>
           </div>
         </div>
         <div className="project-links">
           <a href={project.githubLink} target="_blank" rel="noreferrer">GitHub</a>
           <a href={project.liveDemo} target="_blank" rel="noreferrer">Live Demo</a>
+        </div>
+        <div>
+        <img src="/fannilestar/src/assets/mimic_octopus.gif" alt="Octopus swimming jolly" className="sea-gif"></img>
         </div>
         </section>
       </div>

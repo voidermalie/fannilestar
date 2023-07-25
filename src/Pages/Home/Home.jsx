@@ -101,13 +101,13 @@ const Home = () => {
       </article>
       <section id="nav3">
         <HashLink className="nav3-link" to="#skills">
-          <img width="100px" height="60px" src={skillsIcon} />
+          <img width="60px" height="60px" src={skillsIcon} />
         </HashLink>
       </section>
       <section id="skills" className="main-card skill-card">
         <div className="bottom-card-title">
           <h2>{language === 'fr' ? 'Compétences' : 'Skills'}</h2>
-          <img src="/fannilestar/src/assets/octy.gif" alt="Octopus swimming jolly" className="sea-gif"></img>
+          <img src="/fannilestar/src/assets/octy.gif" alt="Octopus having a jolly a good time" className="sea-gif"></img>
         </div>
         <div className="tags">
           <img
