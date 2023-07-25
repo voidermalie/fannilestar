@@ -1,3 +1,15 @@
-.glitter {
-width: 40%;
+.glitters-container {
+display: flex;
+flex-direction: column;
+gap: 16px;
 }
+
+/*
+.glitters-group1 {
+    align-self: flex-start;
+}
+
+.glitters-group2 {
+    align-self: flex-end;
+}
+*/

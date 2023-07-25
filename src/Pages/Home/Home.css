@@ -17,7 +17,7 @@ p {
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 100vh;
+  height: 75vh;
 }
 
 #bio {
@@ -126,6 +126,11 @@ button {
   justify-content: flex-start; 
   align-items: flex-end; 
   padding: 40px;
+}
+
+#nav3 {
+  margin-top: -16px;
+  margin-bottom: 80px;
 }
 
 #contact {
@@ -294,6 +299,7 @@ button {
 
 .bottom-card-title {
   display: flex;
+  justify-content: space-between;
   gap: 15px;
   align-items: center;
   padding-bottom: 30px;
@@ -302,6 +308,7 @@ button {
 .bottom-card-title:hover {
   color: #F5F0F0;
 }
+
 /*
 .skill-card:hover .glitters-container {
   filter: none;

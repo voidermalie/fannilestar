@@ -1,4 +1,6 @@
 footer {
     display: flex;
     justify-content: space-around;
+    margin-top: 56px;
+    margin-bottom: 24px;
 }

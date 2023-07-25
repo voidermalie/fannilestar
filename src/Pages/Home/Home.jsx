@@ -1,5 +1,6 @@
 import './Home.css';
 import { HashLink } from 'react-router-hash-link';
+
 import ContactForm from '../../Components/ContactForm/ContactForm';
 import Carousel from '../../Components/Carousel/Carousel';
 import Glitters from '../../Components/Glitters/Glitters';
@@ -11,7 +12,7 @@ import { useContext } from 'react';
 import { LanguageContext } from '../../contexts/LanguageContext';
 
 import projectIcon from '../../assets/portfolio.svg';
-//import skillsIcon from '../../assets/coding2.svg';
+import skillsIcon from '../../assets/coding2.svg';
 
 const Home = () => {
   console.log('bonjour');
@@ -91,16 +92,22 @@ const Home = () => {
         </article>
       </section>
       <section id="nav2">
-        <HashLink className="nav2-link" to="#carousel">
+        <HashLink className="nav2-link" to="#projects">
           <img width="60px" height="60px" src={projectIcon} />
         </HashLink>
       </section>
-      <article className="main-card bottom-card" id="carousel">
+      <article className="main-card bottom-card" id="projects">
         <Carousel />
       </article>
+      <section id="nav3">
+        <HashLink className="nav3-link" to="#skills">
+          <img width="100px" height="60px" src={skillsIcon} />
+        </HashLink>
+      </section>
       <section id="skills" className="main-card skill-card">
         <div className="bottom-card-title">
           <h2>{language === 'fr' ? 'Compétences' : 'Skills'}</h2>
+          <img src="/fannilestar/src/assets/octy.gif" alt="Octopus swimming jolly" className="sea-gif"></img>
         </div>
         <div className="tags">
           <img
