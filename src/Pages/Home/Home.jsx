@@ -51,7 +51,7 @@ const Home = () => {
           </h3>
           <h3>Marseille</h3>
           <div className="bio-icons">
-            <button title="télécharger mon cv" id="download-cv">
+            <a title="télécharger mon cv" id="download-cv" href={"/fannilestar/cv_fannilestar_2023.pdf"} download>
               <img
                 src={cvIcon}
                 alt="télécharger le résumé"
@@ -59,7 +59,7 @@ const Home = () => {
                 height="40px"
                 className="bio-icon"
               />
-            </button>
+            </a>
             <a
               href="https://github.com/voidermalie/"
               target="blank"

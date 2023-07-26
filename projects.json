@@ -13,7 +13,7 @@
         {"id": "p1_fr_2", "text": "Récupération simulée des annonces d'appartements depuis une API"},
         {"id": "p1_fr_3", "text": "Pages individuelles pour chaque appartement"},
         {"id": "p1_fr_4", "text": "Composants réutilisables (bannière, tags, cartes, carousel)"},
-        {"id": "p1_fr_5", "text": "Carousel réactif différent sur mobile et bureau"},
+        {"id": "p1_fr_5", "text": "Carousel responsive"},
         {"id": "p1_fr_6", "text": "Filtre déroulant sur les pages Apartment et About"},
         {"id": "p1_fr_7", "text": "Reproduction du design à partir d'une maquette Figma"}
       ],
@@ -22,7 +22,7 @@
         {"id": "p1_en_2", "text": "Simulated API fetch for apartment listings"},
         {"id": "p1_en_3", "text": "Individual pages for each apartment"},
         {"id": "p1_en_4", "text": "Reusable components (banner, tags, cards, carousel)"},
-        {"id": "p1_en_5", "text": "Responsive carousel differing on mobile and desktop"},
+        {"id": "p1_en_5", "text": "Responsive carousel"},
         {"id": "p1_en_6", "text": "Dropdown filter on Apartment and About pages"},
         {"id": "p1_en_7", "text": "Design replication from a Figma maquette"}
       ]
@@ -40,19 +40,19 @@
     },
     "descriptionLong": {
       "fr": [
-        {"id": "p2_fr_1", "text": "Entièrement construit en JavaScript natif"},
+        {"id": "p2_fr_1", "text": "Programmation du logique en JavaScript pur"},
         {"id": "p2_fr_2", "text": "Récupération dynamique des produits depuis une API"},
         {"id": "p2_fr_3", "text": "Manipulation du DOM pour l'affichage des produits"},
-        {"id": "p2_fr_4", "text": "Panier d'achat fonctionnel avec sélection de couleur et de quantité"},
-        {"id": "p2_fr_5", "text": "Expérience d'achat persistante avec localStorage"},
+        {"id": "p2_fr_4", "text": "Panier d'achat avec sélection de couleur et de quantité"},
+        {"id": "p2_fr_5", "text": "Panier persistant avec localStorage"},
         {"id": "p2_fr_6", "text": "Mises à jour en temps réel du panier pour la quantité totale et le montant total dû"}
       ],
       "en": [
         {"id": "p2_en_1", "text": "Built entirely in vanilla JavaScript"},
         {"id": "p2_en_2", "text": "Dynamic product fetching from API"},
         {"id": "p2_en_3", "text": "DOM manipulation for product display"},
-        {"id": "p2_en_4", "text": "Functional shopping cart with color and quantity selection"},
-        {"id": "p2_en_5", "text": "Persistent shopping experience with localStorage"},
+        {"id": "p2_en_4", "text": "Shopping cart with color and quantity selection"},
+        {"id": "p2_en_5", "text": "Persisent shopping cart with localStorage"},
         {"id": "p2_en_6", "text": "Real-time cart updates for total quantity and total amount due"}
       ]
     },
@@ -69,20 +69,18 @@
     },
     "descriptionLong": {
       "fr": [
-        {"id": "p3_fr_1", "text": "Design axé sur les appareils mobiles"},
+        {"id": "p3_fr_1", "text": "Intégration d'une maquette axée sur les appareils mobiles"},
         {"id": "p3_fr_2", "text": "Animations dynamiques avec des keyframes et des transitions CSS"},
         {"id": "p3_fr_3", "text": "Spinner de chargement de page"},
         {"id": "p3_fr_4", "text": "Animations déclenchées par des actions (hover, clic)"},
-        {"id": "p3_fr_5", "text": "Adaptation aux différentes tailles d'écran"},
-        {"id": "p3_fr_6", "text": "Reproduction du design à partir d'une maquette"}
+        {"id": "p3_fr_5", "text": "Adaptation aux différentes tailles d'écran"}
       ],
       "en": [
-        {"id": "p3_en_1", "text": "Mobile-first design"},
-        {"id": "p3_en_2", "text": "Dynamic CSS keyframe and transition animations"},
+        {"id": "p3_en_1", "text": "Integration of a mobile-first mock-up"},
+        {"id": "p3_en_2", "text": "Dynamic CSS with keyframes and transition animations"},
         {"id": "p3_en_3", "text": "Page load spinner"},
         {"id": "p3_en_4", "text": "Action-triggered animations (hover, click)"},
-        {"id": "p3_en_5", "text": "Responsive to various screen sizes"},
-        {"id": "p3_en_6", "text": "Design replication from a maquette"}
+        {"id": "p3_en_5", "text": "Responsive to various screen sizes"}
       ]
     },
     "githubLink": "https://github.com/voidermalie/ohmyfood",
@@ -93,20 +91,20 @@
     "imagePath": "/fannilestar/images/project-images/booki/booki1.jpg",
     "title": "Booki",
     "descriptionShort": {
-      "fr": "Un site de réservation d'hébergement responsive avec une mise en page claire et du contenu organisé.",
+      "fr": "Un site de réservation d'hébergement réactif avec une mise en page claire et du contenu organisé.",
       "en": "A responsive accommodation booking website with a clean layout and organized content."
     },
     "descriptionLong": {
       "fr": [
-        {"id": "p4_fr_1", "text": "Design responsive"},
+        {"id": "p4_fr_1", "text": "Intégration réactif à partir d'une maquette"},
         {"id": "p4_fr_2", "text": "Structure HTML sémantique"},
-        {"id": "p4_fr_3", "text": "Fonctionnalité de recherche et de filtrage simulée"},
-        {"id": "p4_fr_4", "text": "Cartes interactives d'informations sur les hôtels"},
+        {"id": "p4_fr_3", "text": "Fonctionnalité de recherche et de filtrage simulés"},
+        {"id": "p4_fr_4", "text": "Cartes d'informations interactives sur les hôtels"},
         {"id": "p4_fr_5", "text": "Points forts des principaux sites touristiques"},
         {"id": "p4_fr_6", "text": "Reproduction du design à partir d'une maquette"}
       ],
       "en": [
-        {"id": "p4_en_1", "text": "Responsive design"},
+        {"id": "p4_en_1", "text": "Responsive integration from a mock-up"},
         {"id": "p4_en_2", "text": "Semantic HTML structure"},
         {"id": "p4_en_3", "text": "Simulated search and filter functionality"},
         {"id": "p4_en_4", "text": "Interactive information cards for hotels"},
