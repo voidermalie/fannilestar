@@ -18,7 +18,7 @@ import AccessibiliteGlitter from '../../assets/glitters/accessibilite.gif';
 
 import AnglaisGlitter from '../../assets/glitters/anglais.gif';
 import EnglishGlitter from '../../assets/glitters/English.gif';
-import FrançaisGlitter from '../../assets/glitters/français.gif';
+import FrancaisGlitter from '../../assets/glitters/français.gif';
 import FrenchGlitter from '../../assets/glitters/French.gif';
 import HongroisGlitter from '../../assets/glitters/hongrois.gif';
 import HungarianGlitter from '../../assets/glitters/Hungarian.gif';
@@ -54,7 +54,7 @@ const Glitters = () => {
       </div>
       <div className="glitters-group1">
       <img className="glitter" alt="anglais" src={language === 'fr' ? AnglaisGlitter : EnglishGlitter}/>
-      <img className="glitter" alt="français" src={language === 'fr' ? FrançaisGlitter : FrenchGlitter}/>
+      <img className="glitter" alt="français" src={language === 'fr' ? FrancaisGlitter : FrenchGlitter}/>
       <img className="glitter" alt="hongrois" src={language === 'fr' ? HongroisGlitter : HungarianGlitter}/>
       <img className="glitter" alt="espagnol" src={language === 'fr' ? EspagnolGlitter : SpanishGlitter}/>
       </div>
