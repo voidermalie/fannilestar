@@ -18,7 +18,7 @@ import AccessibiliteGlitter from '../../assets/glitters/accessibilite.gif';
 
 import AnglaisGlitter from '../../assets/glitters/anglais.gif';
 import EnglishGlitter from '../../assets/glitters/English.gif';
-import FrancaisGlitter from '../../assets/glitters/français.gif';
+import FrancaisGlitter from '../../assets/glitters/francais.gif';
 import FrenchGlitter from '../../assets/glitters/French.gif';
 import HongroisGlitter from '../../assets/glitters/hongrois.gif';
 import HungarianGlitter from '../../assets/glitters/Hungarian.gif';

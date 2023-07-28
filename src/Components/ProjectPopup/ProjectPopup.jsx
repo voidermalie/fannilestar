@@ -3,6 +3,8 @@ import { ProjectContext } from '../../contexts/ProjectContext';
 import { LanguageContext } from '../../contexts/LanguageContext';
 import { useContext, useState, useEffect } from 'react';
 
+import MimicOctopus from '../../assets/mimic_octopus.gif'
+
 const ProjectPopup = ({ id, setIsOpen }) => {
   const { language } = useContext(LanguageContext);
   const projects = useContext(ProjectContext);
@@ -45,7 +47,7 @@ const ProjectPopup = ({ id, setIsOpen }) => {
           <a href={project.liveDemo} target="_blank" rel="noreferrer">Live Demo</a>
         </div>
         <div>
-        <img src="/fannilestar/src/assets/mimic_octopus.gif" alt="Octopus swimming jolly" className="sea-gif"></img>
+        <img src={MimicOctopus} alt="Pieuvre mimétique" className="sea-gif"></img>
         </div>
         </section>
       </div>
