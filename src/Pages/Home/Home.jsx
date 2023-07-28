@@ -13,6 +13,8 @@ import { LanguageContext } from '../../contexts/LanguageContext';
 
 import projectIcon from '../../assets/portfolio.svg';
 import skillsIcon from '../../assets/coding2.svg';
+import Octy from '../../assets/octy.gif';
+
 
 const Home = () => {
   console.log('bonjour');
@@ -107,37 +109,7 @@ const Home = () => {
       <section id="skills" className="main-card skill-card">
         <div className="bottom-card-title">
           <h2>{language === 'fr' ? 'Compétences' : 'Skills'}</h2>
-          <img src="/fannilestar/src/assets/octy.gif" alt="Octopus having a jolly a good time" className="sea-gif"></img>
-        </div>
-        <div className="tags">
-          <img
-            src="https://i.picasion.com/gl/92/hgR0.gif"
-            width="74"
-            height="16"
-            border="0"
-            alt="HTML"
-          />
-          <img
-            src="https://i.picasion.com/gl/92/hgRj.gif"
-            width="45"
-            height="16"
-            border="0"
-            alt="CSS"
-          />
-          <img
-            src="https://i.picasion.com/gl/92/hgRm.gif"
-            width="130"
-            height="19"
-            border="0"
-            alt="JavaScript"
-          />
-          <img
-            src="https://i.picasion.com/gl/92/hgRq.gif"
-            width="70"
-            height="16"
-            border="0"
-            alt="React"
-          />
+          <img src={Octy} alt="Octopus having a jolly a good time" className="sea-gif"></img>
         </div>
         <div>
           <Glitters />
