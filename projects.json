@@ -4,27 +4,23 @@
     "imagePath": "/fannilestar/images/project-images/kasa/kasa1.jpg",
     "title": "Kasa",
     "descriptionShort": {
-      "fr": "Une plateforme de location d'hébergements construite avec React",
-      "en": "Accommodation rental platform built with React"
+      "fr": "Une plateforme de location d'hébergements construite en React",
+      "en": "An accommodation rental platform built with React"
     },
     "descriptionLong": {
       "fr": [
-        {"id": "p1_fr_1", "text": "Construit avec create-react-app et react-router"},
+        {"id": "p1_fr_1", "text": "Application à page unique construite avec create-react-app et react-router pour une navigation fluide"},
         {"id": "p1_fr_2", "text": "Récupération simulée des annonces d'appartements depuis une API"},
-        {"id": "p1_fr_3", "text": "Pages individuelles pour chaque appartement"},
-        {"id": "p1_fr_4", "text": "Composants réutilisables (bannière, tags, cartes, carousel)"},
-        {"id": "p1_fr_5", "text": "Carousel responsive"},
-        {"id": "p1_fr_6", "text": "Filtre déroulant sur les pages Apartment et About"},
-        {"id": "p1_fr_7", "text": "Reproduction du design à partir d'une maquette Figma"}
+        {"id": "p1_fr_3", "text": "Développement de composants réutilisables (bannière, tags, cartes, dropdown, carousel, etc.) pour optimiser le code"},
+        {"id": "p1_fr_5", "text": "Fidèle reproduction du design à partir d'une maquette Figma"},
+        {"id": "p1_fr_6", "text": "Conception d'un site entièrement responsive pour une expérience utilisateur optimale"}
       ],
       "en": [
-        {"id": "p1_en_1", "text": "Built with create-react-app and react-router"},
-        {"id": "p1_en_2", "text": "Simulated API fetch for apartment listings"},
-        {"id": "p1_en_3", "text": "Individual pages for each apartment"},
-        {"id": "p1_en_4", "text": "Reusable components (banner, tags, cards, carousel)"},
-        {"id": "p1_en_5", "text": "Responsive carousel"},
-        {"id": "p1_en_6", "text": "Dropdown filter on Apartment and About pages"},
-        {"id": "p1_en_7", "text": "Design replication from a Figma maquette"}
+        {"id": "p1_en_1", "text": "Single page application built with create-react-app and react-router allowing seamless navigation"},
+        {"id": "p1_en_2", "text": "Implemented simulated API fetch to provide apartment listings"},
+        {"id": "p1_en_3", "text": "Constructed reusable components such as banner, tags, cards, dropdown, carousel, etc., optimizing code efficiency"},
+        {"id": "p1_en_5", "text": "Achieved accurate replication of design from Figma mock-ups"},
+        {"id": "p1_en_6", "text": "Delivered a fully responsive site ensuring an optimal user experience across various devices"}
       ]
     },
     "githubLink": "https://github.com/voidermalie/kasa2",
@@ -35,25 +31,28 @@
     "imagePath": "/fannilestar/images/project-images/kanap/kanap1.jpg",
     "title": "Kanap",
     "descriptionShort": {
-      "fr": "Une plateforme e-commerce offrant une expérience d'achat dynamique avec un panier persistant.",
-      "en": "An e-commerce platform offering a dynamic shopping experience with a persistent shopping cart."
+      "fr": "Une plateforme e-commerce offrant une expérience d'achat dynamique grâce au panier persistant",
+      "en": "An e-commerce platform that provides a dynamic shopping experience with a persistent shopping cart"
     },
     "descriptionLong": {
       "fr": [
-        {"id": "p2_fr_1", "text": "Programmation du logique en JavaScript pur"},
-        {"id": "p2_fr_2", "text": "Récupération dynamique des produits depuis une API"},
-        {"id": "p2_fr_3", "text": "Manipulation du DOM pour l'affichage des produits"},
-        {"id": "p2_fr_4", "text": "Panier d'achat avec sélection de couleur et de quantité"},
-        {"id": "p2_fr_5", "text": "Panier persistant avec localStorage"},
-        {"id": "p2_fr_6", "text": "Mises à jour en temps réel du panier pour la quantité totale et le montant total dû"}
+        {"id": "p2_fr_1", "text": "Développement complet en JavaScript pur"},
+        {"id": "p2_fr_2", "text": "Intégration dynamique de produits via une API"},
+        {"id": "p2_fr_3", "text": "Manipulation avancée du DOM pour la présentation des produits"},
+        {"id": "p2_fr_4", "text": "Création d'un panier persisant avec sélection de couleur et de quantité via localStorage"},
+        {"id": "p2_fr_5", "text": "Actualisation en temps réel du panier, incluant la quantité totale et le montant total dû"},
+        {"id": "p2_fr_6", "text": "Mise en place d'une vérification des entrées utilisateur dans le formulaire de contact"},
+        {"id": "p2_fr_7", "text": "Simulation d'une commande, avec confirmation et génération d'un numéro de commande"} 
       ],
       "en": [
-        {"id": "p2_en_1", "text": "Built entirely in vanilla JavaScript"},
-        {"id": "p2_en_2", "text": "Dynamic product fetching from API"},
-        {"id": "p2_en_3", "text": "DOM manipulation for product display"},
-        {"id": "p2_en_4", "text": "Shopping cart with color and quantity selection"},
-        {"id": "p2_en_5", "text": "Persisent shopping cart with localStorage"},
-        {"id": "p2_en_6", "text": "Real-time cart updates for total quantity and total amount due"}
+        {"id": "p2_en_1", "text": "Developed entirely in vanilla JavaScript"},
+        {"id": "p2_en_2", "text": "Integrated dynamic product fetching from an API"},
+        {"id": "p2_en_3", "text": "Performed advanced DOM manipulation for product display"},
+        {"id": "p2_en_4", "text": "Created a persistent cart with color and quantity selection using localStorage"},
+        {"id": "p2_en_5", "text": "Implemented real-time cart updates for total quantity and total amount due"},
+        {"id": "p2_en_6", "text": "Set up user input verification at the contact form"},
+        {"id": "p2_en_7", "text": "Simulated order placement with confirmation and order number generation"} 
+
       ]
     },
     "githubLink": "https://github.com/voidermalie/kanap-front",
@@ -64,23 +63,23 @@
     "imagePath": "/fannilestar/images/project-images/ohmyfood/ohmyfood1.jpg",
     "title": "OhmyFood",
     "descriptionShort": {
-      "fr": " Un site interactif de réservation de repas, axé sur les appareils mobiles, avec des animations CSS dynamiques.",
-      "en": "An interactive, mobile-first food reservation site featuring lively CSS animations."
+      "fr": " Un site de réservation de repas intéractif, axé sur les appareils mobiles, avec des animations CSS dynamiques",
+      "en": "An engaging, mobile-first food reservation site featuring dynamic CSS animations"
     },
     "descriptionLong": {
       "fr": [
-        {"id": "p3_fr_1", "text": "Intégration d'une maquette axée sur les appareils mobiles"},
-        {"id": "p3_fr_2", "text": "Animations dynamiques avec des keyframes et des transitions CSS"},
-        {"id": "p3_fr_3", "text": "Spinner de chargement de page"},
-        {"id": "p3_fr_4", "text": "Animations déclenchées par des actions (hover, clic)"},
-        {"id": "p3_fr_5", "text": "Adaptation aux différentes tailles d'écran"}
+        {"id": "p3_fr_1", "text": "Fidèle reproduction du design à partir d'une maquette Figma avec focus sur les appareils mobiles"},
+        {"id": "p3_fr_2", "text": "Création d'animations dynamiques avec des keyframes et des transitions CSS pour une interactivité accrue"},
+        {"id": "p3_fr_3", "text": "Mise en place d'un spinner de chargement de page pour améliorer l'UX pendant le chargement du contenu"},
+        {"id": "p3_fr_4", "text": "Développement d'animations déclenchées par des actions d'utilisateur pour augmenter l'engagement"},
+        {"id": "p3_fr_5", "text": "Adaptation à différentes tailles d'écran"}
       ],
       "en": [
-        {"id": "p3_en_1", "text": "Integration of a mobile-first mock-up"},
-        {"id": "p3_en_2", "text": "Dynamic CSS with keyframes and transition animations"},
-        {"id": "p3_en_3", "text": "Page load spinner"},
-        {"id": "p3_en_4", "text": "Action-triggered animations (hover, click)"},
-        {"id": "p3_en_5", "text": "Responsive to various screen sizes"}
+        {"id": "p3_en_1", "text": "Accurate design replication from a Figma mock-up focusing on mobiles"},
+        {"id": "p3_en_2", "text": "Crafted dynamic animations with CSS keyframes and transitions for increased interactivity"},
+        {"id": "p3_en_3", "text": "Implemented a page load spinner to enhance UX during content loading"},
+        {"id": "p3_en_4", "text": "Developed user action-triggered animations to increase user engagement"},
+        {"id": "p3_en_5", "text": "Optimized for various screen sizes"}
       ]
     },
     "githubLink": "https://github.com/voidermalie/ohmyfood",
@@ -91,25 +90,23 @@
     "imagePath": "/fannilestar/images/project-images/booki/booki1.jpg",
     "title": "Booki",
     "descriptionShort": {
-      "fr": "Un site de réservation d'hébergement réactif avec une mise en page claire et du contenu organisé.",
-      "en": "A responsive accommodation booking website with a clean layout and organized content."
+      "fr": "Un site de réservation d'hébergements responsive offrant une mise en page épurée et un contenu bien organisé",
+      "en": "A user-friendly, responsive accommodation booking website with a clean layout and well-structured content"
     },
     "descriptionLong": {
       "fr": [
-        {"id": "p4_fr_1", "text": "Intégration réactif à partir d'une maquette"},
-        {"id": "p4_fr_2", "text": "Structure HTML sémantique"},
-        {"id": "p4_fr_3", "text": "Fonctionnalité de recherche et de filtrage simulés"},
-        {"id": "p4_fr_4", "text": "Cartes d'informations interactives sur les hôtels"},
-        {"id": "p4_fr_5", "text": "Points forts des principaux sites touristiques"},
-        {"id": "p4_fr_6", "text": "Reproduction du design à partir d'une maquette"}
+        {"id": "p4_fr_1", "text": "Intégration responsive à partir d'une maquette pour une expérience utilisateur cohérente sur tous les appareils"},
+        {"id": "p4_fr_2", "text": "Création d'une structure HTML sémantique pour un meilleur référencement"},
+        {"id": "p4_fr_3", "text": "Fonctionnalités de recherche et de filtrage simulées"},
+        {"id": "p4_fr_4", "text": "Développement de cartes d'informations interactives sur les hôtels"},
+        {"id": "p4_fr_5", "text": "Mise en évidence des principaux sites touristiques"}
       ],
       "en": [
-        {"id": "p4_en_1", "text": "Responsive integration from a mock-up"},
-        {"id": "p4_en_2", "text": "Semantic HTML structure"},
-        {"id": "p4_en_3", "text": "Simulated search and filter functionality"},
-        {"id": "p4_en_4", "text": "Interactive information cards for hotels"},
-        {"id": "p4_en_5", "text": "Highlights of key sightseeing spots"},
-        {"id": "p4_en_6", "text": "Design replication from a maquette"}
+        {"id": "p4_en_1", "text": "Implemented responsive design from a mock-up for consistent user experience across devices"},
+        {"id": "p4_en_2", "text": "Constructed a semantic HTML structure for better SEO comprehension"},
+        {"id": "p4_en_3", "text": "Simulated search and filter functionalities"},
+        {"id": "p4_en_4", "text": "Developed interactive information cards for hotels"},
+        {"id": "p4_en_5", "text": "Highlighted key sightseeing spots"}
       ]
     },
     "githubLink": "https://github.com/voidermalie/booki",
@@ -120,25 +117,25 @@
     "imagePath": "/fannilestar/images/project-images/hottakes/hottakes1.jpg",
     "title": "Piiquante",
     "descriptionShort": {
-      "fr": "Une plateforme sécurisée d'avis culinaires avec inscription des utilisateurs, publication de recettes et fonctionnalités de notation.",
-      "en": "A secure culinary review platform with user registration, recipe publishing, and rating functionalities"
+      "fr": "Une plateforme sécurisée d'avis culinaires doté d'un système d'authentification, de publication et de notation",
+      "en": "A secure culinary review platform featuring user authentification, posting and rating functionalities"
     },
     "descriptionLong": {
       "fr": [
-        {"id": "p5_fr_1", "text": "Une API REST sécurisée avec actions CRUD"},
-        {"id": "p5_fr_2", "text": "Inscription et connexion des utilisateurs"},
-        {"id": "p5_fr_3", "text": "Possibilité pour les utilisateurs de publier des recettes de sauces piquantes"},
-        {"id": "p5_fr_4", "text": "Système de notation pour les recettes"},
-        {"id": "p5_fr_5", "text": "Construit avec Express.js, MongoDB, Mongoose et multer pour la gestion des données"},
-        {"id": "p5_fr_6", "text": "Sécurité renforcée avec bcrypt, jsonwebtoken, helmet et dotenv"}
+        {"id": "p5_fr_1", "text": "Construction d'une API REST sécurisée avec des actions CRUD complètes"},
+        {"id": "p5_fr_2", "text": "Mécanismes d'inscription et de connexion des utilisateurs"},
+        {"id": "p5_fr_3", "text": "Possibilité pour les utilisateurs de publier des critiques sur des sauces piquantes, complétées par des descriptions et des images"},
+        {"id": "p5_fr_4", "text": "Intégration dun système de notation pour évaluer les publications"},
+        {"id": "p5_fr_5", "text": "Conçu avec Express.js, MongoDB et Mongoose, ainsi que multer pour la gestion des données"},
+        {"id": "p5_fr_6", "text": "Sécurité renforcée grâce à l'utilisation de bcrypt pour le hachage des mots de passe, jsonwebtoken pour la gestion des tokens, helmet pour la sécurité HTTP, et dotenv pour la gestion des variables d'environnement"}
       ],
       "en": [
-        {"id": "p5_en_1", "text": "Secure REST API with CRUD actions"},
-        {"id": "p5_en_2", "text": "User registration and login"},
-        {"id": "p5_en_3", "text": "Ability for users to publish hot sauce recipes"},
-        {"id": "p5_en_4", "text": "Rating system for recipes"},
-        {"id": "p5_en_5", "text": "Built with Express.js, MongoDB, Mongoose and multer for data handling"},
-        {"id": "p5_en_6", "text": "Enhanced security with bcrypt, jsonwebtoken, helmet, and dotenv"}
+        {"id": "p5_en_1", "text": "Implemented a secure REST API with comprehensive CRUD actions"},
+        {"id": "p5_en_2", "text": "Established user registration and login mechanisms"},
+        {"id": "p5_en_3", "text": "Provided ability for users to post hot sauce reviews, supplemented with descriptions and images"},
+        {"id": "p5_en_4", "text": "Integrated a rating system to evaluate the posts"},
+        {"id": "p5_en_5", "text": "Engineered with Express.js, MongoDB and Mongoose for efficient data management, as well as multer for file handling"},
+        {"id": "p5_en_6", "text": "Fortified security by leveraging bcrypt for password hashing, jsonwebtoken for token management, helmet for HTTP security, and dotenv for environment variable management"}
       ]
     },
     "githubLink": "https://github.com/voidermalie/hottakes-back",
@@ -149,20 +146,20 @@
     "imagePath": "/fannilestar/images/project-images/panthera/panthera1.jpg",
     "title": "Panthera",
     "descriptionShort": {
-      "fr": "Un site web optimisé avec succès respectant les meilleures pratiques en matière de référencement, d'accessibilité et de performance.",
-      "en": "A successfully optimized website adhering to best practices in SEO, accessibility, and performance."
+      "fr": "Un site web optimisé pour respecter les standards en matière de référencement, d'accessibilité et de performance.",
+      "en": "An optimized website excelling in SEO, accessibility, and performance standards."
     },
     "descriptionLong": {
       "fr": [
-        {"id": "p6_fr_1", "text": "Optimisé pour le référencement et l'accessibilité selon les règles WCAG"},
-        {"id": "p6_fr_2", "text": "Performances améliorées vérifiées par les outils Lighthouse et Wave de Google"},
-        {"id": "p6_fr_3", "text": "Vérification des contrastes pour une meilleure visibilité"},
-        {"id": "p6_fr_4", "text": "Scores SEO, accessibilité et performances améliorés à 100, 100 et 98 respectivement"}
+        {"id": "p6_fr_1", "text": "Site optimisé pour le référencement (SEO) et l'accessibilité, en conformité avec les normes WCAG"},
+        {"id": "p6_fr_2", "text": "Performances optimisées, validées par les outils de vérification Lighthouse et Wave de Google"},
+        {"id": "p6_fr_3", "text": "Contrôle des contrastes pour assurer une visibilité optimale"},
+        {"id": "p6_fr_4", "text": "Scores boostés de SEO, d'accessibilité et de performance, atteignant respectivement 100, 100 et 98"}
       ],
       "en": [
-        {"id": "p6_en_1", "text": "Optimized for SEO and accessibility to WCAG rules"},
-        {"id": "p6_en_2", "text": "Improved performance verified by Google's Lighthouse and Wave tools"},
-        {"id": "p6_en_3", "text": "Contrast checks for improved visibility"},
+        {"id": "p6_en_1", "text": "Website optimized for SEO and accessibility in compliance with WCAG standards"},
+        {"id": "p6_en_2", "text": "Enhanced performance validated by Google's Lighthouse and Wave audit tools"},
+        {"id": "p6_en_3", "text": "Implemented contrast checks for optimal visibility"},
         {"id": "p6_en_4", "text": "Boosted SEO, accessibility and performance scores to 100, 100 and 98 respectively"}
       ]
     },
