@@ -1,7 +1,7 @@
 import './ProjectPopup.css';
 import { ProjectContext } from '../../contexts/ProjectContext';
 import { LanguageContext } from '../../contexts/LanguageContext';
-import { useContext, useState, useEffect, useRef } from 'react';
+import { useContext, useState, useEffect } from 'react';
 
 import MimicOctopus from '../../assets/mimic_octopus.gif'
 
@@ -18,18 +18,14 @@ const ProjectPopup = ({ id, setIsOpen }) => {
     };
   }, []);
 
-  const navLinkRef = useRef();
-
-
   return (
     <section className="popup-background">
       <button
         className="close-button"
         type="button"
         aria-label="fermer"
-        onClick={() => {
-          setIsOpen(false);
-        navLinkRef.current.focus()}}
+
+        onClick={() => { setIsOpen(false)}}
       >
         <span aria-hidden="true">&times;</span>
       </button>
@@ -51,7 +47,7 @@ const ProjectPopup = ({ id, setIsOpen }) => {
           <a href={project.githubLink} target="_blank" rel="noreferrer">GitHub</a>
           <a href={project.liveDemo} target="_blank" rel="noreferrer">Live Demo</a>
         </div>
-        <div>
+        <div id="mimic-octopus">
         <img src={MimicOctopus} alt="Pieuvre mimétique" className="sea-gif"></img>
         </div>
         </section>

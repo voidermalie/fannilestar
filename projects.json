@@ -99,7 +99,7 @@
         {"id": "p4_fr_2", "text": "Création d'une structure HTML sémantique pour un meilleur référencement"},
         {"id": "p4_fr_3", "text": "Fonctionnalités de recherche et de filtrage simulées"},
         {"id": "p4_fr_4", "text": "Développement de cartes d'informations interactives sur les hôtels"},
-        {"id": "p4_fr_5", "text": "Mise en évidence des principaux sites touristiques"}
+        {"id": "p4_fr_5", "text": "Mise en valeur des principaux sites touristiques"}
       ],
       "en": [
         {"id": "p4_en_1", "text": "Implemented responsive design from a mock-up for consistent user experience across devices"},

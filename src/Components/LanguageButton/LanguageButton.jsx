@@ -12,7 +12,7 @@ const LanguageButton = () => {
   };
 
   return (
-    <button onClick={handleLanguageSwitch}>
+    <button id="language-button" onClick={handleLanguageSwitch}>
       {language === 'fr' ? 'EN' : 'FR'}
     </button>
   );
