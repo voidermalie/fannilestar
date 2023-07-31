@@ -1,7 +1,7 @@
 import './ProjectPopup.css';
 import { ProjectContext } from '../../contexts/ProjectContext';
 import { LanguageContext } from '../../contexts/LanguageContext';
-import { useContext, useState, useEffect } from 'react';
+import { useContext, useState, useEffect, useRef } from 'react';
 
 import MimicOctopus from '../../assets/mimic_octopus.gif'
 
@@ -18,13 +18,18 @@ const ProjectPopup = ({ id, setIsOpen }) => {
     };
   }, []);
 
+  const navLinkRef = useRef();
+
+
   return (
     <section className="popup-background">
       <button
         className="close-button"
         type="button"
         aria-label="fermer"
-        onClick={() => setIsOpen(false)}
+        onClick={() => {
+          setIsOpen(false);
+        navLinkRef.current.focus()}}
       >
         <span aria-hidden="true">&times;</span>
       </button>
