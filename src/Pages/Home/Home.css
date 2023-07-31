@@ -334,4 +334,16 @@ button {
   #nav3 {
     padding: 40px;
   }
+
+  #skills {
+    border: none;
+    box-shadow: none;
+  }
+
+  .main-card {
+    padding: 16px;
+  }
+  .carousel h2 {
+    padding: 30px;
+  }
 }
