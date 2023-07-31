@@ -7,7 +7,7 @@ import seaAngel from '../../assets/sea_angel.gif';
 const Header = () => {
 
   return (
-    <header>
+    <header id="main-header">
       <Link to="/" aria-label="Accueil" id="sea-angel-link">
       <img src={seaAngel} alt="Sea Angel saying hello" className="sea-gif" />
       </Link>
