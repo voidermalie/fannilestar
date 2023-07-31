@@ -325,3 +325,13 @@ button {
   visibility: visible!important;
 }
 */
+
+@media (max-width: 768px) {
+  .page-content {
+    margin: 0;
+  }
+
+  #nav3 {
+    padding: 40px;
+  }
+}
