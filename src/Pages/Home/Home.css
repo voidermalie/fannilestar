@@ -308,8 +308,6 @@ button {
   .side-card:hover,
   .left-card:hover,
   .right-card:hover {
-    left: 0;
-    right: 0;
     transform: translate(-50%, -50%); /* Center card */
     top: 50%; /* Position at middle of viewport */
     left: 50%; /* Position at middle of viewport */
