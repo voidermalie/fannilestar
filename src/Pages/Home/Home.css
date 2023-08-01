@@ -372,13 +372,14 @@ button {
   }
 
   .main-card {
-    padding: 16px;
-  }
-  .carousel h2 {
-    padding: 30px;
+    padding: 20px;
   }
 
   #nav2, #nav3 {
     display: none;
+  }
+
+  .bottom-card-title .sea-gif {
+  display: none;
   }
 }
