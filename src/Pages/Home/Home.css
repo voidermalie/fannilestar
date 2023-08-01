@@ -346,4 +346,8 @@ button {
   .carousel h2 {
     padding: 30px;
   }
+
+  #nav2, #nav3 {
+    display: none;
+  }
 }
