@@ -19,6 +19,7 @@ const ProjectPopup = ({ id, setIsOpen }) => {
   }, []);
 
   return (
+    <div id="popup-wrapper">
     <section className="popup-background">
       <button
         className="close-button"
@@ -53,6 +54,8 @@ const ProjectPopup = ({ id, setIsOpen }) => {
         </section>
       </div>
     </section>
+    </div>
+
   );
 };
 

@@ -1,3 +1,17 @@
+#popup-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex; /* Center content */
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: a semi-transparent background for the overlay effect */
+  z-index: 999;
+}
+
 .popup-background {
   /*
   margin: 50px;
@@ -18,6 +32,7 @@
 
   background-color: #b7b7b7;
   border-radius: 32px;
+  
 }
 
 .project-container {
@@ -116,4 +131,5 @@
   #mimic-octopus {
     position: static;
   }
+
 }
