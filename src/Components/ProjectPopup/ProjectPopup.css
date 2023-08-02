@@ -70,13 +70,13 @@
   list-style-type: none;
   margin: 0;
   padding: 16px 0;
-  width: 60%;
+  width: 85%;
 }
 
 .features-list li {
   padding-left: 1rem;
   text-indent: -0.75rem;
-  padding-bottom: 4px;
+  padding-bottom: 8px;
 }
 
 .features-list li::before {
@@ -110,4 +110,10 @@
   position: fixed;
   bottom: 65px;
   right: 37px;
+}
+
+@media (max-width: 768px) {
+  #mimic-octopus {
+    position: static;
+  }
 }

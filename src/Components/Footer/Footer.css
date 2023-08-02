@@ -10,5 +10,15 @@ footer {
     flex-direction: column;
     align-items: center;
     box-shadow: inset 0 10px 10px -10px #4a94d7;
+    background: rgb(203, 203, 203);
+    background: linear-gradient(
+      90deg,
+      rgba(203, 203, 203, 1) 0%,
+      rgba(74, 148, 215, 0.7161064254803484) 35%,
+      rgba(128, 243, 232, 1) 100%
+    );
   }
 }
+
+/* #e7e6f0 */
+/* eredeti: #cbcbcb */
