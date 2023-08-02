@@ -13,9 +13,7 @@
 }
 
 .popup-background {
-  /*
-  margin: 50px;
-  */
+
   position: fixed;
   top: 24px;
   left: 24px;
@@ -131,5 +129,4 @@
   #mimic-octopus {
     position: static;
   }
-
 }
