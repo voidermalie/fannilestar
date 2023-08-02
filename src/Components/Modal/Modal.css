@@ -1,0 +1,132 @@
+#popup-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  
+    display: flex; /* Center content */
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: a semi-transparent background for the overlay effect */
+    z-index: 999;
+  }
+  
+  .popup-background {
+  
+    position: fixed;
+    top: 24px;
+    left: 24px;
+    right: 24px;
+    bottom: 24px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    z-index: 999;
+    border: 1px solid rgb(128, 243, 232);
+    box-shadow: inset 1px 0px 1em rgb(128, 243, 232);
+  
+    background-color: #b7b7b7;
+    border-radius: 32px;
+    
+  }
+  
+  .project-container {
+    position: relative;
+    /*
+    max-width: 80%;
+    max-height: 80%;
+    */
+    background-color: #b7b7b7;
+    filter: brightness(1.2);
+    border-radius: 32px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+  
+    width: 93%;
+    height: 91%;
+  }
+  
+  .close-button {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 3rem;
+    color: #646cff;
+    z-index: 5;
+  }
+  
+  .close-button:hover {
+    color: #535bf2;
+    filter: brightness(1.2);
+  }
+  
+  .popup-title {
+    color: #646cff;
+  }
+  
+  .project-body {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px 16px 40px;
+  }
+  
+  .project-content {
+    display: flex;
+    color: #213547;
+  }
+  
+  .features-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 16px 0;
+    width: 85%;
+  }
+  
+  .features-list li {
+    padding-left: 1rem;
+    text-indent: -0.75rem;
+    padding-bottom: 8px;
+  }
+  
+  .features-list li::before {
+    content: '🦪 ';
+  }
+  
+  .popup-header {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 40px;
+  }
+  
+  .project-links > * {
+    border: 1px solid #646cff;
+    box-shadow: inset 1px 0px 1em #4a94d7;
+    padding: 4px 8px;
+    border-radius: 24px;
+  }
+  
+  .project-links {
+    padding: 16px 0;
+    display: flex;
+    gap: 16px;
+  }
+  
+  #mimic-octopus {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 65px;
+    right: 37px;
+  }
+  
+  @media (max-width: 768px) {
+    #mimic-octopus {
+      position: static;
+    }
+  }

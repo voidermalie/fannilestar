@@ -11,14 +11,9 @@ const LanguageProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    // Detect user's language preferences or browser settings
-    const userLanguage =
-      navigator.languages && navigator.languages.length
-        ? navigator.languages[0]
-        : navigator.language || navigator.userLanguage;
-
-    // Set the initial language based on user's language preferences
-    setLanguage(userLanguage);
+    const userLanguage = navigator.languages && navigator.languages[0] || navigator.language || navigator.userLanguage;
+    // Check if the user's language starts with 'fr'; if not, default to 'en'
+    setLanguage(userLanguage.startsWith('fr') ? 'fr' : 'en');
   }, []);
 
   return (

@@ -4,7 +4,7 @@ import PrevButton from '../../assets/icons/previous.svg';
 import NextButton from '../../assets/icons/next.svg';
 import Card from '../Card/Card';
 import { ProjectContext } from '../../contexts/ProjectContext';
-import ProjectPopup from '../ProjectPopup/ProjectPopup';
+import Modal from '../../Components/Modal/Modal';
 import { LanguageContext } from '../../contexts/LanguageContext';
 
 const Carousel = () => {
@@ -58,7 +58,7 @@ const Carousel = () => {
           <Fragment key={project.id}>
             <Card project={project} onClick={() => togglePopup(project.id)} />
             {isOpen && projectId === project.id && (
-              <ProjectPopup id={project.id} setIsOpen={setIsOpen} />
+              <Modal id={project.id} setIsOpen={setIsOpen} />
             )}
           </Fragment>
         ))}

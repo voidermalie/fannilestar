@@ -1,11 +1,11 @@
-import './ProjectPopup.css';
+import './Modal.css';
 import { ProjectContext } from '../../contexts/ProjectContext';
 import { LanguageContext } from '../../contexts/LanguageContext';
 import { useContext, useEffect } from 'react';
 
 import MimicOctopus from '../../assets/mimic_octopus.gif';
 
-const ProjectPopup = ({ id, setIsOpen }) => {
+const Modal = ({ id, setIsOpen }) => {
   const { language } = useContext(LanguageContext);
   const projects = useContext(ProjectContext);
   const project = projects.find((project) => project.id === id);
@@ -69,4 +69,4 @@ const ProjectPopup = ({ id, setIsOpen }) => {
   );
 };
 
-export default ProjectPopup;
+export default Modal;
