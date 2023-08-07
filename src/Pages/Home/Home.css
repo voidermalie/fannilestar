@@ -337,6 +337,13 @@ button {
 }
 
 /*
+.skill-card {
+  border: none;
+  box-shadow: none;
+}
+*/
+
+/*
 .skill-card:hover .glitters-container {
   filter: none;
 }

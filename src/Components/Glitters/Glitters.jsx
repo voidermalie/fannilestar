@@ -8,6 +8,10 @@ import CssGlitter from '../../assets/glitters/css.gif';
 import JavascriptGlitter from '../../assets/glitters/javascript.gif';
 import ReactGlitter from '../../assets/glitters/react.gif';
 import GitGlitter from '../../assets/glitters/git.gif';
+
+import TypescriptGlitter from '../../assets/glitters/typescript.gif';
+
+
 import NodejsGlitter from '../../assets/glitters/nodejs.gif';
 import MongoDBGlitter from '../../assets/glitters/mongodb.gif';
 import NextjsGlitter from '../../assets/glitters/nextjs.gif';
@@ -39,6 +43,7 @@ const Glitters = () => {
         <img className="glitter" alt="React" src={ReactGlitter} />
       </div>
       <div className="glitters-group2">
+        <img className="glitter" alt="TypeScript" src={TypescriptGlitter} />
         <img className="glitter" alt="Git" src={GitGlitter} />
         <img className="glitter" alt="Figma" src={FigmaGlitter} />
       </div>

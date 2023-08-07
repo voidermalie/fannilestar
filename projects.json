@@ -63,7 +63,7 @@
     "imagePath": "/fannilestar/images/project-images/ohmyfood/ohmyfood1.jpg",
     "title": "OhmyFood",
     "descriptionShort": {
-      "fr": " Un site de réservation de repas intéractif, axé sur les appareils mobiles, avec des animations CSS dynamiques",
+      "fr": "Un site de réservation de repas intéractif, axé sur les appareils mobiles, avec des animations CSS dynamiques",
       "en": "An engaging, mobile-first food reservation site featuring dynamic CSS animations"
     },
     "descriptionLong": {
@@ -90,8 +90,8 @@
     "imagePath": "/fannilestar/images/project-images/booki/booki1.jpg",
     "title": "Booki",
     "descriptionShort": {
-      "fr": "Un site de réservation d'hébergements responsive avec une mise en page épurée et un contenu bien organisé",
-      "en": "A user-friendly, responsive accommodation booking website with a clean layout and well-structured content"
+      "fr": "Un site de réservation d'hébergements responsive avec une mise en page épurée",
+      "en": "A user-friendly, responsive accommodation booking website with a clean layout"
     },
     "descriptionLong": {
       "fr": [
@@ -134,7 +134,7 @@
         {"id": "p5_en_2", "text": "Established user registration and login mechanisms"},
         {"id": "p5_en_3", "text": "Provided ability for users to post hot sauce reviews, supplemented with descriptions and images"},
         {"id": "p5_en_4", "text": "Integrated a rating system to evaluate the posts"},
-        {"id": "p5_en_5", "text": "Engineered with Express.js, MongoDB and Mongoose for efficient data management, as well as multer for file handling"},
+        {"id": "p5_en_5", "text": "Built with Express.js, MongoDB and Mongoose for efficient data management, as well as multer for file handling"},
         {"id": "p5_en_6", "text": "Fortified security by leveraging bcrypt for password hashing, jsonwebtoken for token management, helmet for HTTP security, and dotenv for environment variable management"}
       ]
     },
