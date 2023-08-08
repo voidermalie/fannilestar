@@ -47,7 +47,7 @@ body {
   align-items: stretch;
   box-sizing: border-box;
   cursor: pointer;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 /* for chrome 
