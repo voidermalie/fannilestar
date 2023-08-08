@@ -50,6 +50,10 @@ body {
   overflow-x: hidden;
 }
 
+/* for chrome 
+html { overflow-x: hidden; }
+*/
+
 h2 {
   font-size: 2.4em;
   line-height: 1.1;
