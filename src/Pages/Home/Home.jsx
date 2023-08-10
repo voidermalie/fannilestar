@@ -15,7 +15,6 @@ import projectIcon from '../../assets/portfolio.svg';
 import skillsIcon from '../../assets/coding2.svg';
 import Octy from '../../assets/octy.gif';
 
-
 const Home = () => {
   console.log('bonjour');
 

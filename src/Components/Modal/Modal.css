@@ -41,7 +41,7 @@
     */
     background-color: #b7b7b7;
     filter: brightness(1.2);
-    border-radius: 8px;
+    border-radius: 32px;
     overflow: auto;
     display: flex;
     flex-direction: column;
