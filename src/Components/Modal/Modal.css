@@ -129,4 +129,7 @@
     #mimic-octopus {
       position: static;
     }
+    .close-button {
+        right: 3%;
+    }
   }
