@@ -412,3 +412,14 @@ button {
     }
   }
 }
+
+/* tests */
+
+.container {
+  height: 66vh;
+}
+
+#nav2 {
+  position: static;
+  padding: 0px;
+}
