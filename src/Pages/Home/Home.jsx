@@ -52,7 +52,7 @@ const Home = () => {
           </h3>
           <h3>Marseille</h3>
           <div className="bio-icons">
-            <a title="télécharger mon cv" id="download-cv" href={"/fannilestar/cv_fannilestar_2023.pdf"} download>
+            <a title="télécharger mon cv" id="download-cv" href={"/fannilestar/cv_fannilestar.pdf"} download>
               <img
                 src={cvIcon}
                 alt="télécharger le résumé"
