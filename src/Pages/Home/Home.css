@@ -266,6 +266,7 @@ button {
   box-shadow: none;
   /*border-top: 1px solid #646cff;
   border-radius: 0px;*/
+  margin-top: 100px;
 }
 
 /* mobile */
@@ -388,5 +389,26 @@ button {
 
   .bottom-card-title .sea-gif {
   display: none;
+  }
+
+  @keyframes moveAround3 {
+    0% {
+      transform: translateX(0) translateY(0);
+    }
+    15% {
+      transform: translateX(30px) translateY(30px);
+    }
+    25% {
+      transform: translateX(50px) translateY(50px);
+    }
+    50% {
+      transform: translateX(0) translateY(70px);
+    }
+    75% {
+      transform: translateX(90px) translateY(90px);
+    }
+    100% {
+      transform: translateX(0) translateY(0);
+    }
   }
 }

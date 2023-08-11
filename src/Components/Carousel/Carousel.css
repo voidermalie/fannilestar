@@ -45,3 +45,9 @@
 .slide-wrapper::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
 }
+
+@media (max-width: 768px) {
+  .slide-wrapper {
+    flex: 0 1 500px;
+  }
+}
