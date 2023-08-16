@@ -41,9 +41,11 @@ const Modal = ({ id, setIsOpen }) => {
               <div>
                 <h3>{language === 'fr' ? 'Fonctionnalités' : 'Features'}</h3>
                 <ul className="features-list">
-                {project && project.descriptionLong[language] && project.descriptionLong[language].map((item) => (
-                    <li key={item.id}>{item.text}</li>
-                  ))}
+                  {project &&
+                    project.descriptionLong[language] &&
+                    project.descriptionLong[language].map((item) => (
+                      <li key={item.id}>{item.text}</li>
+                    ))}
                 </ul>
               </div>
             </div>
@@ -51,9 +53,15 @@ const Modal = ({ id, setIsOpen }) => {
               <a href={project.githubLink} target="_blank" rel="noreferrer">
                 GitHub
               </a>
-              <a href={project.liveDemo} target="_blank" rel="noreferrer">
-                Live Demo
-              </a>
+              {project.videoDemo ? (
+                <a href={project.videoDemo} target="_blank" rel="noreferrer">
+                  Video Demo
+                </a>
+              ) : project.liveDemo ? (
+                <a href={project.liveDemo} target="_blank" rel="noreferrer">
+                  Live Demo
+                </a>
+              ) : null}
             </div>
             <div id="mimic-octopus">
               <img
