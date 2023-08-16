@@ -9,14 +9,14 @@
     },
     "descriptionLong": {
       "fr": [
-        {"id": "p1_fr_1", "text": "Application à page unique construite avec create-react-app et react-router pour une navigation fluide"},
+        {"id": "p1_fr_1", "text": "Application à page unique construite avec create-react-app et react-router (v6) pour une navigation fluide"},
         {"id": "p1_fr_2", "text": "Récupération simulée des annonces d'appartements depuis une API"},
         {"id": "p1_fr_3", "text": "Développement de composants réutilisables (bannière, tags, cartes, dropdown, carousel, etc.) pour optimiser le code"},
         {"id": "p1_fr_5", "text": "Fidèle reproduction du design à partir d'une maquette Figma"},
         {"id": "p1_fr_6", "text": "Conception d'un site entièrement responsive pour une expérience utilisateur optimale"}
       ],
       "en": [
-        {"id": "p1_en_1", "text": "Single page application built with create-react-app and react-router allowing seamless navigation"},
+        {"id": "p1_en_1", "text": "Single page application built with create-react-app and react-router (v6) allowing seamless navigation"},
         {"id": "p1_en_2", "text": "Implemented simulated API fetch to provide apartment listings"},
         {"id": "p1_en_3", "text": "Constructed reusable components such as banner, tags, cards, dropdown, carousel, etc., optimizing code efficiency"},
         {"id": "p1_en_5", "text": "Achieved accurate replication of design from Figma mock-ups"},
@@ -90,23 +90,23 @@
     "imagePath": "/fannilestar/images/project-images/booki/booki1.jpg",
     "title": "Booki",
     "descriptionShort": {
-      "fr": "Un site de réservation d'hébergements responsive avec une mise en page épurée",
-      "en": "A user-friendly, responsive accommodation booking website with a clean layout"
+      "fr": "Un site de réservation d'hébergements statique, entièrement responsive",
+      "en": "A fully responsive, static accommodation booking website"
     },
     "descriptionLong": {
       "fr": [
         {"id": "p4_fr_1", "text": "Intégration responsive à partir d'une maquette pour une expérience utilisateur cohérente sur tous les appareils"},
-        {"id": "p4_fr_2", "text": "Création d'une structure HTML sémantique pour un meilleur référencement"},
+        {"id": "p4_fr_2", "text": "Création d'une structure HTML sémantique en vue d'un référencement optimal"},
         {"id": "p4_fr_3", "text": "Fonctionnalités de recherche et de filtrage simulées"},
-        {"id": "p4_fr_4", "text": "Développement de cartes d'informations interactives sur les hôtels"},
-        {"id": "p4_fr_5", "text": "Mise en valeur des principaux sites touristiques"}
+        {"id": "p4_fr_4", "text": "Développement de cartes d'informations interactives"},
+        {"id": "p4_fr_5", "text": "Construit avec flexbox"}
       ],
       "en": [
         {"id": "p4_en_1", "text": "Implemented responsive design from a mock-up for consistent user experience across devices"},
-        {"id": "p4_en_2", "text": "Constructed a semantic HTML structure for better SEO comprehension"},
+        {"id": "p4_en_2", "text": "Constructed a semantic HTML structure for optimal SEO comprehension"},
         {"id": "p4_en_3", "text": "Simulated search and filter functionalities"},
-        {"id": "p4_en_4", "text": "Developed interactive information cards for hotels"},
-        {"id": "p4_en_5", "text": "Highlighted key sightseeing spots"}
+        {"id": "p4_en_4", "text": "Developed interactive information cards"},
+        {"id": "p4_en_5", "text": "Built with flexbox"}
       ]
     },
     "githubLink": "https://github.com/voidermalie/booki",
@@ -124,8 +124,8 @@
       "fr": [
         {"id": "p5_fr_1", "text": "Construction d'une API REST sécurisée avec des actions CRUD complètes"},
         {"id": "p5_fr_2", "text": "Mécanismes d'inscription et de connexion des utilisateurs"},
-        {"id": "p5_fr_3", "text": "Possibilité pour les utilisateurs de publier des critiques sur des sauces piquantes, complétées par des descriptions et des images"},
-        {"id": "p5_fr_4", "text": "Intégration dun système de notation pour évaluer les publications"},
+        {"id": "p5_fr_3", "text": "Possibilité pour les utilisateurs de publier des avis sur des sauces piquantes, complétés par des descriptions et des images"},
+        {"id": "p5_fr_4", "text": "Intégration d'un système de notation pour évaluer les publications"},
         {"id": "p5_fr_5", "text": "Conçu avec Express.js, MongoDB et Mongoose, ainsi que multer pour la gestion des données"},
         {"id": "p5_fr_6", "text": "Sécurité renforcée grâce à l'utilisation de bcrypt pour le hachage des mots de passe, jsonwebtoken pour la gestion des tokens, helmet pour la sécurité HTTP, et dotenv pour la gestion des variables d'environnement"}
       ],
