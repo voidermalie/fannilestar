@@ -1,17 +1,15 @@
-#My Front-End Web Dev Portfolio
+# Hello 💦
+[This](https://voidermalie.github.io/fannilestar) is my personal portfolio website where you can browse through my projects 🐟🐠🦈, learn more about my skills ✨, and find my contact information 🐚.
 
-This is my personal portfolio website showcasing my front-end web development projects, built using React. Here, you can browse through my projects, learn more about my skills, and find my contact information.
+Inspired by the sea and 2000s design, built with React.
 
-##Technologies Used
+## 💧Technologies Used
     Vite
     React
     JavaScript
-    HTML/CSS
+    HTML5/CSS3
 
-##Setup
 
-To run this project locally, clone the repository, navigate to the project directory, and install the dependencies using npm install. Then, start the development server using npm run dev. The project will be available at http://localhost:3000/.
+## 💧Contact
 
-##Contact
-
-If you have any questions or feedback, feel free to reach out to me at lestarfanny@gmail.com. Thanks for stopping by!
+If you have any questions or feedback, feel free to reach out to me by [mail](fannylestar@icloud.com) or message me on [LinkedIn](www.linkedin.com/in/fannilestar). Thanks for stopping by! 🤿🤿🤿
