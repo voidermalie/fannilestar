@@ -2,10 +2,6 @@ p {
   color: #213547;
 }
 
-#intro h2 {
-  text-shadow: 1px 0px 1em #213547;
-}
-
 #intro {
   display: flex;
   flex-direction: column;
