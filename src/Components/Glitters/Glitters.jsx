@@ -41,16 +41,16 @@ const Glitters = () => {
         <img className="glitter" alt="CSS3" src={CssGlitter} />
         <img className="glitter" alt="JavaScript" src={JavascriptGlitter} />
         <img className="glitter" alt="React" src={ReactGlitter} />
+        <img className="glitter" alt="TypeScript" src={TypescriptGlitter} />
+        <img className="glitter" alt="Next.js" src={NextjsGlitter} />
       </div>
       <div className="glitters-group2">
-        <img className="glitter" alt="TypeScript" src={TypescriptGlitter} />
         <img className="glitter" alt="Git" src={GitGlitter} />
         <img className="glitter" alt="Figma" src={FigmaGlitter} />
       </div>
       <div className="glitters-group1">
         <img className="glitter" alt="Node.js" src={NodejsGlitter} />
         <img className="glitter" alt="Mongo DB" src={MongoDBGlitter} />
-        <img className="glitter" alt="Next.js" src={NextjsGlitter} />
       </div>
       <div className="glitters-group2">
       <img className="glitter" alt="SEO" src={SEOGlitter} />

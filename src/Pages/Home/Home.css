@@ -143,7 +143,7 @@ button {
   align-items: flex-start;
 }
 
-/* bubble animation */
+/* BUBBLE ANIMATIONS */
 
 .side-card {
   animation-name: moveAround;
@@ -182,25 +182,6 @@ button {
     transform: translateX(0) translateY(0);
   }
 }
-/*
-@keyframes moveAround2 {
-  0% {
-    transform: translateX(0) translateY(0);
-  }
-  25% {
-    transform: translateX(-50px) translateY(-50px);
-  }
-  50% {
-    transform: translateX(-100px) translateY(0);
-  }
-  75% {
-    transform: translateX(-50px) translateY(50px);
-  }
-  100% {
-    transform: translateX(0) translateY(0);
-  }
-}
-*/
 
 @keyframes moveAround3 {
   0% {
@@ -238,22 +219,6 @@ button {
   box-shadow: none;
 }
 
-/* project card also as bubble:
-.side-card > p,
-.side-card > a,
-.side-card > div,
-.project-card {
-  visibility: hidden;
-}
-.side-card:hover > p,
-.side-card:hover > a,
-.side-card:hover > div,
-.side-card:hover .project-card {
-  visibility: visible !important;
-}
-.bottom-card:hover {
-  width: 100%;
-}*/
 
 .bottom-card {
   display: flex;
@@ -333,12 +298,14 @@ button {
   color: #F5F0F0;
 }
 
-/*
+
 .skill-card {
-  border: none;
-  box-shadow: none;
+  /*border: none;
+  box-shadow: none;*/
+  background-color: #b7b7b7;
+  -webkit-filter: brightness(1.2);
 }
-*/
+
 
 /*
 .skill-card:hover .glitters-container {
