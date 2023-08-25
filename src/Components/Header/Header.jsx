@@ -19,7 +19,7 @@ const Header = () => {
     const handleMouseLeave = () => {
       hideProfilePictureTimeout.current = setTimeout(() => {
         setShowProfilePicture(false);
-      }, 1000); // Adjust the delay (in milliseconds) as needed
+      }, 1500);
     };
 
   return (
