@@ -93,18 +93,10 @@ const Home = () => {
         </article>
       </section>
       <section id="nav2">
-        <HashLink className="nav2-link" to="#projects">
-          <img width="60px" height="60px" src={projectIcon} />
-        </HashLink>
       </section>
       <article className="main-card bottom-card" id="projects">
         <Carousel />
       </article>
-      <section id="nav3">
-        <HashLink className="nav3-link" to="#skills">
-          <img width="60px" height="60px" src={skillsIcon} />
-        </HashLink>
-      </section>
       <section id="skills" className="main-card skill-card">
         <div className="bottom-card-title">
           <h2>{language === 'fr' ? 'Compétences' : 'Skills'}</h2>

@@ -1,26 +1,32 @@
 import './Header.css';
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import { useState, useRef } from 'react';
+import { Link } from 'react-router-dom';
+import { useState, useRef, useContext } from 'react';
 
 import LanguageButton from '../LanguageButton/LanguageButton';
+import { LanguageContext } from '../../contexts/LanguageContext';
+
 import seaAngel from '../../assets/sea_angel.gif';
 import fanniAngel from '../../assets/profile_picture.jpg';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
+
 const Header = () => {
+  const { language } = useContext(LanguageContext);
   const [showProfilePicture, setShowProfilePicture] = useState(false);
   const hideProfilePictureTimeout = useRef(null);
-  
-    const handleMouseEnter = () => {
-      setShowProfilePicture(true);
-      clearTimeout(hideProfilePictureTimeout.current);
-    };
-  
-    const handleMouseLeave = () => {
-      hideProfilePictureTimeout.current = setTimeout(() => {
-        setShowProfilePicture(false);
-      }, 1500);
-    };
+
+  const handleMouseEnter = () => {
+    setShowProfilePicture(true);
+    clearTimeout(hideProfilePictureTimeout.current);
+  };
+
+  const handleMouseLeave = () => {
+    hideProfilePictureTimeout.current = setTimeout(() => {
+      setShowProfilePicture(false);
+    }, 1500);
+  };
 
   return (
     <header id="main-header">
@@ -28,7 +34,7 @@ const Header = () => {
         src={seaAngel}
         alt="Sea Angel saying hello"
         id="sea-angel"
-        className='sea-gif'
+        className="sea-gif"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         style={{ opacity: showProfilePicture ? 0 : 1 }}
@@ -42,6 +48,9 @@ const Header = () => {
         />
       )}
       <nav>
+        <HashLink to="#projects"><a>{language ? 'projets' : 'projects'}</a></HashLink>
+        <HashLink to="#skills"><a>{language ? 'compétences' : 'skills'}</a></HashLink>
+        <Link to='/' aria-label='Accueil'>{<FontAwesomeIcon icon={faHouse} />}</Link>
         <LanguageButton />
       </nav>
     </header>
