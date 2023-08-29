@@ -1,6 +1,5 @@
 import './Header.css';
 import { HashLink } from 'react-router-hash-link';
-import { Link } from 'react-router-dom';
 import { useState, useRef, useContext } from 'react';
 
 import LanguageButton from '../LanguageButton/LanguageButton';
@@ -14,6 +13,7 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   const { language } = useContext(LanguageContext);
+  
   const [showProfilePicture, setShowProfilePicture] = useState(false);
   const hideProfilePictureTimeout = useRef(null);
 
@@ -48,9 +48,9 @@ const Header = () => {
         />
       )}
       <nav>
-        <HashLink to="#projects"><a>{language ? 'projets' : 'projects'}</a></HashLink>
-        <HashLink to="#skills"><a>{language ? 'compétences' : 'skills'}</a></HashLink>
-        <Link to='/' aria-label='Accueil'>{<FontAwesomeIcon icon={faHouse} />}</Link>
+        <HashLink to="#projects">{language ? 'projets' : 'projects'}</HashLink>
+        <HashLink to="#skills">{language ? 'compétences' : 'skills'}</HashLink>
+        <HashLink to='#home-main' aria-label='Accueil'>{<FontAwesomeIcon icon={faHouse} />}</HashLink>
         <LanguageButton />
       </nav>
     </header>

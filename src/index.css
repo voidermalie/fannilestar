@@ -126,6 +126,7 @@ avant box shadow : 213547 ->*/
 
 .page-content {
   margin: 0 40px;
+  padding-top: 20vh;
 }
 
 body {

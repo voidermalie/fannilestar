@@ -2,7 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 20px 40px;
+  position: fixed;
+  width: 100%;
+  padding: 20px 40px;
+  z-index: 50000;
 }
 
 .sea-gif {
@@ -44,19 +47,13 @@
 }
 
 
-.fa-house {
-    padding-right: 15px;
-}
-
 
 nav {
   display: flex;
   gap: 5px;
+  padding-right: 80px;
 }
 
-.nav-darkmode {
-  align-self: center;
-}
 
 @media (max-width: 768px) {
   #main-header {

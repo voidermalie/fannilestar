@@ -1,5 +1,4 @@
 import './Home.css';
-import { HashLink } from 'react-router-hash-link';
 
 import ContactForm from '../../Components/ContactForm/ContactForm';
 import Carousel from '../../Components/Carousel/Carousel';
@@ -11,9 +10,6 @@ import linkedinIcon from '../../assets/icons/linkedin.svg';
 import { useContext } from 'react';
 import { LanguageContext } from '../../contexts/LanguageContext';
 
-import projectIcon from '../../assets/portfolio.svg';
-import skillsIcon from '../../assets/coding2.svg';
-import Octy from '../../assets/octy.gif';
 
 const Home = () => {
   console.log('bonjour');
@@ -92,15 +88,13 @@ const Home = () => {
           <ContactForm className="contact-form" />
         </article>
       </section>
-      <section id="nav2">
-      </section>
+
       <article className="main-card bottom-card" id="projects">
         <Carousel />
       </article>
       <section id="skills" className="main-card skill-card">
         <div className="bottom-card-title">
           <h2>{language === 'fr' ? 'Compétences' : 'Skills'}</h2>
-          <img src={Octy} alt="Octopus having a jolly a good time" className="sea-gif"></img>
         </div>
         <div>
           <Glitters />
