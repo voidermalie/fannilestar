@@ -74,6 +74,8 @@ button {
   font-family: inherit;
   cursor: pointer;
   background-color: transparent;
+  line-height: 1.5em;
+  padding: 0;
 }
 
 /*

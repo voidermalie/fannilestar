@@ -16,6 +16,11 @@ const Card = ({ project, onClick }) => {
       </div>
       <h3>{project.title}</h3>
       <p>{project.descriptionShort[language]}</p>
+      <div className="tags">
+        {project.tags.map((tag, index) => (
+          <p key={index}>{tag}</p>
+        ))}
+      </div>
     </article>
   );
 };

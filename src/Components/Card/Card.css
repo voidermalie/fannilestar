@@ -22,10 +22,21 @@
     border-radius: 160px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
     padding: 24px;
     width: 220px;
+    gap: 10px;
     /*box-shadow: inset 1px 0px 1em rgb(128, 243, 232);*/
 }
 
-/* animation */
+.tags {
+display: flex;
+gap: 8px;
+font-size: 0.75em;
+}
+
+.tags > * {
+    border: 1px solid rgba( 128, 243, 232, 0.6)white;
+    background-color: rgba( 128, 243, 232, 0.6);
+    border-radius: 24px;
+    padding: 4px 12px;
+}

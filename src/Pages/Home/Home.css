@@ -207,12 +207,6 @@ button {
   transform: translate(0) !important;
 }
 
-.tags {
-  display: inline flex;
-  gap: 10px;
-  padding-top: 32px;
-  padding-right: 8px;
-}
 
 /* alternative design */
 #bio {
@@ -309,6 +303,7 @@ button {
   box-shadow: none;*/
   background-color: #b7b7b7;
   -webkit-filter: brightness(1.2);
+  margin-top: 30px;
 }
 
 

@@ -3,24 +3,25 @@
     "id": "p1",
     "imagePath": "/fannilestar/images/project-images/kasa/kasa1.jpg",
     "title": "Kasa",
+    "tags": ["JavaScript", "React"],
     "descriptionShort": {
-      "fr": "Une plateforme de location d'hébergements construite en React",
-      "en": "An accommodation rental platform built with React"
+      "fr": "Une plateforme construite en React",
+      "en": "A platform built with React"
     },
     "descriptionLong": {
       "fr": [
-        {"id": "p1_fr_1", "text": "Application à page unique construite avec create-react-app et react-router (v6) pour une navigation fluide"},
+        {"id": "p1_fr_1", "text": "Application à page unique construite avec create-react-app et react-router (v6)"},
         {"id": "p1_fr_2", "text": "Récupération simulée des annonces d'appartements depuis une API"},
-        {"id": "p1_fr_3", "text": "Développement de composants réutilisables (bannière, tags, cartes, dropdown, carousel, etc.) pour optimiser le code"},
+        {"id": "p1_fr_3", "text": "Composants réutilisables"},
         {"id": "p1_fr_5", "text": "Fidèle reproduction du design à partir d'une maquette Figma"},
-        {"id": "p1_fr_6", "text": "Conception d'un site entièrement responsive pour une expérience utilisateur optimale"}
+        {"id": "p1_fr_6", "text": "Entièrement responsive pour une expérience utilisateur optimale"}
       ],
       "en": [
-        {"id": "p1_en_1", "text": "Single page application built with create-react-app and react-router (v6) allowing seamless navigation"},
-        {"id": "p1_en_2", "text": "Implemented simulated API fetch to provide apartment listings"},
-        {"id": "p1_en_3", "text": "Constructed reusable components such as banner, tags, cards, dropdown, carousel, etc., optimizing code efficiency"},
-        {"id": "p1_en_5", "text": "Achieved accurate replication of design from Figma mock-ups"},
-        {"id": "p1_en_6", "text": "Delivered a fully responsive site ensuring an optimal user experience across various devices"}
+        {"id": "p1_en_1", "text": "Single page application built with create-react-app and react-router (v6)"},
+        {"id": "p1_en_2", "text": "Simulated API fetch to provide apartment listings"},
+        {"id": "p1_en_3", "text": "Reusable components"},
+        {"id": "p1_en_5", "text": "Accurate replication of design from Figma mock-ups"},
+        {"id": "p1_en_6", "text": "Fully responsive site ensuring an optimal user experience across various devices"}
       ]
     },
     "githubLink": "https://github.com/voidermalie/kasa2",
@@ -30,27 +31,28 @@
     "id": "p2",
     "imagePath": "/fannilestar/images/project-images/kanap/kanap1.jpg",
     "title": "Kanap",
+    "tags": ["JavaScript"],
     "descriptionShort": {
-      "fr": "Une plateforme e-commerce offrant une expérience d'achat dynamique grâce au panier persistant",
-      "en": "An e-commerce platform that provides a dynamic shopping experience with a persistent shopping cart"
+      "fr": "Une plateforme e-commerce avec localStorage",
+      "en": "An e-commerce platform with localStorage"
     },
     "descriptionLong": {
       "fr": [
         {"id": "p2_fr_1", "text": "Développement complet en JavaScript pur"},
         {"id": "p2_fr_2", "text": "Intégration dynamique de produits via une API"},
         {"id": "p2_fr_3", "text": "Manipulation avancée du DOM pour la présentation des produits"},
-        {"id": "p2_fr_4", "text": "Création d'un panier persisant avec sélection de couleur et de quantité via localStorage"},
+        {"id": "p2_fr_4", "text": "Panier persisant avec sélection de couleur et de quantité via localStorage"},
         {"id": "p2_fr_5", "text": "Actualisation en temps réel du panier, incluant la quantité totale et le montant total dû"},
-        {"id": "p2_fr_6", "text": "Mise en place d'une vérification des entrées utilisateur dans le formulaire de contact"},
-        {"id": "p2_fr_7", "text": "Simulation d'une commande, avec confirmation et génération d'un numéro de commande"} 
+        {"id": "p2_fr_6", "text": "Vérification des entrées utilisateur dans le formulaire de contact"},
+        {"id": "p2_fr_7", "text": "Simulation d'une commande avec confirmation et génération d'un numéro de commande"} 
       ],
       "en": [
         {"id": "p2_en_1", "text": "Developed entirely in vanilla JavaScript"},
-        {"id": "p2_en_2", "text": "Integrated dynamic product fetching from an API"},
-        {"id": "p2_en_3", "text": "Performed advanced DOM manipulation for product display"},
-        {"id": "p2_en_4", "text": "Created a persistent cart with color and quantity selection using localStorage"},
-        {"id": "p2_en_5", "text": "Implemented real-time cart updates for total quantity and total amount due"},
-        {"id": "p2_en_6", "text": "Set up user input verification at the contact form"},
+        {"id": "p2_en_2", "text": "Dynamic product fetching from an API"},
+        {"id": "p2_en_3", "text": "Advanced DOM manipulation for product display"},
+        {"id": "p2_en_4", "text": "Persistent shopping cart with color and quantity selection using localStorage"},
+        {"id": "p2_en_5", "text": "Real-time cart updates for total quantity and total amount due"},
+        {"id": "p2_en_6", "text": "User input verification at the contact form"},
         {"id": "p2_en_7", "text": "Simulated order placement with confirmation and order number generation"} 
 
       ]
@@ -62,24 +64,23 @@
     "id": "p3",
     "imagePath": "/fannilestar/images/project-images/ohmyfood/ohmyfood1.jpg",
     "title": "OhmyFood",
+    "tags": ["HTML5", "CSS3"],
     "descriptionShort": {
-      "fr": "Un site de réservation de repas intéractif, axé sur les appareils mobiles, avec des animations CSS dynamiques",
-      "en": "An engaging, mobile-first food reservation site featuring dynamic CSS animations"
+      "fr": "Un site statique mobile-first avec des animations CSS dynamiques",
+      "en": "A mobile-first website featuring dynamic CSS animations"
     },
     "descriptionLong": {
       "fr": [
         {"id": "p3_fr_1", "text": "Fidèle reproduction du design à partir d'une maquette Figma avec focus sur les appareils mobiles"},
         {"id": "p3_fr_2", "text": "Création d'animations dynamiques avec des keyframes et des transitions CSS pour une interactivité accrue"},
         {"id": "p3_fr_3", "text": "Mise en place d'un spinner de chargement de page pour améliorer l'UX pendant le chargement du contenu"},
-        {"id": "p3_fr_4", "text": "Développement d'animations déclenchées par des actions d'utilisateur pour augmenter l'engagement"},
-        {"id": "p3_fr_5", "text": "Adaptation à différentes tailles d'écran"}
+        {"id": "p3_fr_4", "text": "Adaptation à différentes tailles d'écran"}
       ],
       "en": [
         {"id": "p3_en_1", "text": "Accurate design replication from a Figma mock-up focusing on mobiles"},
-        {"id": "p3_en_2", "text": "Crafted dynamic animations with CSS keyframes and transitions for increased interactivity"},
-        {"id": "p3_en_3", "text": "Implemented a page load spinner to enhance UX during content loading"},
-        {"id": "p3_en_4", "text": "Developed user action-triggered animations to increase user engagement"},
-        {"id": "p3_en_5", "text": "Optimized for various screen sizes"}
+        {"id": "p3_en_2", "text": "Dynamic animations with CSS keyframes and transitions"},
+        {"id": "p3_en_3", "text": "Page load spinner to enhance UX during content loading"},
+        {"id": "p3_en_4", "text": "Optimized for various screen sizes"}
       ]
     },
     "githubLink": "https://github.com/voidermalie/ohmyfood",
@@ -89,9 +90,10 @@
     "id": "p4",
     "imagePath": "/fannilestar/images/project-images/booki/booki1.jpg",
     "title": "Booki",
+    "tags": ["HTML5", "CSS3"],
     "descriptionShort": {
-      "fr": "Un site de réservation d'hébergements statique, entièrement responsive",
-      "en": "A fully responsive, static accommodation booking website"
+      "fr": "Un site statique desktop-first et responsive",
+      "en": "A responsive static website"
     },
     "descriptionLong": {
       "fr": [
@@ -116,9 +118,10 @@
     "id": "p5",
     "imagePath": "/fannilestar/images/project-images/hottakes/hottakes1.jpg",
     "title": "Piiquante",
+    "tags": ["JavaScript", "Node.js"],
     "descriptionShort": {
-      "fr": "Une plateforme sécurisée d'avis culinaires doté d'un système d'authentification, de publication et de notation",
-      "en": "A secure culinary review platform featuring user authentification, posting and rating functionalities"
+      "fr": "Un site dynamique avec système d'authentification et actions CRUD",
+      "en": "A dynamic site with user authentification and CRUD actions"
     },
     "descriptionLong": {
       "fr": [
@@ -145,9 +148,10 @@
     "id": "p6",
     "imagePath": "/fannilestar/images/project-images/panthera/panthera1.jpg",
     "title": "Panthera",
+    "tags": ["HTML5", "CSS3"],
     "descriptionShort": {
-      "fr": "Un site web optimisé pour respecter les standards en matière de référencement, d'accessibilité et de performance.",
-      "en": "An optimized website excelling in SEO, accessibility, and performance standards."
+      "fr": "Un site optimisé pour respecter les standards en matière de référencement, d'accessibilité et de performance",
+      "en": "An optimized website excelling in SEO, accessibility, and performance standards"
     },
     "descriptionLong": {
       "fr": [
