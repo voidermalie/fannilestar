@@ -1,5 +1,6 @@
 p {
   color: #213547;
+  font-family: 'Roboto';
 }
 
 #intro {
@@ -254,6 +255,10 @@ button {
   }
 }
 */
+
+.bottom-card-title h2 {
+  display: none;
+}
 
 @media (max-width: 768px) {
   .side-card {

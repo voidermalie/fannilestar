@@ -25,14 +25,6 @@ a:hover {
   filter: brightness(1.3);
 }
 
-.nav2-link:hover {
-  filter: none;
-}
-
-.nav3-link:hover {
-  filter: none;
-}
-
 #sea-angel-link:hover {
   filter: none;
 }

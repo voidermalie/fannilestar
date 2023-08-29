@@ -52,3 +52,7 @@
     flex: 0 1 500px;
   }
 }
+
+.carousel h2 {
+  display: none;
+}

@@ -5,6 +5,7 @@
   position: fixed;
   width: 100%;
   padding: 20px 40px;
+  padding-bottom: 0px;
   z-index: 50000;
 }
 
