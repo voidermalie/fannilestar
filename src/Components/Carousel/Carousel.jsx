@@ -44,7 +44,7 @@ const Carousel = () => {
 
   return (
     <section className="carousel">
-      <h2>{language === 'fr' ? 'Mes projets' : 'My projects'}</h2>
+      <h2 id="projects-title">{language === 'fr' ? 'Mes projets' : 'My projects'}</h2>
       <div className="slide-container">
       <button
         id="prev-button"
