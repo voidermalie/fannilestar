@@ -60,6 +60,6 @@ nav {
 
 @media (max-width: 768px) {
   #main-header {
-    margin: 20px;
+    padding: 8px;
   }
 }

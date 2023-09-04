@@ -1,8 +1,13 @@
 .glitters-container {
-display: flex;
-gap: 60px;
+  display: flex;
+  gap: 60px;
 }
 
+@media (max-width: 768px) {
+  .glitters-container {
+    flex-direction: column;
+  }
+}
 /*
 .glitters-group1 {
     align-self: flex-start;
