@@ -60,10 +60,11 @@ nav {
 
 @media (max-width: 768px) {
   #main-header {
-    padding: 16px;
-    gap: 8px;
+    /*padding: 16px;*/
+    gap: 24px;
   }
   nav {
     flex-wrap: wrap;
+    justify-content: flex-end;
   }
 }
