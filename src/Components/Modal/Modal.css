@@ -106,7 +106,7 @@
   .project-links > * {
     border: 1px solid #646cff;
     box-shadow: inset 1px 0px 1em #4a94d7;
-    padding: 4px 8px;
+    padding: 4px 16px;
     border-radius: 24px;
     font-size: 1em;
   }
@@ -130,6 +130,6 @@
       position: static;
     }
     .close-button {
-        right: 3.5%;
+        right: 4%;
     }
   }
