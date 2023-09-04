@@ -51,6 +51,9 @@
   .slide-wrapper {
     flex: 0 1 500px;
   }
+  #projects-title {
+    display: inline block;
+  }
 }
 
 #projects-title {

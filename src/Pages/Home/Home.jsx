@@ -101,7 +101,7 @@ const Home = () => {
       </article>
       <section id="skills" className="main-card skill-card">
         <div className="bottom-card-title">
-          <h2>{language === 'fr' ? 'Compétences' : 'Skills'}</h2>
+          <h2 id='bottom-card-title'>{language === 'fr' ? 'Compétences' : 'Skills'}</h2>
         </div>
         <div>
           <Glitters />
