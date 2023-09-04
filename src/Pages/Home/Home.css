@@ -354,6 +354,10 @@ button {
   display: none;
   }
 
+  .bottom-card-title h2 {
+    display: inline block;
+  }
+
   @keyframes moveAround3 {
     0% {
       transform: translateX(0) translateY(0);

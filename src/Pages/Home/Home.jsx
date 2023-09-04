@@ -15,6 +15,8 @@ const Home = () => {
   console.log('bonjour');
 
   const { language } = useContext(LanguageContext);
+
+  // Conditionnaly render CV based on language
   const cvPath =  language === 'fr' ? '/fannilestar/cv_fannilestar_fr.pdf' : '/fannilestar/cv_fannilestar_en.pdf';
   const titleText = language === 'fr' ? 'Télécharger mon CV' : 'Download my resume';
   const cvAltText = language === 'fr' ? 'Télécharger mon résumé' : 'Download my resume';

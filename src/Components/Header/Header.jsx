@@ -13,8 +13,8 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   const { language } = useContext(LanguageContext);
-  console.log('Header rendering with language:', language);
   
+  // Change image to profile picture on hover
   const [showProfilePicture, setShowProfilePicture] = useState(false);
   const hideProfilePictureTimeout = useRef(null);
 
@@ -49,9 +49,9 @@ const Header = () => {
         />
       )}
       <nav>
-        <HashLink to="#projects">{ language === 'fr' ? 'projets' : 'projects' }</HashLink>
-        <HashLink to="#skills">{ language === 'fr' ? 'compétences' : 'skills' }</HashLink>
-        <HashLink to='#home-main' aria-label='Accueil'>{<FontAwesomeIcon icon={faHouse} />}</HashLink>
+        <HashLink smooth to="#projects">{ language === 'fr' ? 'projets' : 'projects' }</HashLink>
+        <HashLink smooth to="#skills">{ language === 'fr' ? 'compétences' : 'skills' }</HashLink>
+        <HashLink smooth to='#top' aria-label='Accueil'>{<FontAwesomeIcon icon={faHouse} />}</HashLink>
         <LanguageButton />
       </nav>
     </header>

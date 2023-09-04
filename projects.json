@@ -13,14 +13,14 @@
         {"id": "p1_fr_1", "text": "Application à page unique construite avec create-react-app et react-router (v6)"},
         {"id": "p1_fr_2", "text": "Récupération simulée des annonces d'appartements depuis une API"},
         {"id": "p1_fr_3", "text": "Composants réutilisables"},
-        {"id": "p1_fr_5", "text": "Fidèle reproduction du design à partir d'une maquette Figma"},
+        {"id": "p1_fr_5", "text": "Implémentation à partir des maquettes Figma"},
         {"id": "p1_fr_6", "text": "Entièrement responsive pour une expérience utilisateur optimale"}
       ],
       "en": [
         {"id": "p1_en_1", "text": "Single page application built with create-react-app and react-router (v6)"},
         {"id": "p1_en_2", "text": "Simulated API fetch to provide apartment listings"},
         {"id": "p1_en_3", "text": "Reusable components"},
-        {"id": "p1_en_5", "text": "Accurate replication of design from Figma mock-ups"},
+        {"id": "p1_en_5", "text": "Design implementation from Figma mock-ups"},
         {"id": "p1_en_6", "text": "Fully responsive site ensuring an optimal user experience across various devices"}
       ]
     },
@@ -39,7 +39,7 @@
     "descriptionLong": {
       "fr": [
         {"id": "p2_fr_1", "text": "Développement complet en JavaScript pur"},
-        {"id": "p2_fr_2", "text": "Intégration dynamique de produits via une API"},
+        {"id": "p2_fr_2", "text": "Intégration dynamique des produits via une vraie API"},
         {"id": "p2_fr_3", "text": "Manipulation avancée du DOM pour la présentation des produits"},
         {"id": "p2_fr_4", "text": "Panier persisant avec sélection de couleur et de quantité via localStorage"},
         {"id": "p2_fr_5", "text": "Actualisation en temps réel du panier, incluant la quantité totale et le montant total dû"},
@@ -48,7 +48,7 @@
       ],
       "en": [
         {"id": "p2_en_1", "text": "Developed entirely in vanilla JavaScript"},
-        {"id": "p2_en_2", "text": "Dynamic product fetching from an API"},
+        {"id": "p2_en_2", "text": "Dynamic product fetching from a real API"},
         {"id": "p2_en_3", "text": "Advanced DOM manipulation for product display"},
         {"id": "p2_en_4", "text": "Persistent shopping cart with color and quantity selection using localStorage"},
         {"id": "p2_en_5", "text": "Real-time cart updates for total quantity and total amount due"},
@@ -71,16 +71,16 @@
     },
     "descriptionLong": {
       "fr": [
-        {"id": "p3_fr_1", "text": "Implémentation à partir d'une maquette Figma avec focus sur les appareils mobiles"},
-        {"id": "p3_fr_2", "text": "Création d'animations dynamiques avec des keyframes et des transitions CSS pour une interactivité accrue"},
-        {"id": "p3_fr_3", "text": "Mise en place d'un spinner de chargement de page pour améliorer l'UX pendant le chargement du contenu"},
-        {"id": "p3_fr_4", "text": "Adaptation à différentes tailles d'écran"}
+        {"id": "p3_fr_1", "text": "Implémentation à partir des maquettes avec focus sur les appareils mobiles"},
+        {"id": "p3_fr_2", "text": "Animations dynamiques avec des keyframes et des transitions CSS"},
+        {"id": "p3_fr_3", "text": "Spinner de chargement de page pour améliorer l'UX pendant le chargement du contenu"},
+        {"id": "p3_fr_4", "text": "Entièrement responsive pour une expérience utilisateur optimale"}
       ],
       "en": [
-        {"id": "p3_en_1", "text": "Implemented from a Figma mock-up in mobile-first"},
+        {"id": "p3_en_1", "text": "Implemented from mock-up in mobile-first"},
         {"id": "p3_en_2", "text": "Dynamic animations with CSS keyframes and transitions"},
         {"id": "p3_en_3", "text": "Page load spinner to enhance UX during content loading"},
-        {"id": "p3_en_4", "text": "Optimized for various screen sizes"}
+        {"id": "p3_en_4", "text": "Fully responsive ensuring an optimal user experience across various devices"}
       ]
     },
     "githubLink": "https://github.com/voidermalie/ohmyfood",
@@ -93,21 +93,21 @@
     "tags": ["HTML5", "CSS3"],
     "descriptionShort": {
       "fr": "Un site statique desktop-first et responsive",
-      "en": "A responsive static website"
+      "en": "A responsive and desktop-first static website"
     },
     "descriptionLong": {
       "fr": [
-        {"id": "p4_fr_1", "text": "Intégration responsive à partir d'une maquette pour une expérience utilisateur cohérente sur tous les appareils"},
-        {"id": "p4_fr_2", "text": "Création d'une structure HTML sémantique en vue d'un référencement optimal"},
+        {"id": "p4_fr_1", "text": "Intégration responsive à partir d'une maquette"},
+        {"id": "p4_fr_2", "text": "Structure HTML sémantique en vue d'un référencement optimal"},
         {"id": "p4_fr_3", "text": "Fonctionnalités de recherche et de filtrage simulées"},
-        {"id": "p4_fr_4", "text": "Développement de cartes d'informations interactives"},
+        {"id": "p4_fr_4", "text": "Cartes d'informations interactives"},
         {"id": "p4_fr_5", "text": "Construit avec flexbox"}
       ],
       "en": [
-        {"id": "p4_en_1", "text": "Implemented responsive design from a mock-up for consistent user experience across devices"},
-        {"id": "p4_en_2", "text": "Constructed a semantic HTML structure for optimal SEO comprehension"},
+        {"id": "p4_en_1", "text": "Responsive design implementation from a mock-up"},
+        {"id": "p4_en_2", "text": "Semantic HTML structure for optimal SEO comprehension"},
         {"id": "p4_en_3", "text": "Simulated search and filter functionalities"},
-        {"id": "p4_en_4", "text": "Developed interactive information cards"},
+        {"id": "p4_en_4", "text": "Interactive information cards"},
         {"id": "p4_en_5", "text": "Built with flexbox"}
       ]
     },
@@ -125,14 +125,14 @@
     },
     "descriptionLong": {
       "fr": [
-        {"id": "p5_fr_1", "text": "Construction d'une API REST sécurisée avec des actions CRUD complètes"},
+        {"id": "p5_fr_1", "text": "Une API REST sécurisée avec des actions CRUD complètes"},
         {"id": "p5_fr_2", "text": "Mécanismes d'inscription et de connexion des utilisateurs"},
         {"id": "p5_fr_3", "text": "Conçu avec Express.js, MongoDB et Mongoose, ainsi que multer pour la gestion des données"},
         {"id": "p5_fr_4", "text": "Sécurité renforcée grâce à l'utilisation de bcrypt pour le hachage des mots de passe, jsonwebtoken pour la gestion des tokens, helmet pour la sécurité HTTP, et dotenv pour la gestion des variables d'environnement"}
       ],
       "en": [
-        {"id": "p5_en_1", "text": "Implemented a secure REST API with comprehensive CRUD actions"},
-        {"id": "p5_en_2", "text": "Established user registration and login mechanisms"},
+        {"id": "p5_en_1", "text": "Secure REST API with comprehensive CRUD actions"},
+        {"id": "p5_en_2", "text": "User registration and login mechanisms"},
         {"id": "p5_en_3", "text": "Built with Express.js, MongoDB and Mongoose for efficient data management, as well as multer for file handling"},
         {"id": "p5_en_4", "text": "Fortified security by leveraging bcrypt for password hashing, jsonwebtoken for token management, helmet for HTTP security, and dotenv for environment variable management"}
       ]
