@@ -10,6 +10,9 @@ const Modal = ({ id, setIsOpen }) => {
   const projects = useContext(ProjectContext);
   const project = projects.find((project) => project.id === id);
 
+  const closeButtonTitleText = language === 'fr' ? 'Fermer' : 'Close';
+  const closeButtonAriaLabel = language === 'fr' ? 'Fermer' : 'Close';
+
   // Add useEffect to handle the scroll behavior
   useEffect(() => {
     document.body.style.overflow = 'hidden'; // Prevent scrolling of the background content
@@ -23,8 +26,9 @@ const Modal = ({ id, setIsOpen }) => {
       <section className="popup-background">
         <button
           className="close-button"
+          title={closeButtonTitleText}
           type="button"
-          aria-label="fermer"
+          aria-label={closeButtonAriaLabel}
           onClick={() => {
             setIsOpen(false);
           }}

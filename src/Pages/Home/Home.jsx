@@ -15,6 +15,11 @@ const Home = () => {
   console.log('bonjour');
 
   const { language } = useContext(LanguageContext);
+  const cvPath =  language === 'fr' ? '/fannilestar/cv_fannilestar_fr.pdf' : '/fannilestar/cv_fannilestar_en.pdf';
+  const titleText = language === 'fr' ? 'Télécharger mon CV' : 'Download my resume';
+  const cvAltText = language === 'fr' ? 'Télécharger mon résumé' : 'Download my resume';
+  const gitHubAltText = language === 'fr' ? 'Lien vers GitHub' : 'Link to GitHub';
+  const linkedInAltText = language === 'fr' ? 'Lien vers LinkedIn' : 'Link to LinkedIn';
 
   return (
     <section className="page-content" id="home-main">
@@ -48,10 +53,10 @@ const Home = () => {
           </h3>
           <h3>Marseille</h3>
           <div className="bio-icons">
-            <a title="télécharger mon cv" id="download-cv" href={"/fannilestar/cv_fannilestar.pdf"} download>
+            <a title={titleText} id="download-cv" href={cvPath} download>
               <img
                 src={cvIcon}
-                alt="télécharger le résumé"
+                alt={cvAltText}
                 width="40px"
                 height="40px"
                 className="bio-icon"
@@ -64,7 +69,7 @@ const Home = () => {
             >
               <img
                 src={githubIcon}
-                alt="lien vers Github"
+                alt={gitHubAltText}
                 width="40px"
                 height="40px"
                 className="bio-icon"
@@ -73,7 +78,7 @@ const Home = () => {
             <a href="https://www.linkedin.com/in/fannilestar/" target="blank">
               <img
                 src={linkedinIcon}
-                alt="lien vers LinkedIn"
+                alt={linkedInAltText}
                 width="40px"
                 height="40px"
                 className="bio-icon"

@@ -71,13 +71,13 @@
     },
     "descriptionLong": {
       "fr": [
-        {"id": "p3_fr_1", "text": "Fidèle reproduction du design à partir d'une maquette Figma avec focus sur les appareils mobiles"},
+        {"id": "p3_fr_1", "text": "Implémentation à partir d'une maquette Figma avec focus sur les appareils mobiles"},
         {"id": "p3_fr_2", "text": "Création d'animations dynamiques avec des keyframes et des transitions CSS pour une interactivité accrue"},
         {"id": "p3_fr_3", "text": "Mise en place d'un spinner de chargement de page pour améliorer l'UX pendant le chargement du contenu"},
         {"id": "p3_fr_4", "text": "Adaptation à différentes tailles d'écran"}
       ],
       "en": [
-        {"id": "p3_en_1", "text": "Accurate design replication from a Figma mock-up focusing on mobiles"},
+        {"id": "p3_en_1", "text": "Implemented from a Figma mock-up in mobile-first"},
         {"id": "p3_en_2", "text": "Dynamic animations with CSS keyframes and transitions"},
         {"id": "p3_en_3", "text": "Page load spinner to enhance UX during content loading"},
         {"id": "p3_en_4", "text": "Optimized for various screen sizes"}
@@ -127,18 +127,14 @@
       "fr": [
         {"id": "p5_fr_1", "text": "Construction d'une API REST sécurisée avec des actions CRUD complètes"},
         {"id": "p5_fr_2", "text": "Mécanismes d'inscription et de connexion des utilisateurs"},
-        {"id": "p5_fr_3", "text": "Possibilité pour les utilisateurs de publier des avis sur des sauces piquantes, complétés par des descriptions et des images"},
-        {"id": "p5_fr_4", "text": "Intégration d'un système de notation pour évaluer les publications"},
-        {"id": "p5_fr_5", "text": "Conçu avec Express.js, MongoDB et Mongoose, ainsi que multer pour la gestion des données"},
-        {"id": "p5_fr_6", "text": "Sécurité renforcée grâce à l'utilisation de bcrypt pour le hachage des mots de passe, jsonwebtoken pour la gestion des tokens, helmet pour la sécurité HTTP, et dotenv pour la gestion des variables d'environnement"}
+        {"id": "p5_fr_3", "text": "Conçu avec Express.js, MongoDB et Mongoose, ainsi que multer pour la gestion des données"},
+        {"id": "p5_fr_4", "text": "Sécurité renforcée grâce à l'utilisation de bcrypt pour le hachage des mots de passe, jsonwebtoken pour la gestion des tokens, helmet pour la sécurité HTTP, et dotenv pour la gestion des variables d'environnement"}
       ],
       "en": [
         {"id": "p5_en_1", "text": "Implemented a secure REST API with comprehensive CRUD actions"},
         {"id": "p5_en_2", "text": "Established user registration and login mechanisms"},
-        {"id": "p5_en_3", "text": "Provided ability for users to post hot sauce reviews, supplemented with descriptions and images"},
-        {"id": "p5_en_4", "text": "Integrated a rating system to evaluate the posts"},
-        {"id": "p5_en_5", "text": "Built with Express.js, MongoDB and Mongoose for efficient data management, as well as multer for file handling"},
-        {"id": "p5_en_6", "text": "Fortified security by leveraging bcrypt for password hashing, jsonwebtoken for token management, helmet for HTTP security, and dotenv for environment variable management"}
+        {"id": "p5_en_3", "text": "Built with Express.js, MongoDB and Mongoose for efficient data management, as well as multer for file handling"},
+        {"id": "p5_en_4", "text": "Fortified security by leveraging bcrypt for password hashing, jsonwebtoken for token management, helmet for HTTP security, and dotenv for environment variable management"}
       ]
     },
     "githubLink": "https://github.com/voidermalie/piiquante",
