@@ -70,7 +70,7 @@ const Modal = ({ id, setIsOpen }) => {
             <div id="mimic-octopus">
               <img
                 src={MimicOctopus}
-                alt="Pieuvre mimétique"
+                alt={language === 'fr' ? 'Pieuvre mimétique' : 'Mimic Octopus'}
                 className="sea-gif"
               ></img>
             </div>

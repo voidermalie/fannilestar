@@ -10,6 +10,11 @@ const Card = ({ project, onClick }) => {
       className="project-card"
       key={project.id}
       onClick={onClick}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter') {
+          onClick(); // Call the onClick function when the "Enter" key is pressed
+        }
+      }}
       role="article"
       aria-label={project.title}
       tabIndex={0}

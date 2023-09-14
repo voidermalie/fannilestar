@@ -26,7 +26,7 @@ const Home = () => {
   return (
     <section className="page-content" id="home-main">
       <section className="container">
-        <article id="intro" className="main-card side-card left-card">
+        <article id="intro" className="main-card side-card left-card" tabIndex="0">
           <h2>hello world</h2>
           <div>
             <p>
@@ -88,7 +88,7 @@ const Home = () => {
             </a>
           </div>
         </article>
-        <article id="contact" className="main-card side-card right-card">
+        <article id="contact" className="main-card side-card right-card" tabIndex="0">
           <h2>
             {language === 'fr' ? 'Entrons en connexion' : 'Get connected'}
           </h2>
