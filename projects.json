@@ -146,8 +146,8 @@
     "title": "Panthera",
     "tags": ["HTML5", "CSS3"],
     "descriptionShort": {
-      "fr": "Optimisation d'un site existant pour respecter les standards en matière de référencement, d'accessibilité et de performance",
-      "en": "Optimization of an existing website for excelling in SEO, accessibility, and performance standards"
+      "fr": "Optimisation d'un site existant (SEO, accessibilité, performance)",
+      "en": "Optimization of an existing website (SEO, accessibility, performance)"
     },
     "descriptionLong": {
       "fr": [
