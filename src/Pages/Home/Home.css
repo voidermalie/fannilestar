@@ -77,7 +77,7 @@ button {
   visibility: hidden;
 }
 
-.side-card:hover {
+.side-card:hover, .side-card:focus {
   width: min(100%, 335px);
   height: max-content;
   z-index: 3;
@@ -91,42 +91,15 @@ button {
 
 .side-card:hover > p,
 .side-card:hover > a,
-.side-card:hover > div {
-  visibility: visible !important;
-}
-
+.side-card:hover > div,
 .side-card:focus > p,
 .side-card:focus > a,
 .side-card:focus > div {
   visibility: visible !important;
 }
 
-.side-card:focus {
-  width: min(100%, 335px);
-  height: max-content;
-  z-index: 3;
-  filter: brightness(1.2);
-  -webkit-filter: brightness(1.2); /* Safari and Chrome */
-  -moz-filter: brightness(1.2); /* Firefox */
-  -o-filter: brightness(1.2); /* Opera */
-  box-shadow: #80f3e8;
-  background-color: #b7b7b7;
-}
-
-.side-card:hover h2 {
+.side-card:hover h2, .side-card:focus h2 {
   font-size: 2.5em;
-}
-
-.side-card:focus h2 {
-  font-size: 2.5em;
-}
-
-.left-card:focus {
-  left: 0;
-}
-
-.right-card:focus {
-  right: 0;
 }
 
 .left-card {
@@ -136,7 +109,7 @@ button {
   z-index: 1;
 }
 
-.left-card:hover {
+.left-card:hover, .left-card:focus {
   left: 0;
 }
 
@@ -147,7 +120,7 @@ button {
   z-index: 2;
 }
 
-.right-card:hover {
+.right-card:hover, .right-card:focus {
   right: 0;
 }
 
@@ -174,14 +147,7 @@ button {
   text-align: center;
 }
 
-#contact:hover {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  align-items: flex-start;
-}
-
-#contact:focus {
+#contact:hover, #contact:focus {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -246,7 +212,7 @@ button {
   }
 }
 
-.side-card:hover {
+.side-card:hover, .side-card:focus {
   animation-play-state: paused;
   transform: translate(0) !important;
 }
@@ -312,11 +278,15 @@ button {
 
   .side-card:hover,
   .left-card:hover,
-  .right-card:hover {
+  .right-card:hover,
+  .side-card:focus,
+  .left-card:focus,
+  .right-card:focus {
     transform: translate(-50%, -50%); /* Center card */
     top: 50%; /* Position at middle of viewport */
     left: 50%; /* Position at middle of viewport */
   }
+
 
   .container {
     flex-direction: column;

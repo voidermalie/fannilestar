@@ -24,17 +24,6 @@ const Modal = ({ id, setIsOpen }) => {
   return (
     <div id="popup-wrapper">
       <section className="popup-background">
-        <button
-          className="close-button"
-          title={closeButtonTitleText}
-          type="button"
-          aria-label={closeButtonAriaLabel}
-          onClick={() => {
-            setIsOpen(false);
-          }}
-        >
-          <span aria-hidden="true">&times;</span>
-        </button>
         <div className="project-container">
           <header className="popup-header">
             <h2 className="popup-title">{project.title}</h2>
@@ -76,6 +65,17 @@ const Modal = ({ id, setIsOpen }) => {
             </div>
           </section>
         </div>
+        <button
+          className="close-button"
+          title={closeButtonTitleText}
+          type="button"
+          aria-label={closeButtonAriaLabel}
+          onClick={() => {
+            setIsOpen(false);
+          }}
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
       </section>
     </div>
   );

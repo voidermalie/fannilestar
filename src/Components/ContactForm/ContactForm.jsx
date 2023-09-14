@@ -20,7 +20,7 @@ const ContactForm = () => {
           ? "Faisons des vagues dans l'océan numérique !"
           : "Let's make waves in the digital ocean!"}
       </p>
-      <a href="mailto:fannylestar@icloud.com" className="icon-contact">
+      <a href="mailto:fannylestar@icloud.com" className="icon-contact" tabIndex="0">
         <img src={emailIcon} alt="envoyer un mail" width="30px" height="30px" />
         <p>fannylestar@icloud.com</p>
       </a>
