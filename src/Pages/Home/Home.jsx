@@ -48,12 +48,12 @@ const Home = () => {
         </article>
         <article id="bio" className="main-card middle-card">
           <h1>Fanni Lestar</h1>
-          <h3>
+          <h2 className='bio-title'>
             {language === 'fr'
               ? 'développeuse front-end'
               : 'front-end developer'}
-          </h3>
-          <h3>Marseille</h3>
+          </h2>
+          <h2 className='bio-title'>Marseille</h2>
           <div className="bio-icons">
             <a title={titleText} id="download-cv" href={cvPath} download>
               <img

@@ -6,7 +6,14 @@ const Card = ({ project, onClick }) => {
   const { language } = useContext(LanguageContext); // Access language from the LanguageContext value object
 
   return (
-    <article className="project-card" key={project.id} onClick={onClick}>
+    <article
+      className="project-card"
+      key={project.id}
+      onClick={onClick}
+      role="article"
+      aria-label={project.title}
+      tabIndex={0}
+    >
       <div className="image-container">
         <img
           className="project-image"
@@ -14,7 +21,7 @@ const Card = ({ project, onClick }) => {
           alt={project.title}
         />
       </div>
-      <h3>{project.title}</h3>
+      <h2 className='project-title'>{project.title}</h2>
       <p>{project.descriptionShort[language]}</p>
       <div className="tags">
         {project.tags.map((tag, index) => (

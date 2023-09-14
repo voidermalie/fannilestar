@@ -29,6 +29,13 @@
     /*box-shadow: inset 1px 0px 1em rgb(128, 243, 232);*/
 }
 
+.project-title {
+    font-size: 1.5em;
+    line-height: 1.1;
+    font-family: 'Cormorant Unicase';
+    margin: 0;
+  }
+
 .tags {
 display: flex;
 gap: 8px;
