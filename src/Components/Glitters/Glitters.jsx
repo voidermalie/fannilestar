@@ -40,8 +40,8 @@ const Glitters = () => {
         <img className="glitter" alt="HTML5" src={HTML5Glitter} />
         <img className="glitter" alt="CSS3" src={CssGlitter} />
         <img className="glitter" alt="JavaScript" src={JavascriptGlitter} />
-        <img className="glitter" alt="React" src={ReactGlitter} />
         <img className="glitter" alt="TypeScript" src={TypescriptGlitter} />
+        <img className="glitter" alt="React" src={ReactGlitter} />
         <img className="glitter" alt="Next.js" src={NextjsGlitter} />
       </div>
       <div className="glitters-group2">
