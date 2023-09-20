@@ -1,7 +1,9 @@
 # Hello 💦
 [This](https://voidermalie.github.io/fannilestar) is my personal portfolio website where you can browse through my projects 🐟🐠🦈, learn more about my skills ✨, and find my contact information 🐚.
 
-Inspired by the sea and 2000s design, built with React.
+Inspired by the sea and also 2000s design, the time when I truly fell in love with technology.
+
+Built with React, but I am planning to refactor the code and transform it into a Next.js site in the future.
 
 ## 💧Technologies Used
     Vite

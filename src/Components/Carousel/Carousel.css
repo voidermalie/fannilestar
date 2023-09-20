@@ -19,13 +19,13 @@
 }
 
 .slide-button {
-    background-color: transparent;
-    color: white;
-    position: relative;
+  background-color: transparent;
+  color: white;
+  position: relative;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slide-button img {
@@ -35,16 +35,15 @@
   transform: translate(-50%, -50%); /* Center the image within the button */
 }
 
-
 /* hide scrollbar but allow scrolling */
 .slide-wrapper {
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
-    overflow-y: scroll; 
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
 }
 
 .slide-wrapper::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
+  display: none; /* for Chrome, Safari, and Opera */
 }
 
 @media (max-width: 768px) {
@@ -59,3 +58,4 @@
 #projects-title {
   display: none;
 }
+
