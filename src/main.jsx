@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import ReactGA from 'react-ga';
-import { REACT_GA_TRACKING_ID } from '../../.env';
+//import { VITE_REACT_APP_GA_TRACKING_ID } from '../.env';
 
 import './index.css';
 import AppRouter from './Router/Router.jsx';
@@ -10,7 +10,9 @@ import ProjectProvider from './contexts/ProjectContext';
 import LanguageProvider from './contexts/LanguageContext';
 
 // Initialize Google Analytics
-ReactGA.initialize(REACT_GA_TRACKING_ID);
+
+const trackingID = import.meta.env.VITE_REACT_APP_GA_TRACKING_ID;
+ReactGA.initialize(trackingID);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
