@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import ReactGA from 'react-ga';
-import { REACT_GA_TRACKING_ID } from '../env';
+import { REACT_GA_TRACKING_ID } from '../../.env';
 
 import './index.css';
 import AppRouter from './Router/Router.jsx';
