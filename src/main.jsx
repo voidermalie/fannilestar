@@ -26,7 +26,6 @@ root.render(
     </DarkModeProvider>
   </React.StrictMode>
 );
-
 /*
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
