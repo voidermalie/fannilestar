@@ -103,9 +103,9 @@ const Home = () => {
         <div className="bottom-card-title">
           <h2 id='bottom-card-title'>{language === 'fr' ? 'Compétences' : 'Skills'}</h2>
         </div>
-        <div>
+        <>
           <Glitters />
-        </div>
+        </>
       </section>
     </section>
   );

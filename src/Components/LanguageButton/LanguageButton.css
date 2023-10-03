@@ -1,3 +1,5 @@
 #language-button {
-    color: #F5F0F0;
+    /*color: #04075a;*/
+    color: #f5f0f0;
+    filter: brightness(1.3);
 }

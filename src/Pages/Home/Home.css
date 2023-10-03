@@ -298,7 +298,7 @@ button {
     z-index: 1;
   }
 }
-
+/*
 .bottom-card-title {
   display: flex;
   justify-content: space-between;
@@ -310,6 +310,7 @@ button {
 .bottom-card-title:hover {
   color: #F5F0F0;
 }
+*/
 
 
 .skill-card {
