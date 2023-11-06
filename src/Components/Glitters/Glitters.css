@@ -1,6 +1,7 @@
 .glitters-container {
   display: flex;
   gap: 60px;
+  /*flex-wrap: wrap;*/
 }
 
 @media (max-width: 768px) {
@@ -11,6 +12,7 @@
 
 .glitter {
   max-width: 100%; /* Prevent images from exceeding their container */
+  padding-right: 60px;
 }
 
 .glitters-group1,
