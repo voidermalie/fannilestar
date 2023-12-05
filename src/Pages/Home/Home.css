@@ -238,31 +238,6 @@ button {
   margin-top: 100px;
 }
 
-/* mobile */
-/*
-@media (max-width: 768px) {
-  .side-card:hover {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .bottom-card {
-    padding: 0;
-  }
-}
-
-
-@media (max-width: 768px) {
-  .opened-card {
-    position: absolute !important;
-    top: 50vh !important;
-    left: 50vw !important;
-    z-index: 50;
-  }
-}
-*/
-
 #bottom-card-title {
   display: none;
 }
