@@ -31,8 +31,8 @@ const Home = () => {
           <div>
             <p>
               {language === 'fr'
-                ? "Ma passion est l'interconnectivité de notre monde, dans toutes ses dimensions, y compris le Web."
-                : 'My passion is the interconnectivity of our world, in all its dimensions, including the Web.'}
+                ? "Ma passion est l'interconnexion de notre monde, dans toutes ses dimensions, y compris le Web."
+                : 'My passion is the interconnection of our world, in all its dimensions, including the Web.'}
             </p>
             <p>
               {language === 'fr'
