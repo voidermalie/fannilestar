@@ -32,7 +32,7 @@ const Modal = ({ id, setIsOpen }) => {
           <section className="project-body">
             <div className="project-content">
               <div>
-                <h3>{language === 'fr' ? 'Fonctionnalités' : 'Features'}</h3>
+                <h3>{language === 'fr' ? 'Caractéristiques' : 'Highlights'}</h3>
                 <ul className="features-list">
                   {project &&
                     project.descriptionLong[language] &&
