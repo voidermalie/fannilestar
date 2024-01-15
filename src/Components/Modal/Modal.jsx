@@ -69,7 +69,7 @@ const Modal = ({ id, setIsOpen }) => {
                 src={MimicOctopus}
                 alt={language === 'fr' ? 'Pieuvre mimétique' : 'Mimic Octopus'}
                 className="sea-gif"
-              ></img>
+              />
             </div>
           </section>
         </div>
