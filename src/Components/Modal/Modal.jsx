@@ -5,6 +5,23 @@ import { useContext, useEffect } from 'react';
 
 import MimicOctopus from '../../assets/mimic_octopus.gif';
 
+const ModalLinks = ({ githubLink, videoDemo, liveDemo }) => (
+  <div className="project-links">
+    <a href={githubLink} target="_blank" rel="noreferrer">
+      GitHub
+    </a>
+    {videoDemo ? (
+      <a href={videoDemo} target="_blank" rel="noreferrer">
+        Video Demo
+      </a>
+    ) : liveDemo ? (
+      <a href={liveDemo} target="_blank" rel="noreferrer">
+        Live Demo
+      </a>
+    ) : null}
+  </div>
+);
+
 const Modal = ({ id, setIsOpen }) => {
   const { language } = useContext(LanguageContext);
   const projects = useContext(ProjectContext);
@@ -42,20 +59,11 @@ const Modal = ({ id, setIsOpen }) => {
                 </ul>
               </div>
             </div>
-            <div className="project-links">
-              <a href={project.githubLink} target="_blank" rel="noreferrer">
-                GitHub
-              </a>
-              {project.videoDemo ? (
-                <a href={project.videoDemo} target="_blank" rel="noreferrer">
-                  Video Demo
-                </a>
-              ) : project.liveDemo ? (
-                <a href={project.liveDemo} target="_blank" rel="noreferrer">
-                  Live Demo
-                </a>
-              ) : null}
-            </div>
+            <ModalLinks
+              githubLink={project.githubLink}
+              videoDemo={project.videoDemo}
+              liveDemo={project.liveDemo}
+            />
             <div id="mimic-octopus">
               <img
                 src={MimicOctopus}
