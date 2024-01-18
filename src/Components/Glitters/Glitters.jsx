@@ -12,10 +12,12 @@ import MongoDBGlitter from '../../assets/glitters/mongodb.gif';
 import NextjsGlitter from '../../assets/glitters/nextjs.gif';
 import FigmaGlitter from '../../assets/glitters/figma.gif';
 import TailWindGlitter from '../../assets/glitters/tailwind.gif';
+import SassGlitter from '../../assets/glitters/sass.gif';
 
 const glittersGroup1 = [
   { alt: 'HTML5', src: HTML5Glitter },
   { alt: 'CSS3', src: CssGlitter },
+  { alt: 'Sass', src: SassGlitter },
   { alt: 'JavaScript', src: JavascriptGlitter },
   { alt: 'TypeScript', src: TypescriptGlitter },
 ];
