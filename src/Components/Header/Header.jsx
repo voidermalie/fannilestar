@@ -5,8 +5,7 @@ import { useState, useEffect, useRef, useContext } from 'react';
 import LanguageButton from '../LanguageButton/LanguageButton';
 import { LanguageContext } from '../../contexts/LanguageContext';
 
-//import seaAngel from '../../assets/sea_angel.gif';
-import seaAngel from '../../assets/sea_angel.mp4';
+import seaAngel from '../../assets/sea_angel.gif';
 
 import fanniAngel from '../../assets/profile_picture.jpg';
 
@@ -70,11 +69,7 @@ const Header = () => {
 
   return (
     <header id="main-header">
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
+      <img
         src={seaAngel}
         alt="Sea Angel saying hello"
         id="sea-angel"
