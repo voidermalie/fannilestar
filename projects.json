@@ -5,19 +5,19 @@
     "title": "Lahmacun",
     "tags": ["React Native", "Expo"],
     "descriptionShort": {
-      "fr": "Application mobile d'une radio communautaire hongroise",
+      "fr": "Application mobile pour une radio communautaire hongroise",
       "en": "Mobile app for a Hungarian community radio"
     },
     "descriptionLong": {
       "fr": [
-        {"id": "p1_fr_1", "text": "Refonte du code en React Native"},
-        {"id": "p1_fr_2", "text": "Migration à Expo"},
-        {"id": "p1_fr_3", "text": "Développement de nouvelles fonctionnalités (en cours)"}
+        {"id": "p1_fr_1", "text": "Migration à Expo"},
+        {"id": "p1_fr_2", "text": "Refonte du code"},
+        {"id": "p1_fr_3", "text": "Développement de nouvelles fonctionnalités"}
       ],
       "en": [
-        {"id": "p1_en_1", "text": "Overhaul of the code in React Native"},
-        {"id": "p1_en_2", "text": "Migration to Expo"},
-        {"id": "p1_en_3", "text": "Development of new features (in progress)"}
+        {"id": "p1_en_1", "text": "Migration to Expo"},
+        {"id": "p1_en_2", "text": "Code refactoring"},
+        {"id": "p1_en_3", "text": "Development of new features"}
       ]
     },
     "githubLink": "https://github.com/lahmacunradio",
@@ -65,7 +65,7 @@
         {"id": "p3_fr_1", "text": "Développement complet en JavaScript pur"},
         {"id": "p3_fr_2", "text": "Intégration dynamique des produits via une vraie API"},
         {"id": "p3_fr_3", "text": "Manipulation avancée du DOM pour la présentation des produits"},
-        {"id": "p3_fr_4", "text": "Panier persisant avec sélection de couleur et de quantité via localStorage"},
+        {"id": "p3_fr_4", "text": "Panier persisant via localStorage avec sélection de couleur et de quantité"},
         {"id": "p3_fr_5", "text": "Actualisation en temps réel du panier, incluant la quantité totale et le montant total dû"},
         {"id": "p3_fr_6", "text": "Vérification des entrées utilisateur dans le formulaire de contact"},
         {"id": "p3_fr_7", "text": "Simulation d'une commande avec confirmation et génération d'un numéro de commande"} 
@@ -74,7 +74,7 @@
         {"id": "p3_en_1", "text": "Developed entirely in vanilla JavaScript"},
         {"id": "p3_en_2", "text": "Dynamic product fetching from a real API"},
         {"id": "p3_en_3", "text": "Advanced DOM manipulation for product display"},
-        {"id": "p3_en_4", "text": "Persistent shopping cart with color and quantity selection using localStorage"},
+        {"id": "p3_en_4", "text": "Persistent shopping cart using localStorage with color and quantity selection"},
         {"id": "p3_en_5", "text": "Real-time cart updates for total quantity and total amount due"},
         {"id": "p3_en_6", "text": "User input verification at the contact form"},
         {"id": "p3_en_7", "text": "Simulated order placement with confirmation and order number generation"} 
