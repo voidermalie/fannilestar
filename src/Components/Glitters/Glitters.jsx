@@ -18,11 +18,12 @@ const glittersGroup1 = [
   { alt: 'HTML5', src: HTML5Glitter },
   { alt: 'CSS3', src: CssGlitter },
   { alt: 'Sass', src: SassGlitter },
-  { alt: 'JavaScript', src: JavascriptGlitter },
-  { alt: 'TypeScript', src: TypescriptGlitter },
+  { alt: 'TailWind', src: TailWindGlitter }
 ];
 
 const glittersGroup2 = [
+  { alt: 'JavaScript', src: JavascriptGlitter },
+  { alt: 'TypeScript', src: TypescriptGlitter },
   { alt: 'React', src: ReactGlitter },
   { alt: 'Next.js', src: NextjsGlitter },
   { alt: 'React Native', src: ReactNativeGlitter },
@@ -31,7 +32,6 @@ const glittersGroup2 = [
 const glittersGroup3 = [
   { alt: 'Git', src: GitGlitter },
   { alt: 'Figma', src: FigmaGlitter },
-  { alt: 'TailWind', src: TailWindGlitter }
 ];
 
 const glittersGroup4 = [

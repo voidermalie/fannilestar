@@ -2,7 +2,6 @@
   display: flex;
   padding-top: 40px;
   justify-content: center;
-
   /*overflow: hidden;*/
 }
 
@@ -16,6 +15,7 @@
   scrollbar-width: none;
   overflow-y: hidden;
   flex-wrap: nowrap;
+  transition: transform 0.9s ease-in-out;
 }
 
 .slide-button {
@@ -39,7 +39,7 @@
 .slide-wrapper {
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .slide-wrapper::-webkit-scrollbar {
