@@ -29,8 +29,8 @@
     "title": "Kasa",
     "tags": ["JavaScript", "React"],
     "descriptionShort": {
-      "fr": "Une plateforme construite en React",
-      "en": "A platform built with React"
+      "fr": "Un site SPA construit en React",
+      "en": "SPA built with React"
     },
     "descriptionLong": {
       "fr": [
