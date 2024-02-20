@@ -33,6 +33,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); /* Center the image within the button */
+  width: 16px;
 }
 
 /* hide scrollbar but allow scrolling */
