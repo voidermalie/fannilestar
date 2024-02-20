@@ -138,4 +138,10 @@
     .close-button {
         right: 10%;
     }
+    .popup-background {
+      top: 24px;
+      left: 24px;
+      right: 24px;
+      bottom: 24px;
+    }
   }
