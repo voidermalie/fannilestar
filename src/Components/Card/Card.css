@@ -41,8 +41,15 @@
 }
 
 .tags > * {
+  /*
   border: 1px solid rgba(128, 243, 232, 0.6) white;
   background-color: rgba(128, 243, 232, 0.6);
+  */
+  background: linear-gradient(
+    90deg,
+    #61bd59,
+    #62c7cf,
+    #1a99d4) 0% 0% / 135% 116%;
   border-radius: 24px;
   padding: 4px 12px;
 }

@@ -104,11 +104,17 @@
   }
   
   .project-links > * {
-    border: 1px solid #646cff;
-    box-shadow: inset 1px 0px 1em #4a94d7;
+    /*border: 1px solid #646cff;
+    box-shadow: inset 1px 0px 1em #4a94d7;*/
     padding: 4px 16px;
     border-radius: 24px;
     font-size: 1em;
+    background: linear-gradient(
+      90deg,
+      rgb(97, 189, 89),
+      rgb(98, 199, 207),
+      rgb(26, 153, 212)) 0% 0% / 135% 116%;
+    color: #213547;
   }
   
   .project-links {
